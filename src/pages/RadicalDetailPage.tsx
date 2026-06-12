@@ -18,6 +18,7 @@ import FavoriteBorderIcon from '@mui/icons-material/FavoriteBorder';
 import ExampleCharList from '../components/ExampleCharList';
 import ExampleDialog from '../components/ExampleDialog';
 import RadicalNav from '../components/RadicalNav';
+import RadicalNotesEditor from '../components/RadicalNotesEditor';
 import SameStrokeNav from '../components/SameStrokeNav';
 import { useAdjacentRadicals, useRadical, useRadicals } from '../hooks/useRadicals';
 import { useFavorites } from '../hooks/useFavorites';
@@ -162,6 +163,7 @@ export default function RadicalDetailPage() {
       <Box sx={{ pb: 8 }}>
         {renderBreadcrumbs()}
         {renderRadicalCard()}
+        <RadicalNotesEditor radicalId={id} />
         {strokeCount > 0 ? (
           <SameStrokeNav strokeCount={strokeCount} currentId={id} />
         ) : (
