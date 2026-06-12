@@ -2,6 +2,8 @@ import { useMemo } from 'react';
 import Fuse from 'fuse.js';
 import type { Radical, SearchResult } from '../types/radical';
 
+export type MatchTypeFilter = 'all' | 'radical' | 'example';
+
 interface RadicalSearchDoc {
   radical: Radical;
   char: string;
@@ -50,8 +52,13 @@ function buildSearchDocs(radicals: Radical[]): RadicalSearchDoc[] {
  * 基于 fuse.js 的汉字 / 释义模糊搜索
  * @param radicals 部首数据源
  * @param query 搜索关键词
+ * @param matchFilter 匹配类型过滤，默认为 'all'
  */
-export function useRadicalSearch(radicals: Radical[] | undefined, query: string): SearchResult[] {
+export function useRadicalSearch(
+  radicals: Radical[] | undefined,
+  query: string,
+  matchFilter: MatchTypeFilter = 'all'
+): SearchResult[] {
   const fuse = useMemo(() => {
     if (!radicals?.length) {
       return null;
@@ -79,6 +86,10 @@ export function useRadicalSearch(radicals: Radical[] | undefined, query: string)
     const results: SearchResult[] = [];
 
     fuse.search(trimmed).forEach(({ item, score }) => {
+      if (matchFilter !== 'all' && item.matchType !== matchFilter) {
+        return;
+      }
+
       const key =
         item.matchType === 'example'
           ? `${item.radical.id}-${item.exampleChar}`
@@ -105,5 +116,5 @@ export function useRadicalSearch(radicals: Radical[] | undefined, query: string)
     });
 
     return results.slice(0, 30);
-  }, [fuse, query]);
+  }, [fuse, query, matchFilter]);
 }

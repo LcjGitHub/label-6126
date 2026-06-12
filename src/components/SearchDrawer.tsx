@@ -12,13 +12,15 @@ import {
   ListItemText,
   Stack,
   TextField,
+  ToggleButton,
+  ToggleButtonGroup,
   Typography,
 } from '@mui/material';
 import CloseIcon from '@mui/icons-material/Close';
 import SearchIcon from '@mui/icons-material/Search';
 import HistoryIcon from '@mui/icons-material/History';
 import { useRadicals } from '../hooks/useRadicals';
-import { useRadicalSearch } from '../hooks/useRadicalSearch';
+import { useRadicalSearch, type MatchTypeFilter } from '../hooks/useRadicalSearch';
 import { addSearchHistory, getSearchHistory } from '../utils/searchHistory';
 import type { SearchHistoryItem } from '../types/radical';
 
@@ -30,16 +32,24 @@ interface SearchDrawerProps {
 /** 汉字 / 释义搜索侧栏 */
 export default function SearchDrawer({ open, onClose }: SearchDrawerProps) {
   const [query, setQuery] = useState('');
+  const [matchFilter, setMatchFilter] = useState<MatchTypeFilter>('all');
   const [history, setHistory] = useState<SearchHistoryItem[]>([]);
   const { data: radicals } = useRadicals();
-  const results = useRadicalSearch(radicals, query);
+  const results = useRadicalSearch(radicals, query, matchFilter);
 
   useEffect(() => {
     if (open) {
       setQuery('');
+      setMatchFilter('all');
       setHistory(getSearchHistory());
     }
   }, [open]);
+
+  useEffect(() => {
+    if (query.trim() === '') {
+      setMatchFilter('all');
+    }
+  }, [query]);
 
   const handleSubmit = useCallback(() => {
     const trimmed = query.trim();
@@ -65,6 +75,15 @@ export default function SearchDrawer({ open, onClose }: SearchDrawerProps) {
       }
     },
     [handleSubmit]
+  );
+
+  const handleFilterChange = useCallback(
+    (_event: React.MouseEvent<HTMLElement>, value: MatchTypeFilter | null) => {
+      if (value !== null) {
+        setMatchFilter(value);
+      }
+    },
+    []
   );
 
   return (
@@ -94,6 +113,22 @@ export default function SearchDrawer({ open, onClose }: SearchDrawerProps) {
             ),
           }}
         />
+
+        {query.trim() !== '' && (
+          <Box sx={{ mt: 1.5 }}>
+            <ToggleButtonGroup
+              size="small"
+              exclusive
+              fullWidth
+              value={matchFilter}
+              onChange={handleFilterChange}
+            >
+              <ToggleButton value="all">全部</ToggleButton>
+              <ToggleButton value="radical">仅部首</ToggleButton>
+              <ToggleButton value="example">仅例字</ToggleButton>
+            </ToggleButtonGroup>
+          </Box>
+        )}
 
         {query.trim() === '' && history.length > 0 && (
           <Box sx={{ mt: 2 }}>
