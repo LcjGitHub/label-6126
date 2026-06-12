@@ -2,14 +2,13 @@ import { useRef, useEffect } from 'react';
 import { Link as RouterLink } from 'react-router-dom';
 import {
   Box,
-  Chip,
-  IconButton,
+  Card,
+  CardActionArea,
+  CardContent,
   Skeleton,
   Typography,
   useTheme,
 } from '@mui/material';
-import ChevronLeftIcon from '@mui/icons-material/ChevronLeft';
-import ChevronRightIcon from '@mui/icons-material/ChevronRight';
 import type { Radical } from '../types/radical';
 import { useRadicalsByStrokeCount } from '../hooks/useRadicals';
 
@@ -39,30 +38,20 @@ export default function SameStrokeNav({ strokeCount, currentId }: SameStrokeNavP
     }
   }, [radicals, currentId]);
 
-  const scroll = (direction: 'left' | 'right') => {
-    if (scrollRef.current) {
-      const scrollAmount = scrollRef.current.clientWidth * 0.7;
-      scrollRef.current.scrollBy({
-        left: direction === 'left' ? -scrollAmount : scrollAmount,
-        behavior: 'smooth',
-      });
-    }
-  };
-
   const renderSkeletons = () =>
     Array.from({ length: 6 }).map((_, i) => (
       <Skeleton
         key={i}
         variant="rounded"
-        width={72}
-        height={80}
+        width={120}
+        height={110}
         sx={{ flexShrink: 0 }}
       />
     ));
 
   const renderItems = () =>
     radicals?.map((radical) => (
-      <ChipNavItem key={radical.id} radical={radical} isActive={radical.id === currentId} />
+      <StrokeNavCard key={radical.id} radical={radical} isActive={radical.id === currentId} />
     ));
 
   return (
@@ -80,33 +69,15 @@ export default function SameStrokeNav({ strokeCount, currentId }: SameStrokeNavP
         <Typography variant="subtitle2" color="text.secondary" sx={{ fontWeight: 600 }}>
           同笔画部首 · {strokeCount} 画
         </Typography>
-        <Box sx={{ flex: 1 }} />
-        <IconButton
-          size="small"
-          onClick={() => scroll('left')}
-          aria-label="向左滚动"
-          sx={{ color: 'text.secondary' }}
-        >
-          <ChevronLeftIcon />
-        </IconButton>
-        <IconButton
-          size="small"
-          onClick={() => scroll('right')}
-          aria-label="向右滚动"
-          sx={{ color: 'text.secondary' }}
-        >
-          <ChevronRightIcon />
-        </IconButton>
       </Box>
       <Box
         ref={scrollRef}
         sx={{
           display: 'flex',
+          alignItems: 'stretch',
           gap: 1.5,
           overflowX: 'auto',
-          scrollbarWidth: 'none',
-          '&::-webkit-scrollbar': { display: 'none' },
-          pb: 0.5,
+          pb: 1,
           scrollBehavior: 'smooth',
         }}
       >
@@ -116,64 +87,73 @@ export default function SameStrokeNav({ strokeCount, currentId }: SameStrokeNavP
   );
 }
 
-interface ChipNavItemProps {
+interface StrokeNavCardProps {
   radical: Radical;
   isActive: boolean;
 }
 
-function ChipNavItem({ radical, isActive }: ChipNavItemProps) {
+function StrokeNavCard({ radical, isActive }: StrokeNavCardProps) {
   const theme = useTheme();
+
+  const cardSx = {
+    flexShrink: 0,
+    width: 120,
+    height: '100%',
+    border: isActive ? 2 : 1,
+    borderColor: isActive ? 'primary.main' : 'divider',
+    borderRadius: 2,
+    transition: 'transform 0.15s, box-shadow 0.15s',
+    backgroundColor: isActive ? 'primary.main' : 'background.paper',
+    '&:hover': !isActive
+      ? {
+          transform: 'translateY(-2px)',
+          boxShadow: 4,
+        }
+      : undefined,
+  };
+
+  const charColor = isActive ? theme.palette.primary.contrastText : 'inherit';
+  const textSecondaryColor = isActive ? 'rgba(255,255,255,0.85)' : 'text.secondary';
+
+  const cardContent = (
+    <CardContent sx={{ textAlign: 'center', py: 2, height: '100%' }}>
+      <Typography
+        variant="h4"
+        component="span"
+        sx={{ fontFamily: '"Noto Serif SC", serif', lineHeight: 1.2, color: charColor }}
+      >
+        {radical.char}
+      </Typography>
+      <Typography
+        variant="caption"
+        display="block"
+        sx={{ mt: 0.5, color: textSecondaryColor }}
+      >
+        #{radical.id} · {radical.pinyin} · {radical.strokeCount}画
+      </Typography>
+      <Typography
+        variant="body2"
+        noWrap
+        sx={{ color: textSecondaryColor, mt: 0.25 }}
+      >
+        {radical.meaning}
+      </Typography>
+    </CardContent>
+  );
+
   return (
-    <Chip
-      component={RouterLink}
-      to={`/radical/${radical.id}`}
-      label={
-        <Box sx={{ display: 'flex', flexDirection: 'column', alignItems: 'center', py: 0.5 }}>
-          <Typography
-            variant="h5"
-            component="span"
-            sx={{
-              fontFamily: '"Noto Serif SC", serif',
-              lineHeight: 1.1,
-              color: isActive ? theme.palette.primary.contrastText : 'inherit',
-            }}
-          >
-            {radical.char}
-          </Typography>
-          <Typography
-            variant="caption"
-            sx={{
-              mt: 0.25,
-              color: isActive ? 'rgba(255,255,255,0.85)' : 'text.secondary',
-              fontSize: '0.68rem',
-            }}
-          >
-            #{radical.id}
-          </Typography>
-        </Box>
-      }
-      clickable
-      variant={isActive ? 'filled' : 'outlined'}
-      color={isActive ? 'primary' : 'default'}
-      sx={{
-        height: 'auto',
-        minWidth: 68,
-        px: 1.5,
-        py: 0.75,
-        flexShrink: 0,
-        borderRadius: 2,
-        border: isActive ? 2 : 1,
-        borderColor: isActive ? 'primary.main' : 'divider',
-        transition: 'all 0.15s ease',
-        '&:hover': {
-          transform: 'translateY(-1px)',
-          boxShadow: 1,
-        },
-        '& .MuiChip-label': {
-          padding: 0,
-          display: 'block',
-        },
-      }}
-    />
+    <Card elevation={isActive ? 2 : 1} sx={cardSx}>
+      {isActive ? (
+        cardContent
+      ) : (
+        <CardActionArea
+          component={RouterLink}
+          to={`/radical/${radical.id}`}
+          sx={{ height: '100%' }}
+        >
+          {cardContent}
+        </CardActionArea>
+      )}
+    </Card>
   );
 }
