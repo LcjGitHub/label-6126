@@ -8,9 +8,9 @@ import type { SortMode } from '../utils/sortRadicals';
 import { sortRadicals } from '../utils/sortRadicals';
 
 const SORT_OPTIONS: { value: SortMode; label: string }[] = [
-  { value: 'default', label: '编号顺序' },
-  { value: 'strokes-asc', label: '笔画 ↑' },
-  { value: 'strokes-desc', label: '笔画 ↓' },
+  { value: 'default', label: '按部首编号' },
+  { value: 'strokes-asc', label: '笔画从少到多' },
+  { value: 'strokes-desc', label: '笔画从多到少' },
 ];
 
 export default function HomePage() {
@@ -20,11 +20,15 @@ export default function HomePage() {
 
   const handleRangeChange = useCallback((index: number) => {
     setRangeIndex(index);
+    setSortMode('default');
     window.scrollTo({ top: 0, behavior: 'smooth' });
   }, [setRangeIndex]);
 
   const handleSortChange = useCallback((_e: React.MouseEvent<HTMLElement>, value: SortMode | null) => {
-    if (value) setSortMode(value);
+    if (value) {
+      setSortMode(value);
+      window.scrollTo({ top: 0, behavior: 'smooth' });
+    }
   }, []);
 
   useEffect(() => {
@@ -55,7 +59,18 @@ export default function HomePage() {
         onChange={handleRangeChange}
       />
 
-      <Box sx={{ display: 'flex', justifyContent: 'flex-end', mb: 1.5 }}>
+      <Box
+        sx={{
+          display: 'flex',
+          alignItems: 'center',
+          justifyContent: 'flex-end',
+          mb: 1.5,
+          gap: 1,
+        }}
+      >
+        <Typography variant="body2" color="text.secondary">
+          排序方式：
+        </Typography>
         <ToggleButtonGroup
           size="small"
           exclusive
