@@ -1,5 +1,5 @@
 import { Link as RouterLink } from 'react-router-dom';
-import { Box, Button, Paper, Typography } from '@mui/material';
+import { Box, Button, Paper, Skeleton, Typography } from '@mui/material';
 import NavigateBeforeIcon from '@mui/icons-material/NavigateBefore';
 import NavigateNextIcon from '@mui/icons-material/NavigateNext';
 import type { Radical } from '../types/radical';
@@ -7,9 +7,10 @@ import type { Radical } from '../types/radical';
 interface RadicalNavProps {
   prev: Radical | null;
   next: Radical | null;
+  isLoading?: boolean;
 }
 
-export default function RadicalNav({ prev, next }: RadicalNavProps) {
+export default function RadicalNav({ prev, next, isLoading = false }: RadicalNavProps) {
   return (
     <Paper
       elevation={8}
@@ -37,18 +38,20 @@ export default function RadicalNav({ prev, next }: RadicalNavProps) {
         }}
       >
         <Button
-          component={prev ? RouterLink : 'div'}
-          to={prev ? `/radical/${prev.id}` : undefined}
-          disabled={!prev}
-          startIcon={<NavigateBeforeIcon />}
+          component={!isLoading && prev ? RouterLink : 'div'}
+          to={!isLoading && prev ? `/radical/${prev.id}` : undefined}
+          disabled={isLoading || !prev}
+          startIcon={!isLoading && prev ? <NavigateBeforeIcon /> : undefined}
           sx={{
             textTransform: 'none',
             minWidth: 140,
             justifyContent: 'flex-start',
-            opacity: prev ? 1 : 0.38,
+            opacity: !isLoading && prev ? 1 : 0.38,
           }}
         >
-          {prev ? (
+          {isLoading ? (
+            <Skeleton width={100} height={24} animation="wave" />
+          ) : prev ? (
             <Box sx={{ display: 'flex', alignItems: 'center', gap: 1 }}>
               <Typography
                 variant="h5"
@@ -68,18 +71,20 @@ export default function RadicalNav({ prev, next }: RadicalNavProps) {
         </Button>
 
         <Button
-          component={next ? RouterLink : 'div'}
-          to={next ? `/radical/${next.id}` : undefined}
-          disabled={!next}
-          endIcon={<NavigateNextIcon />}
+          component={!isLoading && next ? RouterLink : 'div'}
+          to={!isLoading && next ? `/radical/${next.id}` : undefined}
+          disabled={isLoading || !next}
+          endIcon={!isLoading && next ? <NavigateNextIcon /> : undefined}
           sx={{
             textTransform: 'none',
             minWidth: 140,
             justifyContent: 'flex-end',
-            opacity: next ? 1 : 0.38,
+            opacity: !isLoading && next ? 1 : 0.38,
           }}
         >
-          {next ? (
+          {isLoading ? (
+            <Skeleton width={100} height={24} animation="wave" />
+          ) : next ? (
             <Box sx={{ display: 'flex', alignItems: 'center', gap: 1 }}>
               <Typography variant="body2" color="text.secondary">
                 第{next.id}部

@@ -24,8 +24,11 @@ export interface AdjacentRadicals {
   next: Radical | null;
 }
 
-export async function fetchAdjacentRadicals(id: number): Promise<AdjacentRadicals> {
-  const radicals = await fetchRadicals();
+export async function fetchAdjacentRadicals(
+  id: number,
+  preloadedRadicals?: Radical[],
+): Promise<AdjacentRadicals> {
+  const radicals = preloadedRadicals ?? (await fetchRadicals());
   const idx = radicals.findIndex((item) => item.id === id);
   if (idx === -1) {
     return { prev: null, next: null };

@@ -23,30 +23,30 @@ export default function RadicalDetailPage() {
   const { id: idParam } = useParams<{ id: string }>();
   const id = Number(idParam);
   const { data: radical, isLoading, isError } = useRadical(id);
-  const { data: adjacent } = useAdjacentRadicals(id);
+  const { data: adjacent, isLoading: isAdjacentLoading } = useAdjacentRadicals(id);
   const { isFavorite, toggle } = useFavorites();
 
   if (!Number.isFinite(id) || id < 1 || id > 214) {
     return <Alert severity="warning">无效的部首编号，请输入 1–214</Alert>;
   }
 
-  if (isLoading) {
-    return (
-      <Box>
-        <Skeleton width={200} height={32} sx={{ mb: 2 }} />
-        <Skeleton variant="rounded" height={120} sx={{ mb: 3 }} />
-        <Skeleton variant="rounded" height={240} />
-      </Box>
-    );
-  }
-
-  if (isError || !radical) {
+  if (isError || (!isLoading && !radical)) {
     return <Alert severity="error">未找到该部首</Alert>;
   }
 
-  return (
-    <>
-      <Box sx={{ pb: 8 }}>
+  const renderContent = () => {
+    if (isLoading || !radical) {
+      return (
+        <>
+          <Skeleton width={200} height={32} sx={{ mb: 2 }} />
+          <Skeleton variant="rounded" height={120} sx={{ mb: 3 }} />
+          <Skeleton variant="rounded" height={240} />
+        </>
+      );
+    }
+
+    return (
+      <>
         <Breadcrumbs separator={<NavigateNextIcon fontSize="small" />} sx={{ mb: 2 }}>
           <Link component={RouterLink} underline="hover" color="inherit" to="/">
             部首列表
@@ -105,9 +105,20 @@ export default function RadicalDetailPage() {
           例字
         </Typography>
         <ExampleCharList examples={radical.examples} />
-      </Box>
+      </>
+    );
+  };
 
-      <RadicalNav prev={adjacent?.prev ?? null} next={adjacent?.next ?? null} />
+  return (
+    <>
+      <Box sx={{ pb: 8 }}>
+        {renderContent()}
+      </Box>
+      <RadicalNav
+        prev={adjacent?.prev ?? null}
+        next={adjacent?.next ?? null}
+        isLoading={isAdjacentLoading}
+      />
     </>
   );
 }
