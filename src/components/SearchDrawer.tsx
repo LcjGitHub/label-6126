@@ -1,4 +1,4 @@
-import { useEffect, useState } from 'react';
+import { useCallback, useEffect, useState } from 'react';
 import { Link as RouterLink } from 'react-router-dom';
 import {
   Box,
@@ -10,13 +10,17 @@ import {
   List,
   ListItemButton,
   ListItemText,
+  Stack,
   TextField,
   Typography,
 } from '@mui/material';
 import CloseIcon from '@mui/icons-material/Close';
 import SearchIcon from '@mui/icons-material/Search';
+import HistoryIcon from '@mui/icons-material/History';
 import { useRadicals } from '../hooks/useRadicals';
 import { useRadicalSearch } from '../hooks/useRadicalSearch';
+import { addSearchHistory, getSearchHistory } from '../utils/searchHistory';
+import type { SearchHistoryItem } from '../types/radical';
 
 interface SearchDrawerProps {
   open: boolean;
@@ -26,14 +30,41 @@ interface SearchDrawerProps {
 /** 汉字 / 释义搜索侧栏 */
 export default function SearchDrawer({ open, onClose }: SearchDrawerProps) {
   const [query, setQuery] = useState('');
+  const [history, setHistory] = useState<SearchHistoryItem[]>([]);
   const { data: radicals } = useRadicals();
   const results = useRadicalSearch(radicals, query);
 
   useEffect(() => {
-    if (!open) {
-      setQuery('');
+    if (open) {
+      setHistory(getSearchHistory());
     }
   }, [open]);
+
+  const handleSubmit = useCallback(() => {
+    const trimmed = query.trim();
+    if (trimmed) {
+      const updated = addSearchHistory(trimmed);
+      setHistory(updated);
+    }
+  }, [query]);
+
+  const handleHistoryClick = useCallback(
+    (keyword: string) => {
+      setQuery(keyword);
+      const updated = addSearchHistory(keyword);
+      setHistory(updated);
+    },
+    []
+  );
+
+  const handleKeyDown = useCallback(
+    (event: React.KeyboardEvent<HTMLInputElement>) => {
+      if (event.key === 'Enter') {
+        handleSubmit();
+      }
+    },
+    [handleSubmit]
+  );
 
   return (
     <Drawer anchor="right" open={open} onClose={onClose} PaperProps={{ sx: { width: { xs: '100%', sm: 400 } } }}>
@@ -53,6 +84,7 @@ export default function SearchDrawer({ open, onClose }: SearchDrawerProps) {
           placeholder="输入汉字或释义…"
           value={query}
           onChange={(event) => setQuery(event.target.value)}
+          onKeyDown={handleKeyDown}
           InputProps={{
             startAdornment: (
               <InputAdornment position="start">
@@ -61,6 +93,28 @@ export default function SearchDrawer({ open, onClose }: SearchDrawerProps) {
             ),
           }}
         />
+
+        {query.trim() === '' && history.length > 0 && (
+          <Box sx={{ mt: 2 }}>
+            <Box sx={{ display: 'flex', alignItems: 'center', gap: 0.5, mb: 1 }}>
+              <HistoryIcon color="action" sx={{ fontSize: 16 }} />
+              <Typography variant="body2" color="text.secondary">
+                最近搜索
+              </Typography>
+            </Box>
+            <Stack direction="row" spacing={1} flexWrap="wrap" useFlexGap>
+              {history.map((item) => (
+                <Chip
+                  key={item.timestamp}
+                  label={item.keyword}
+                  size="small"
+                  onClick={() => handleHistoryClick(item.keyword)}
+                  sx={{ mb: 1 }}
+                />
+              ))}
+            </Stack>
+          </Box>
+        )}
       </Box>
 
       <Divider />

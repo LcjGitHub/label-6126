@@ -22,3 +22,9 @@ export interface SearchResult {
   matchType: 'radical' | 'example';
   score: number;
 }
+
+/** 搜索历史条目 */
+export interface SearchHistoryItem {
+  keyword: string;
+  timestamp: number;
+}
