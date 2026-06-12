@@ -18,6 +18,7 @@ import SearchIcon from '@mui/icons-material/Search';
 import FavoriteIcon from '@mui/icons-material/Favorite';
 import BarChartIcon from '@mui/icons-material/BarChart';
 import CompareArrowsIcon from '@mui/icons-material/CompareArrows';
+import SortByAlphaIcon from '@mui/icons-material/SortByAlpha';
 import SearchDrawer from './SearchDrawer';
 import FavoritesDrawer from './FavoritesDrawer';
 import { useFavorites } from '../hooks/useFavorites';
@@ -39,6 +40,7 @@ export default function Layout() {
   const isStudyPage = location.pathname.startsWith('/study');
   const isStatsPage = location.pathname.startsWith('/stats');
   const isComparePage = location.pathname.startsWith('/compare');
+  const isPinyinPage = location.pathname.startsWith('/pinyin');
   const currentRadicalId = params.id ? Number(params.id) : undefined;
 
   useEffect(() => {
@@ -78,6 +80,19 @@ export default function Layout() {
                 >
                   <EventIcon />
                 </Badge>
+              </IconButton>
+            </span>
+          </Tooltip>
+          <Tooltip title={isPinyinPage ? '当前拼音索引页' : '拼音索引'}>
+            <span>
+              <IconButton
+                color="inherit"
+                aria-label="拼音索引"
+                component={RouterLink}
+                to="/pinyin"
+                disabled={isPinyinPage}
+              >
+                <SortByAlphaIcon />
               </IconButton>
             </span>
           </Tooltip>
