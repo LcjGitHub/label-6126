@@ -18,6 +18,7 @@ import FavoriteBorderIcon from '@mui/icons-material/FavoriteBorder';
 import ExampleCharList from '../components/ExampleCharList';
 import ExampleDialog from '../components/ExampleDialog';
 import RadicalNav from '../components/RadicalNav';
+import SameStrokeNav from '../components/SameStrokeNav';
 import { useAdjacentRadicals, useRadical } from '../hooks/useRadicals';
 import { useFavorites } from '../hooks/useFavorites';
 import type { ExampleChar } from '../types/radical';
@@ -116,6 +117,8 @@ export default function RadicalDetailPage() {
             </IconButton>
           </Tooltip>
         </Paper>
+
+        <SameStrokeNav strokeCount={radical.strokeCount} currentId={radical.id} />
 
         <Typography variant="h6" gutterBottom>
           例字

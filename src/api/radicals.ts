@@ -38,3 +38,11 @@ export async function fetchAdjacentRadicals(
     next: idx < radicals.length - 1 ? radicals[idx + 1] : null,
   };
 }
+
+export async function fetchRadicalsByStrokeCount(
+  strokeCount: number,
+  preloadedRadicals?: Radical[],
+): Promise<Radical[]> {
+  const radicals = preloadedRadicals ?? (await fetchRadicals());
+  return radicals.filter((item) => item.strokeCount === strokeCount);
+}
