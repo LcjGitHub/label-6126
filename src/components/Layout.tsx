@@ -16,6 +16,7 @@ import ShuffleIcon from '@mui/icons-material/Shuffle';
 import SearchIcon from '@mui/icons-material/Search';
 import FavoriteIcon from '@mui/icons-material/Favorite';
 import BarChartIcon from '@mui/icons-material/BarChart';
+import CompareArrowsIcon from '@mui/icons-material/CompareArrows';
 import SearchDrawer from './SearchDrawer';
 import FavoritesDrawer from './FavoritesDrawer';
 import { useFavorites } from '../hooks/useFavorites';
@@ -33,6 +34,7 @@ export default function Layout() {
   const { data: radicals } = useRadicals();
   const isStudyPage = location.pathname.startsWith('/study');
   const isStatsPage = location.pathname.startsWith('/stats');
+  const isComparePage = location.pathname.startsWith('/compare');
   const currentRadicalId = params.id ? Number(params.id) : undefined;
 
   const handleRandomClick = () => {
@@ -61,6 +63,19 @@ export default function Layout() {
                 disabled={isStudyPage}
               >
                 <SchoolIcon />
+              </IconButton>
+            </span>
+          </Tooltip>
+          <Tooltip title={isComparePage ? '当前对比页' : '部首对比'}>
+            <span>
+              <IconButton
+                color="inherit"
+                aria-label="部首对比"
+                component={RouterLink}
+                to="/compare"
+                disabled={isComparePage}
+              >
+                <CompareArrowsIcon />
               </IconButton>
             </span>
           </Tooltip>
