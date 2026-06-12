@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import { Link as RouterLink, Outlet } from 'react-router-dom';
+import { Link as RouterLink, Outlet, useLocation, useNavigate, useParams } from 'react-router-dom';
 import {
   AppBar,
   Badge,
@@ -12,12 +12,14 @@ import {
 } from '@mui/material';
 import MenuBookIcon from '@mui/icons-material/MenuBook';
 import SchoolIcon from '@mui/icons-material/School';
+import ShuffleIcon from '@mui/icons-material/Shuffle';
 import SearchIcon from '@mui/icons-material/Search';
 import FavoriteIcon from '@mui/icons-material/Favorite';
 import SearchDrawer from './SearchDrawer';
 import FavoritesDrawer from './FavoritesDrawer';
 import { useFavorites } from '../hooks/useFavorites';
-import { useLocation } from 'react-router-dom';
+import { useRadicals } from '../hooks/useRadicals';
+import { pickRandomRadical } from '../utils/randomRadical';
 
 /** 全局布局：顶栏 + 搜索 Drawer + 收藏 Drawer + 内容区 */
 export default function Layout() {
@@ -25,7 +27,18 @@ export default function Layout() {
   const [favoritesOpen, setFavoritesOpen] = useState(false);
   const { ids } = useFavorites();
   const location = useLocation();
+  const navigate = useNavigate();
+  const params = useParams<{ id?: string }>();
+  const { data: radicals } = useRadicals();
   const isStudyPage = location.pathname.startsWith('/study');
+  const currentRadicalId = params.id ? Number(params.id) : undefined;
+
+  const handleRandomClick = () => {
+    const picked = pickRandomRadical(radicals ?? [], currentRadicalId);
+    if (picked) {
+      navigate(`/radical/${picked.id}`);
+    }
+  };
 
   return (
     <Box sx={{ minHeight: '100vh', bgcolor: 'background.default' }}>
@@ -47,6 +60,16 @@ export default function Layout() {
                 <SchoolIcon />
               </IconButton>
             </span>
+          </Tooltip>
+          <Tooltip title="随机部首">
+            <IconButton
+              color="inherit"
+              aria-label="随机部首"
+              onClick={handleRandomClick}
+              disabled={!radicals || radicals.length === 0}
+            >
+              <ShuffleIcon />
+            </IconButton>
           </Tooltip>
           <IconButton
             color="inherit"
