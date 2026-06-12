@@ -21,6 +21,7 @@ import RadicalNav from '../components/RadicalNav';
 import SameStrokeNav from '../components/SameStrokeNav';
 import { useAdjacentRadicals, useRadical, useRadicals } from '../hooks/useRadicals';
 import { useFavorites } from '../hooks/useFavorites';
+import { useStats } from '../hooks/useStats';
 import type { ExampleChar } from '../types/radical';
 
 export default function RadicalDetailPage() {
@@ -30,6 +31,7 @@ export default function RadicalDetailPage() {
   const { data: radicals } = useRadicals();
   const { data: adjacent, isLoading: isAdjacentLoading } = useAdjacentRadicals(id);
   const { isFavorite, toggle } = useFavorites();
+  const { trackView } = useStats();
 
   const [selectedExample, setSelectedExample] = useState<ExampleChar | null>(null);
   const [dialogOpen, setDialogOpen] = useState(false);
@@ -56,8 +58,9 @@ export default function RadicalDetailPage() {
   useEffect(() => {
     if (radical) {
       document.title = `第${radical.id}部 · ${radical.char} · 康熙部首`;
+      trackView(radical.id);
     }
-  }, [radical]);
+  }, [radical, trackView]);
 
   if (!Number.isFinite(id) || id < 1 || id > 214) {
     return <Alert severity="warning">无效的部首编号，请输入 1–214</Alert>;

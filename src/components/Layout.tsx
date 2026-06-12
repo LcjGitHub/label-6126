@@ -15,6 +15,7 @@ import SchoolIcon from '@mui/icons-material/School';
 import ShuffleIcon from '@mui/icons-material/Shuffle';
 import SearchIcon from '@mui/icons-material/Search';
 import FavoriteIcon from '@mui/icons-material/Favorite';
+import BarChartIcon from '@mui/icons-material/BarChart';
 import SearchDrawer from './SearchDrawer';
 import FavoritesDrawer from './FavoritesDrawer';
 import { useFavorites } from '../hooks/useFavorites';
@@ -31,6 +32,7 @@ export default function Layout() {
   const params = useParams<{ id?: string }>();
   const { data: radicals } = useRadicals();
   const isStudyPage = location.pathname.startsWith('/study');
+  const isStatsPage = location.pathname.startsWith('/stats');
   const currentRadicalId = params.id ? Number(params.id) : undefined;
 
   const handleRandomClick = () => {
@@ -59,6 +61,19 @@ export default function Layout() {
                 disabled={isStudyPage}
               >
                 <SchoolIcon />
+              </IconButton>
+            </span>
+          </Tooltip>
+          <Tooltip title={isStatsPage ? '当前统计页' : '学习统计'}>
+            <span>
+              <IconButton
+                color="inherit"
+                aria-label="学习统计"
+                component={RouterLink}
+                to="/stats"
+                disabled={isStatsPage}
+              >
+                <BarChartIcon />
               </IconButton>
             </span>
           </Tooltip>
