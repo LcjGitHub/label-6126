@@ -8,15 +8,56 @@ function delay(ms: number): Promise<void> {
   });
 }
 
+let cachedRadicals: Radical[] | null = null;
+let loadingPromise: Promise<Radical[]> | null = null;
+let idIndex: Map<number, Radical> | null = null;
+let strokeIndex: Map<number, Radical[]> | null = null;
+
+function buildIndexes(radicals: Radical[]): void {
+  idIndex = new Map();
+  strokeIndex = new Map();
+
+  radicals.forEach((radical) => {
+    idIndex!.set(radical.id, radical);
+
+    const strokeList = strokeIndex!.get(radical.strokeCount);
+    if (strokeList) {
+      strokeList.push(radical);
+    } else {
+      strokeIndex!.set(radical.strokeCount, [radical]);
+    }
+  });
+}
+
+async function ensureRadicalsLoaded(): Promise<Radical[]> {
+  if (cachedRadicals) {
+    return cachedRadicals;
+  }
+
+  if (loadingPromise) {
+    return loadingPromise;
+  }
+
+  loadingPromise = (async () => {
+    await delay(MOCK_DELAY_MS);
+    const module = await import('../mock/radicals.json');
+    const radicals = module.default as Radical[];
+    cachedRadicals = radicals;
+    buildIndexes(radicals);
+    loadingPromise = null;
+    return radicals;
+  })();
+
+  return loadingPromise;
+}
+
 export async function fetchRadicals(): Promise<Radical[]> {
-  await delay(MOCK_DELAY_MS);
-  const module = await import('../mock/radicals.json');
-  return module.default as Radical[];
+  return ensureRadicalsLoaded();
 }
 
 export async function fetchRadicalById(id: number): Promise<Radical | undefined> {
-  const radicals = await fetchRadicals();
-  return radicals.find((item) => item.id === id);
+  await ensureRadicalsLoaded();
+  return idIndex!.get(id);
 }
 
 export interface AdjacentRadicals {
@@ -26,9 +67,9 @@ export interface AdjacentRadicals {
 
 export async function fetchAdjacentRadicals(
   id: number,
-  preloadedRadicals?: Radical[],
+  _preloadedRadicals?: Radical[],
 ): Promise<AdjacentRadicals> {
-  const radicals = preloadedRadicals ?? (await fetchRadicals());
+  const radicals = await ensureRadicalsLoaded();
   const idx = radicals.findIndex((item) => item.id === id);
   if (idx === -1) {
     return { prev: null, next: null };
@@ -41,8 +82,8 @@ export async function fetchAdjacentRadicals(
 
 export async function fetchRadicalsByStrokeCount(
   strokeCount: number,
-  preloadedRadicals?: Radical[],
+  _preloadedRadicals?: Radical[],
 ): Promise<Radical[]> {
-  const radicals = preloadedRadicals ?? (await fetchRadicals());
-  return radicals.filter((item) => item.strokeCount === strokeCount);
+  await ensureRadicalsLoaded();
+  return strokeIndex!.get(strokeCount) ?? [];
 }

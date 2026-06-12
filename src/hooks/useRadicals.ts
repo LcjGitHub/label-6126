@@ -1,11 +1,10 @@
-import { useQuery, useQueryClient } from '@tanstack/react-query';
+import { useQuery } from '@tanstack/react-query';
 import {
   fetchAdjacentRadicals,
   fetchRadicalById,
   fetchRadicals,
   fetchRadicalsByStrokeCount,
 } from '../api/radicals';
-import type { Radical } from '../types/radical';
 
 export const RADICALS_QUERY_KEY = ['radicals'] as const;
 
@@ -25,25 +24,17 @@ export function useRadical(id: number) {
 }
 
 export function useAdjacentRadicals(id: number) {
-  const queryClient = useQueryClient();
   return useQuery({
     queryKey: [...RADICALS_QUERY_KEY, 'adjacent', id],
-    queryFn: () => {
-      const cachedRadicals = queryClient.getQueryData<Radical[]>(RADICALS_QUERY_KEY);
-      return fetchAdjacentRadicals(id, cachedRadicals);
-    },
+    queryFn: () => fetchAdjacentRadicals(id),
     enabled: Number.isFinite(id) && id > 0,
   });
 }
 
 export function useRadicalsByStrokeCount(strokeCount: number) {
-  const queryClient = useQueryClient();
   return useQuery({
     queryKey: [...RADICALS_QUERY_KEY, 'stroke', strokeCount],
-    queryFn: () => {
-      const cachedRadicals = queryClient.getQueryData<Radical[]>(RADICALS_QUERY_KEY);
-      return fetchRadicalsByStrokeCount(strokeCount, cachedRadicals);
-    },
+    queryFn: () => fetchRadicalsByStrokeCount(strokeCount),
     enabled: Number.isFinite(strokeCount) && strokeCount > 0,
   });
 }
