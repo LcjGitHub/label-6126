@@ -32,19 +32,19 @@ export default function Layout() {
           </Typography>
           <IconButton
             color="inherit"
+            aria-label="打开搜索"
+            onClick={() => setSearchOpen(true)}
+          >
+            <SearchIcon />
+          </IconButton>
+          <IconButton
+            color="inherit"
             aria-label="打开收藏夹"
             onClick={() => setFavoritesOpen(true)}
           >
             <Badge badgeContent={ids.length} color="error" max={99}>
               <FavoriteIcon />
             </Badge>
-          </IconButton>
-          <IconButton
-            color="inherit"
-            aria-label="打开搜索"
-            onClick={() => setSearchOpen(true)}
-          >
-            <SearchIcon />
           </IconButton>
         </Toolbar>
       </AppBar>

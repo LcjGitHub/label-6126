@@ -8,10 +8,11 @@ import {
   ListItem,
   ListItemButton,
   ListItemText,
+  Skeleton,
   Typography,
 } from '@mui/material';
 import CloseIcon from '@mui/icons-material/Close';
-import FavoriteIcon from '@mui/icons-material/Favorite';
+import FavoriteBorderIcon from '@mui/icons-material/FavoriteBorder';
 import { useFavorites } from '../hooks/useFavorites';
 import { useRadicals } from '../hooks/useRadicals';
 
@@ -22,9 +23,12 @@ interface FavoritesDrawerProps {
 
 export default function FavoritesDrawer({ open, onClose }: FavoritesDrawerProps) {
   const { ids, remove } = useFavorites();
-  const { data: radicals } = useRadicals();
+  const { data: radicals, isLoading } = useRadicals();
 
-  const favoriteRadicals = (radicals ?? []).filter((r) => ids.includes(r.id));
+  const radicalMap = new Map((radicals ?? []).map((r) => [r.id, r]));
+  const favoriteRadicals = ids
+    .map((id) => radicalMap.get(id))
+    .filter((r): r is NonNullable<typeof r> => r !== undefined);
 
   return (
     <Drawer
@@ -45,7 +49,16 @@ export default function FavoritesDrawer({ open, onClose }: FavoritesDrawerProps)
       <Divider />
 
       <Box sx={{ flex: 1, overflow: 'auto' }}>
-        {ids.length === 0 ? (
+        {isLoading && ids.length > 0 ? (
+          <Box sx={{ p: 2 }}>
+            <Skeleton variant="rounded" height={56} sx={{ mb: 1 }} />
+            <Skeleton variant="rounded" height={56} sx={{ mb: 1 }} />
+            <Skeleton variant="rounded" height={56} />
+            <Typography variant="body2" color="text.secondary" sx={{ mt: 2, textAlign: 'center' }}>
+              加载中…
+            </Typography>
+          </Box>
+        ) : ids.length === 0 ? (
           <Typography variant="body2" color="text.secondary" sx={{ p: 2 }}>
             暂无收藏的部首，点击部首卡片右上角的 ❤ 按钮可添加收藏
           </Typography>
@@ -60,8 +73,9 @@ export default function FavoritesDrawer({ open, onClose }: FavoritesDrawerProps)
                     edge="end"
                     aria-label={`取消收藏 ${radical.char}`}
                     onClick={() => remove(radical.id)}
+                    color="default"
                   >
-                    <FavoriteIcon color="error" />
+                    <FavoriteBorderIcon />
                   </IconButton>
                 }
               >

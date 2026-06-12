@@ -67,12 +67,10 @@ export default function RadicalCard({ radical }: RadicalCardProps) {
           top: 4,
           right: 4,
           color: favorited ? 'error.main' : 'text.secondary',
-          opacity: favorited ? 1 : 0.6,
-          transition: 'opacity 0.15s, background-color 0.15s',
-          backgroundColor: 'rgba(255, 255, 255, 0.85)',
+          transition: 'background-color 0.15s',
+          backgroundColor: 'rgba(255, 255, 255, 0.9)',
           '&:hover': {
             backgroundColor: 'rgba(255, 255, 255, 1)',
-            opacity: 1,
           },
         }}
       >
