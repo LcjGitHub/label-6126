@@ -14,7 +14,6 @@ import MenuBookIcon from '@mui/icons-material/MenuBook';
 import SchoolIcon from '@mui/icons-material/School';
 import SearchIcon from '@mui/icons-material/Search';
 import FavoriteIcon from '@mui/icons-material/Favorite';
-import HomeIcon from '@mui/icons-material/Home';
 import SearchDrawer from './SearchDrawer';
 import FavoritesDrawer from './FavoritesDrawer';
 import { useFavorites } from '../hooks/useFavorites';
@@ -27,37 +26,15 @@ export default function Layout() {
   const { ids } = useFavorites();
   const location = useLocation();
   const isStudyPage = location.pathname.startsWith('/study');
-  const isHomePage = location.pathname === '/';
 
   return (
     <Box sx={{ minHeight: '100vh', bgcolor: 'background.default' }}>
       <AppBar position="sticky" elevation={0} sx={{ bgcolor: 'primary.main' }}>
         <Toolbar>
-          <IconButton
-            color="inherit"
-            aria-label="返回首页"
-            component={RouterLink}
-            to="/"
-            sx={{ mr: 0.5 }}
-          >
-            <MenuBookIcon />
-          </IconButton>
+          <MenuBookIcon sx={{ mr: 1.5 }} />
           <Typography variant="h6" component="h1" sx={{ flexGrow: 1, fontWeight: 600 }}>
             康熙部首检字
           </Typography>
-          <Tooltip title={isHomePage ? '当前首页' : '返回首页'}>
-            <span>
-              <IconButton
-                color="inherit"
-                aria-label="返回首页"
-                component={RouterLink}
-                to="/"
-                disabled={isHomePage}
-              >
-                <HomeIcon />
-              </IconButton>
-            </span>
-          </Tooltip>
           <Tooltip title={isStudyPage ? '当前学习页' : '学习卡片'}>
             <span>
               <IconButton

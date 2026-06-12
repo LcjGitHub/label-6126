@@ -72,11 +72,6 @@ export default function StudyCard({ radical, onNext }: StudyCardProps) {
                   variant="outlined"
                   size="medium"
                 />
-                <Chip
-                  label={`编号：#${radical.id}`}
-                  variant="outlined"
-                  size="medium"
-                />
               </Box>
 
               <Divider sx={{ my: 2 }} />
