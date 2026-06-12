@@ -2,6 +2,7 @@ import { Route, Routes } from 'react-router-dom';
 import Layout from './components/Layout';
 import HomePage from './pages/HomePage';
 import ComparePage from './pages/ComparePage';
+import DailyPage from './pages/DailyPage';
 import RadicalDetailPage from './pages/RadicalDetailPage';
 import StatsPage from './pages/StatsPage';
 import StudyPage from './pages/StudyPage';
@@ -13,6 +14,7 @@ export default function App() {
       <Route element={<Layout />}>
         <Route index element={<HomePage />} />
         <Route path="compare" element={<ComparePage />} />
+        <Route path="daily" element={<DailyPage />} />
         <Route path="study" element={<StudyPage />} />
         <Route path="stats" element={<StatsPage />} />
         <Route path="radical/:id" element={<RadicalDetailPage />} />

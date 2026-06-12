@@ -1,4 +1,4 @@
-import { useState } from 'react';
+import { useEffect, useState } from 'react';
 import { Link as RouterLink, Outlet, useLocation, useNavigate, useParams } from 'react-router-dom';
 import {
   AppBar,
@@ -12,6 +12,7 @@ import {
 } from '@mui/material';
 import MenuBookIcon from '@mui/icons-material/MenuBook';
 import SchoolIcon from '@mui/icons-material/School';
+import EventIcon from '@mui/icons-material/Event';
 import ShuffleIcon from '@mui/icons-material/Shuffle';
 import SearchIcon from '@mui/icons-material/Search';
 import FavoriteIcon from '@mui/icons-material/Favorite';
@@ -22,20 +23,27 @@ import FavoritesDrawer from './FavoritesDrawer';
 import { useFavorites } from '../hooks/useFavorites';
 import { useRadicals } from '../hooks/useRadicals';
 import { pickRandomRadical } from '../utils/randomRadical';
+import { hasCheckedIn } from '../utils/dailyRadical';
 
 /** 全局布局：顶栏 + 搜索 Drawer + 收藏 Drawer + 内容区 */
 export default function Layout() {
   const [searchOpen, setSearchOpen] = useState(false);
   const [favoritesOpen, setFavoritesOpen] = useState(false);
+  const [checkedIn, setCheckedIn] = useState(false);
   const { ids } = useFavorites();
   const location = useLocation();
   const navigate = useNavigate();
   const params = useParams<{ id?: string }>();
   const { data: radicals } = useRadicals();
+  const isDailyPage = location.pathname.startsWith('/daily');
   const isStudyPage = location.pathname.startsWith('/study');
   const isStatsPage = location.pathname.startsWith('/stats');
   const isComparePage = location.pathname.startsWith('/compare');
   const currentRadicalId = params.id ? Number(params.id) : undefined;
+
+  useEffect(() => {
+    setCheckedIn(hasCheckedIn());
+  }, [location.pathname]);
 
   const handleRandomClick = () => {
     const picked = pickRandomRadical(radicals ?? [], currentRadicalId);
@@ -53,6 +61,26 @@ export default function Layout() {
           <Typography variant="h6" component="h1" sx={{ flexGrow: 1, fontWeight: 600 }}>
             康熙部首检字
           </Typography>
+          <Tooltip title={isDailyPage ? '当前每日页' : '每日部首'}>
+            <span>
+              <IconButton
+                color="inherit"
+                aria-label="每日部首"
+                component={RouterLink}
+                to="/daily"
+                disabled={isDailyPage}
+              >
+                <Badge
+                  variant="dot"
+                  color="success"
+                  invisible={!checkedIn}
+                  overlap="circular"
+                >
+                  <EventIcon />
+                </Badge>
+              </IconButton>
+            </span>
+          </Tooltip>
           <Tooltip title={isStudyPage ? '当前学习页' : '学习卡片'}>
             <span>
               <IconButton
