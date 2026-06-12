@@ -1,4 +1,4 @@
-import { useCallback, useMemo, useState } from 'react';
+import { useCallback, useEffect, useMemo, useState } from 'react';
 import { Link as RouterLink, useParams } from 'react-router-dom';
 import {
   Alert,
@@ -52,6 +52,12 @@ export default function RadicalDetailPage() {
     if (radical) return radical.strokeCount;
     return 0;
   }, [radical, radicals, id]);
+
+  useEffect(() => {
+    if (radical) {
+      document.title = `第${radical.id}部 · ${radical.char} · 康熙部首`;
+    }
+  }, [radical]);
 
   if (!Number.isFinite(id) || id < 1 || id > 214) {
     return <Alert severity="warning">无效的部首编号，请输入 1–214</Alert>;

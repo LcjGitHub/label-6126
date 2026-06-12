@@ -37,6 +37,7 @@ export default function Layout() {
     const picked = pickRandomRadical(radicals ?? [], currentRadicalId);
     if (picked) {
       navigate(`/radical/${picked.id}`);
+      window.scrollTo({ top: 0, behavior: 'auto' });
     }
   };
 
@@ -62,14 +63,16 @@ export default function Layout() {
             </span>
           </Tooltip>
           <Tooltip title="随机部首">
-            <IconButton
-              color="inherit"
-              aria-label="随机部首"
-              onClick={handleRandomClick}
-              disabled={!radicals || radicals.length === 0}
-            >
-              <ShuffleIcon />
-            </IconButton>
+            <span>
+              <IconButton
+                color="inherit"
+                aria-label="随机部首"
+                onClick={handleRandomClick}
+                disabled={!radicals || radicals.length === 0}
+              >
+                <ShuffleIcon />
+              </IconButton>
+            </span>
           </Tooltip>
           <IconButton
             color="inherit"
