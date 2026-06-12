@@ -1,3 +1,4 @@
+import { useCallback, useState } from 'react';
 import { Link as RouterLink, useParams } from 'react-router-dom';
 import {
   Alert,
@@ -15,9 +16,11 @@ import NavigateNextIcon from '@mui/icons-material/NavigateNext';
 import FavoriteIcon from '@mui/icons-material/Favorite';
 import FavoriteBorderIcon from '@mui/icons-material/FavoriteBorder';
 import ExampleCharList from '../components/ExampleCharList';
+import ExampleDialog from '../components/ExampleDialog';
 import RadicalNav from '../components/RadicalNav';
 import { useAdjacentRadicals, useRadical } from '../hooks/useRadicals';
 import { useFavorites } from '../hooks/useFavorites';
+import type { ExampleChar } from '../types/radical';
 
 export default function RadicalDetailPage() {
   const { id: idParam } = useParams<{ id: string }>();
@@ -25,6 +28,18 @@ export default function RadicalDetailPage() {
   const { data: radical, isLoading, isError } = useRadical(id);
   const { data: adjacent, isLoading: isAdjacentLoading } = useAdjacentRadicals(id);
   const { isFavorite, toggle } = useFavorites();
+
+  const [selectedExample, setSelectedExample] = useState<ExampleChar | null>(null);
+  const [dialogOpen, setDialogOpen] = useState(false);
+
+  const handleExampleClick = useCallback((example: ExampleChar) => {
+    setSelectedExample(example);
+    setDialogOpen(true);
+  }, []);
+
+  const handleDialogClose = useCallback(() => {
+    setDialogOpen(false);
+  }, []);
 
   if (!Number.isFinite(id) || id < 1 || id > 214) {
     return <Alert severity="warning">无效的部首编号，请输入 1–214</Alert>;
@@ -104,7 +119,7 @@ export default function RadicalDetailPage() {
         <Typography variant="h6" gutterBottom>
           例字
         </Typography>
-        <ExampleCharList examples={radical.examples} />
+        <ExampleCharList examples={radical.examples} onExampleClick={handleExampleClick} />
       </>
     );
   };
@@ -118,6 +133,12 @@ export default function RadicalDetailPage() {
         prev={adjacent?.prev ?? null}
         next={adjacent?.next ?? null}
         isLoading={isAdjacentLoading}
+      />
+      <ExampleDialog
+        open={dialogOpen}
+        onClose={handleDialogClose}
+        example={selectedExample}
+        radical={radical ?? null}
       />
     </>
   );
