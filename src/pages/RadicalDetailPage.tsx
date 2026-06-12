@@ -39,6 +39,7 @@ export default function RadicalDetailPage() {
 
   const handleDialogClose = useCallback(() => {
     setDialogOpen(false);
+    setSelectedExample(null);
   }, []);
 
   if (!Number.isFinite(id) || id < 1 || id > 214) {
