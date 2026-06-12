@@ -1,10 +1,12 @@
 import { Box, Typography } from '@mui/material';
 import RadicalGrid from '../components/RadicalGrid';
+import StrokeTabs from '../components/StrokeTabs';
 import { useRadicals } from '../hooks/useRadicals';
+import { useStrokeFilter } from '../hooks/useStrokeFilter';
 
-/** 首页：214 部首网格 */
 export default function HomePage() {
   const { data: radicals, isLoading, isError, error } = useRadicals();
+  const { rangeIndex, setRangeIndex, filtered, ranges } = useStrokeFilter(radicals);
 
   return (
     <Box>
@@ -15,12 +17,18 @@ export default function HomePage() {
         点击部首查看例字，或使用右上角搜索汉字与释义
       </Typography>
 
+      <StrokeTabs
+        ranges={ranges}
+        activeIndex={rangeIndex}
+        onChange={setRangeIndex}
+      />
+
       {isError ? (
         <Typography color="error">
           加载失败：{error instanceof Error ? error.message : '未知错误'}
         </Typography>
       ) : (
-        <RadicalGrid radicals={radicals} loading={isLoading} />
+        <RadicalGrid radicals={filtered} loading={isLoading} />
       )}
     </Box>
   );
