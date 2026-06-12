@@ -39,7 +39,7 @@ export default function RadicalCard({ radical }: RadicalCardProps) {
             {radical.char}
           </Typography>
           <Typography variant="caption" color="text.secondary" display="block" sx={{ mt: 0.5 }}>
-            #{radical.id} · {radical.pinyin}
+            #{radical.id} · {radical.pinyin} · {radical.strokeCount}画
           </Typography>
           <Typography variant="body2" color="text.secondary" noWrap>
             {radical.meaning}

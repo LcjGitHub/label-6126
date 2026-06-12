@@ -1,4 +1,4 @@
-import { Grid, Skeleton } from '@mui/material';
+import { Box, Grid, Skeleton, Typography } from '@mui/material';
 import type { Radical } from '../types/radical';
 import RadicalCard from './RadicalCard';
 
@@ -18,6 +18,16 @@ export default function RadicalGrid({ radicals, loading }: RadicalGridProps) {
           </Grid>
         ))}
       </Grid>
+    );
+  }
+
+  if (radicals && radicals.length === 0) {
+    return (
+      <Box sx={{ py: 8, textAlign: 'center' }}>
+        <Typography variant="body1" color="text.secondary">
+          该区间暂无部首
+        </Typography>
+      </Box>
     );
   }
 

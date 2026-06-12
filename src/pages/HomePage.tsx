@@ -1,4 +1,5 @@
 import { Box, Typography } from '@mui/material';
+import { useCallback, useEffect } from 'react';
 import RadicalGrid from '../components/RadicalGrid';
 import StrokeTabs from '../components/StrokeTabs';
 import { useRadicals } from '../hooks/useRadicals';
@@ -6,12 +7,25 @@ import { useStrokeFilter } from '../hooks/useStrokeFilter';
 
 export default function HomePage() {
   const { data: radicals, isLoading, isError, error } = useRadicals();
-  const { rangeIndex, setRangeIndex, filtered, ranges } = useStrokeFilter(radicals);
+  const { rangeIndex, setRangeIndex, activeRange, filtered, ranges } = useStrokeFilter(radicals);
+
+  const handleRangeChange = useCallback((index: number) => {
+    setRangeIndex(index);
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+  }, [setRangeIndex]);
+
+  useEffect(() => {
+    if (filtered) {
+      document.title = `康熙部首 · ${activeRange.label}`;
+    }
+  }, [activeRange, filtered]);
+
+  const count = filtered?.length ?? 0;
 
   return (
     <Box>
       <Typography variant="h5" gutterBottom>
-        康熙部首（214）
+        康熙部首 · {activeRange.label}（{count}）
       </Typography>
       <Typography variant="body2" color="text.secondary" sx={{ mb: 3 }}>
         点击部首查看例字，或使用右上角搜索汉字与释义
@@ -20,7 +34,7 @@ export default function HomePage() {
       <StrokeTabs
         ranges={ranges}
         activeIndex={rangeIndex}
-        onChange={setRangeIndex}
+        onChange={handleRangeChange}
       />
 
       {isError ? (
