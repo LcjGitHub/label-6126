@@ -36,17 +36,18 @@ export default function SearchDrawer({ open, onClose }: SearchDrawerProps) {
 
   useEffect(() => {
     if (open) {
+      setQuery('');
       setHistory(getSearchHistory());
     }
   }, [open]);
 
   const handleSubmit = useCallback(() => {
     const trimmed = query.trim();
-    if (trimmed) {
+    if (trimmed && results.length > 0) {
       const updated = addSearchHistory(trimmed);
       setHistory(updated);
     }
-  }, [query]);
+  }, [query, results]);
 
   const handleHistoryClick = useCallback(
     (keyword: string) => {
