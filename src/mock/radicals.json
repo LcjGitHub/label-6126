@@ -1,0 +1,8858 @@
+[
+  {
+    "id": 1,
+    "char": "一",
+    "pinyin": "yī",
+    "meaning": "横",
+    "strokeCount": 1,
+    "examples": [
+      {
+        "char": "三",
+        "pinyin": "sān",
+        "meaning": "数字三"
+      },
+      {
+        "char": "上",
+        "pinyin": "shàng",
+        "meaning": "上方"
+      },
+      {
+        "char": "下",
+        "pinyin": "xià",
+        "meaning": "下方"
+      },
+      {
+        "char": "世",
+        "pinyin": "shì",
+        "meaning": "世界"
+      },
+      {
+        "char": "丘",
+        "pinyin": "qiū",
+        "meaning": "山丘"
+      },
+      {
+        "char": "丙",
+        "pinyin": "bǐng",
+        "meaning": "天干丙"
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "char": "丨",
+    "pinyin": "gǔn",
+    "meaning": "竖",
+    "strokeCount": 1,
+    "examples": [
+      {
+        "char": "丨甲",
+        "pinyin": "gǔn1",
+        "meaning": "竖部例字1"
+      },
+      {
+        "char": "丨乙",
+        "pinyin": "gǔn2",
+        "meaning": "竖部例字2"
+      },
+      {
+        "char": "丨丙",
+        "pinyin": "gǔn3",
+        "meaning": "竖部例字3"
+      },
+      {
+        "char": "丨丁",
+        "pinyin": "gǔn4",
+        "meaning": "竖部例字4"
+      },
+      {
+        "char": "丨戊",
+        "pinyin": "gǔn5",
+        "meaning": "竖部例字5"
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "char": "丶",
+    "pinyin": "zhǔ",
+    "meaning": "点",
+    "strokeCount": 1,
+    "examples": [
+      {
+        "char": "丶甲",
+        "pinyin": "zhǔ1",
+        "meaning": "点部例字1"
+      },
+      {
+        "char": "丶乙",
+        "pinyin": "zhǔ2",
+        "meaning": "点部例字2"
+      },
+      {
+        "char": "丶丙",
+        "pinyin": "zhǔ3",
+        "meaning": "点部例字3"
+      },
+      {
+        "char": "丶丁",
+        "pinyin": "zhǔ4",
+        "meaning": "点部例字4"
+      },
+      {
+        "char": "丶戊",
+        "pinyin": "zhǔ5",
+        "meaning": "点部例字5"
+      },
+      {
+        "char": "丶己",
+        "pinyin": "zhǔ6",
+        "meaning": "点部例字6"
+      },
+      {
+        "char": "丶庚",
+        "pinyin": "zhǔ7",
+        "meaning": "点部例字7"
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "char": "丿",
+    "pinyin": "piě",
+    "meaning": "撇",
+    "strokeCount": 1,
+    "examples": [
+      {
+        "char": "丿甲",
+        "pinyin": "piě1",
+        "meaning": "撇部例字1"
+      },
+      {
+        "char": "丿乙",
+        "pinyin": "piě2",
+        "meaning": "撇部例字2"
+      },
+      {
+        "char": "丿丙",
+        "pinyin": "piě3",
+        "meaning": "撇部例字3"
+      },
+      {
+        "char": "丿丁",
+        "pinyin": "piě4",
+        "meaning": "撇部例字4"
+      },
+      {
+        "char": "丿戊",
+        "pinyin": "piě5",
+        "meaning": "撇部例字5"
+      },
+      {
+        "char": "丿己",
+        "pinyin": "piě6",
+        "meaning": "撇部例字6"
+      },
+      {
+        "char": "丿庚",
+        "pinyin": "piě7",
+        "meaning": "撇部例字7"
+      },
+      {
+        "char": "丿辛",
+        "pinyin": "piě8",
+        "meaning": "撇部例字8"
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "char": "乙",
+    "pinyin": "yǐ",
+    "meaning": "乙形",
+    "strokeCount": 1,
+    "examples": [
+      {
+        "char": "乙甲",
+        "pinyin": "yǐ1",
+        "meaning": "乙形部例字1"
+      },
+      {
+        "char": "乙乙",
+        "pinyin": "yǐ2",
+        "meaning": "乙形部例字2"
+      },
+      {
+        "char": "乙丙",
+        "pinyin": "yǐ3",
+        "meaning": "乙形部例字3"
+      },
+      {
+        "char": "乙丁",
+        "pinyin": "yǐ4",
+        "meaning": "乙形部例字4"
+      },
+      {
+        "char": "乙戊",
+        "pinyin": "yǐ5",
+        "meaning": "乙形部例字5"
+      },
+      {
+        "char": "乙己",
+        "pinyin": "yǐ6",
+        "meaning": "乙形部例字6"
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "char": "亅",
+    "pinyin": "jué",
+    "meaning": "竖钩",
+    "strokeCount": 1,
+    "examples": [
+      {
+        "char": "亅甲",
+        "pinyin": "jué1",
+        "meaning": "竖钩部例字1"
+      },
+      {
+        "char": "亅乙",
+        "pinyin": "jué2",
+        "meaning": "竖钩部例字2"
+      },
+      {
+        "char": "亅丙",
+        "pinyin": "jué3",
+        "meaning": "竖钩部例字3"
+      },
+      {
+        "char": "亅丁",
+        "pinyin": "jué4",
+        "meaning": "竖钩部例字4"
+      },
+      {
+        "char": "亅戊",
+        "pinyin": "jué5",
+        "meaning": "竖钩部例字5"
+      },
+      {
+        "char": "亅己",
+        "pinyin": "jué6",
+        "meaning": "竖钩部例字6"
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "char": "二",
+    "pinyin": "èr",
+    "meaning": "二",
+    "strokeCount": 2,
+    "examples": [
+      {
+        "char": "二甲",
+        "pinyin": "èr1",
+        "meaning": "二部例字1"
+      },
+      {
+        "char": "二乙",
+        "pinyin": "èr2",
+        "meaning": "二部例字2"
+      },
+      {
+        "char": "二丙",
+        "pinyin": "èr3",
+        "meaning": "二部例字3"
+      },
+      {
+        "char": "二丁",
+        "pinyin": "èr4",
+        "meaning": "二部例字4"
+      },
+      {
+        "char": "二戊",
+        "pinyin": "èr5",
+        "meaning": "二部例字5"
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "char": "亠",
+    "pinyin": "tóu",
+    "meaning": "头",
+    "strokeCount": 2,
+    "examples": [
+      {
+        "char": "亠甲",
+        "pinyin": "tóu1",
+        "meaning": "头部例字1"
+      },
+      {
+        "char": "亠乙",
+        "pinyin": "tóu2",
+        "meaning": "头部例字2"
+      },
+      {
+        "char": "亠丙",
+        "pinyin": "tóu3",
+        "meaning": "头部例字3"
+      },
+      {
+        "char": "亠丁",
+        "pinyin": "tóu4",
+        "meaning": "头部例字4"
+      },
+      {
+        "char": "亠戊",
+        "pinyin": "tóu5",
+        "meaning": "头部例字5"
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "char": "人",
+    "pinyin": "rén",
+    "meaning": "人",
+    "strokeCount": 2,
+    "examples": [
+      {
+        "char": "休",
+        "pinyin": "xiū",
+        "meaning": "休息"
+      },
+      {
+        "char": "仁",
+        "pinyin": "rén",
+        "meaning": "仁爱"
+      },
+      {
+        "char": "你",
+        "pinyin": "nǐ",
+        "meaning": "你"
+      },
+      {
+        "char": "信",
+        "pinyin": "xìn",
+        "meaning": "信任"
+      },
+      {
+        "char": "位",
+        "pinyin": "wèi",
+        "meaning": "位置"
+      },
+      {
+        "char": "作",
+        "pinyin": "zuò",
+        "meaning": "工作"
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "char": "儿",
+    "pinyin": "ér",
+    "meaning": "儿",
+    "strokeCount": 2,
+    "examples": [
+      {
+        "char": "儿甲",
+        "pinyin": "ér1",
+        "meaning": "儿部例字1"
+      },
+      {
+        "char": "儿乙",
+        "pinyin": "ér2",
+        "meaning": "儿部例字2"
+      },
+      {
+        "char": "儿丙",
+        "pinyin": "ér3",
+        "meaning": "儿部例字3"
+      },
+      {
+        "char": "儿丁",
+        "pinyin": "ér4",
+        "meaning": "儿部例字4"
+      },
+      {
+        "char": "儿戊",
+        "pinyin": "ér5",
+        "meaning": "儿部例字5"
+      },
+      {
+        "char": "儿己",
+        "pinyin": "ér6",
+        "meaning": "儿部例字6"
+      },
+      {
+        "char": "儿庚",
+        "pinyin": "ér7",
+        "meaning": "儿部例字7"
+      },
+      {
+        "char": "儿辛",
+        "pinyin": "ér8",
+        "meaning": "儿部例字8"
+      }
+    ]
+  },
+  {
+    "id": 11,
+    "char": "入",
+    "pinyin": "rù",
+    "meaning": "入",
+    "strokeCount": 2,
+    "examples": [
+      {
+        "char": "入甲",
+        "pinyin": "rù1",
+        "meaning": "入部例字1"
+      },
+      {
+        "char": "入乙",
+        "pinyin": "rù2",
+        "meaning": "入部例字2"
+      },
+      {
+        "char": "入丙",
+        "pinyin": "rù3",
+        "meaning": "入部例字3"
+      },
+      {
+        "char": "入丁",
+        "pinyin": "rù4",
+        "meaning": "入部例字4"
+      },
+      {
+        "char": "入戊",
+        "pinyin": "rù5",
+        "meaning": "入部例字5"
+      },
+      {
+        "char": "入己",
+        "pinyin": "rù6",
+        "meaning": "入部例字6"
+      }
+    ]
+  },
+  {
+    "id": 12,
+    "char": "八",
+    "pinyin": "bā",
+    "meaning": "八",
+    "strokeCount": 2,
+    "examples": [
+      {
+        "char": "八甲",
+        "pinyin": "bā1",
+        "meaning": "八部例字1"
+      },
+      {
+        "char": "八乙",
+        "pinyin": "bā2",
+        "meaning": "八部例字2"
+      },
+      {
+        "char": "八丙",
+        "pinyin": "bā3",
+        "meaning": "八部例字3"
+      },
+      {
+        "char": "八丁",
+        "pinyin": "bā4",
+        "meaning": "八部例字4"
+      },
+      {
+        "char": "八戊",
+        "pinyin": "bā5",
+        "meaning": "八部例字5"
+      },
+      {
+        "char": "八己",
+        "pinyin": "bā6",
+        "meaning": "八部例字6"
+      },
+      {
+        "char": "八庚",
+        "pinyin": "bā7",
+        "meaning": "八部例字7"
+      },
+      {
+        "char": "八辛",
+        "pinyin": "bā8",
+        "meaning": "八部例字8"
+      }
+    ]
+  },
+  {
+    "id": 13,
+    "char": "冂",
+    "pinyin": "jiōng",
+    "meaning": "冂",
+    "strokeCount": 2,
+    "examples": [
+      {
+        "char": "冂甲",
+        "pinyin": "jiōng1",
+        "meaning": "冂部例字1"
+      },
+      {
+        "char": "冂乙",
+        "pinyin": "jiōng2",
+        "meaning": "冂部例字2"
+      },
+      {
+        "char": "冂丙",
+        "pinyin": "jiōng3",
+        "meaning": "冂部例字3"
+      },
+      {
+        "char": "冂丁",
+        "pinyin": "jiōng4",
+        "meaning": "冂部例字4"
+      },
+      {
+        "char": "冂戊",
+        "pinyin": "jiōng5",
+        "meaning": "冂部例字5"
+      },
+      {
+        "char": "冂己",
+        "pinyin": "jiōng6",
+        "meaning": "冂部例字6"
+      },
+      {
+        "char": "冂庚",
+        "pinyin": "jiōng7",
+        "meaning": "冂部例字7"
+      }
+    ]
+  },
+  {
+    "id": 14,
+    "char": "冖",
+    "pinyin": "mì",
+    "meaning": "冖",
+    "strokeCount": 2,
+    "examples": [
+      {
+        "char": "冖甲",
+        "pinyin": "mì1",
+        "meaning": "冖部例字1"
+      },
+      {
+        "char": "冖乙",
+        "pinyin": "mì2",
+        "meaning": "冖部例字2"
+      },
+      {
+        "char": "冖丙",
+        "pinyin": "mì3",
+        "meaning": "冖部例字3"
+      },
+      {
+        "char": "冖丁",
+        "pinyin": "mì4",
+        "meaning": "冖部例字4"
+      },
+      {
+        "char": "冖戊",
+        "pinyin": "mì5",
+        "meaning": "冖部例字5"
+      },
+      {
+        "char": "冖己",
+        "pinyin": "mì6",
+        "meaning": "冖部例字6"
+      },
+      {
+        "char": "冖庚",
+        "pinyin": "mì7",
+        "meaning": "冖部例字7"
+      }
+    ]
+  },
+  {
+    "id": 15,
+    "char": "冫",
+    "pinyin": "bīng",
+    "meaning": "冰",
+    "strokeCount": 2,
+    "examples": [
+      {
+        "char": "冫甲",
+        "pinyin": "bīng1",
+        "meaning": "冰部例字1"
+      },
+      {
+        "char": "冫乙",
+        "pinyin": "bīng2",
+        "meaning": "冰部例字2"
+      },
+      {
+        "char": "冫丙",
+        "pinyin": "bīng3",
+        "meaning": "冰部例字3"
+      },
+      {
+        "char": "冫丁",
+        "pinyin": "bīng4",
+        "meaning": "冰部例字4"
+      },
+      {
+        "char": "冫戊",
+        "pinyin": "bīng5",
+        "meaning": "冰部例字5"
+      },
+      {
+        "char": "冫己",
+        "pinyin": "bīng6",
+        "meaning": "冰部例字6"
+      },
+      {
+        "char": "冫庚",
+        "pinyin": "bīng7",
+        "meaning": "冰部例字7"
+      },
+      {
+        "char": "冫辛",
+        "pinyin": "bīng8",
+        "meaning": "冰部例字8"
+      }
+    ]
+  },
+  {
+    "id": 16,
+    "char": "几",
+    "pinyin": "jī",
+    "meaning": "几",
+    "strokeCount": 2,
+    "examples": [
+      {
+        "char": "几甲",
+        "pinyin": "jī1",
+        "meaning": "几部例字1"
+      },
+      {
+        "char": "几乙",
+        "pinyin": "jī2",
+        "meaning": "几部例字2"
+      },
+      {
+        "char": "几丙",
+        "pinyin": "jī3",
+        "meaning": "几部例字3"
+      },
+      {
+        "char": "几丁",
+        "pinyin": "jī4",
+        "meaning": "几部例字4"
+      },
+      {
+        "char": "几戊",
+        "pinyin": "jī5",
+        "meaning": "几部例字5"
+      }
+    ]
+  },
+  {
+    "id": 17,
+    "char": "凵",
+    "pinyin": "kǎn",
+    "meaning": "凵",
+    "strokeCount": 2,
+    "examples": [
+      {
+        "char": "凵甲",
+        "pinyin": "kǎn1",
+        "meaning": "凵部例字1"
+      },
+      {
+        "char": "凵乙",
+        "pinyin": "kǎn2",
+        "meaning": "凵部例字2"
+      },
+      {
+        "char": "凵丙",
+        "pinyin": "kǎn3",
+        "meaning": "凵部例字3"
+      },
+      {
+        "char": "凵丁",
+        "pinyin": "kǎn4",
+        "meaning": "凵部例字4"
+      },
+      {
+        "char": "凵戊",
+        "pinyin": "kǎn5",
+        "meaning": "凵部例字5"
+      },
+      {
+        "char": "凵己",
+        "pinyin": "kǎn6",
+        "meaning": "凵部例字6"
+      }
+    ]
+  },
+  {
+    "id": 18,
+    "char": "刀",
+    "pinyin": "dāo",
+    "meaning": "刀",
+    "strokeCount": 2,
+    "examples": [
+      {
+        "char": "刀甲",
+        "pinyin": "dāo1",
+        "meaning": "刀部例字1"
+      },
+      {
+        "char": "刀乙",
+        "pinyin": "dāo2",
+        "meaning": "刀部例字2"
+      },
+      {
+        "char": "刀丙",
+        "pinyin": "dāo3",
+        "meaning": "刀部例字3"
+      },
+      {
+        "char": "刀丁",
+        "pinyin": "dāo4",
+        "meaning": "刀部例字4"
+      },
+      {
+        "char": "刀戊",
+        "pinyin": "dāo5",
+        "meaning": "刀部例字5"
+      }
+    ]
+  },
+  {
+    "id": 19,
+    "char": "力",
+    "pinyin": "lì",
+    "meaning": "力",
+    "strokeCount": 2,
+    "examples": [
+      {
+        "char": "力甲",
+        "pinyin": "lì1",
+        "meaning": "力部例字1"
+      },
+      {
+        "char": "力乙",
+        "pinyin": "lì2",
+        "meaning": "力部例字2"
+      },
+      {
+        "char": "力丙",
+        "pinyin": "lì3",
+        "meaning": "力部例字3"
+      },
+      {
+        "char": "力丁",
+        "pinyin": "lì4",
+        "meaning": "力部例字4"
+      },
+      {
+        "char": "力戊",
+        "pinyin": "lì5",
+        "meaning": "力部例字5"
+      },
+      {
+        "char": "力己",
+        "pinyin": "lì6",
+        "meaning": "力部例字6"
+      },
+      {
+        "char": "力庚",
+        "pinyin": "lì7",
+        "meaning": "力部例字7"
+      },
+      {
+        "char": "力辛",
+        "pinyin": "lì8",
+        "meaning": "力部例字8"
+      }
+    ]
+  },
+  {
+    "id": 20,
+    "char": "勹",
+    "pinyin": "bāo",
+    "meaning": "包",
+    "strokeCount": 2,
+    "examples": [
+      {
+        "char": "勹甲",
+        "pinyin": "bāo1",
+        "meaning": "包部例字1"
+      },
+      {
+        "char": "勹乙",
+        "pinyin": "bāo2",
+        "meaning": "包部例字2"
+      },
+      {
+        "char": "勹丙",
+        "pinyin": "bāo3",
+        "meaning": "包部例字3"
+      },
+      {
+        "char": "勹丁",
+        "pinyin": "bāo4",
+        "meaning": "包部例字4"
+      },
+      {
+        "char": "勹戊",
+        "pinyin": "bāo5",
+        "meaning": "包部例字5"
+      },
+      {
+        "char": "勹己",
+        "pinyin": "bāo6",
+        "meaning": "包部例字6"
+      }
+    ]
+  },
+  {
+    "id": 21,
+    "char": "匕",
+    "pinyin": "bǐ",
+    "meaning": "匕",
+    "strokeCount": 2,
+    "examples": [
+      {
+        "char": "匕甲",
+        "pinyin": "bǐ1",
+        "meaning": "匕部例字1"
+      },
+      {
+        "char": "匕乙",
+        "pinyin": "bǐ2",
+        "meaning": "匕部例字2"
+      },
+      {
+        "char": "匕丙",
+        "pinyin": "bǐ3",
+        "meaning": "匕部例字3"
+      },
+      {
+        "char": "匕丁",
+        "pinyin": "bǐ4",
+        "meaning": "匕部例字4"
+      },
+      {
+        "char": "匕戊",
+        "pinyin": "bǐ5",
+        "meaning": "匕部例字5"
+      },
+      {
+        "char": "匕己",
+        "pinyin": "bǐ6",
+        "meaning": "匕部例字6"
+      }
+    ]
+  },
+  {
+    "id": 22,
+    "char": "匚",
+    "pinyin": "fāng",
+    "meaning": "方框",
+    "strokeCount": 2,
+    "examples": [
+      {
+        "char": "匚甲",
+        "pinyin": "fāng1",
+        "meaning": "方框部例字1"
+      },
+      {
+        "char": "匚乙",
+        "pinyin": "fāng2",
+        "meaning": "方框部例字2"
+      },
+      {
+        "char": "匚丙",
+        "pinyin": "fāng3",
+        "meaning": "方框部例字3"
+      },
+      {
+        "char": "匚丁",
+        "pinyin": "fāng4",
+        "meaning": "方框部例字4"
+      },
+      {
+        "char": "匚戊",
+        "pinyin": "fāng5",
+        "meaning": "方框部例字5"
+      },
+      {
+        "char": "匚己",
+        "pinyin": "fāng6",
+        "meaning": "方框部例字6"
+      },
+      {
+        "char": "匚庚",
+        "pinyin": "fāng7",
+        "meaning": "方框部例字7"
+      }
+    ]
+  },
+  {
+    "id": 23,
+    "char": "匸",
+    "pinyin": "xì",
+    "meaning": "匸",
+    "strokeCount": 2,
+    "examples": [
+      {
+        "char": "匸甲",
+        "pinyin": "xì1",
+        "meaning": "匸部例字1"
+      },
+      {
+        "char": "匸乙",
+        "pinyin": "xì2",
+        "meaning": "匸部例字2"
+      },
+      {
+        "char": "匸丙",
+        "pinyin": "xì3",
+        "meaning": "匸部例字3"
+      },
+      {
+        "char": "匸丁",
+        "pinyin": "xì4",
+        "meaning": "匸部例字4"
+      },
+      {
+        "char": "匸戊",
+        "pinyin": "xì5",
+        "meaning": "匸部例字5"
+      }
+    ]
+  },
+  {
+    "id": 24,
+    "char": "十",
+    "pinyin": "shí",
+    "meaning": "十",
+    "strokeCount": 2,
+    "examples": [
+      {
+        "char": "十甲",
+        "pinyin": "shí1",
+        "meaning": "十部例字1"
+      },
+      {
+        "char": "十乙",
+        "pinyin": "shí2",
+        "meaning": "十部例字2"
+      },
+      {
+        "char": "十丙",
+        "pinyin": "shí3",
+        "meaning": "十部例字3"
+      },
+      {
+        "char": "十丁",
+        "pinyin": "shí4",
+        "meaning": "十部例字4"
+      },
+      {
+        "char": "十戊",
+        "pinyin": "shí5",
+        "meaning": "十部例字5"
+      },
+      {
+        "char": "十己",
+        "pinyin": "shí6",
+        "meaning": "十部例字6"
+      }
+    ]
+  },
+  {
+    "id": 25,
+    "char": "卜",
+    "pinyin": "bǔ",
+    "meaning": "卜",
+    "strokeCount": 2,
+    "examples": [
+      {
+        "char": "卜甲",
+        "pinyin": "bǔ1",
+        "meaning": "卜部例字1"
+      },
+      {
+        "char": "卜乙",
+        "pinyin": "bǔ2",
+        "meaning": "卜部例字2"
+      },
+      {
+        "char": "卜丙",
+        "pinyin": "bǔ3",
+        "meaning": "卜部例字3"
+      },
+      {
+        "char": "卜丁",
+        "pinyin": "bǔ4",
+        "meaning": "卜部例字4"
+      },
+      {
+        "char": "卜戊",
+        "pinyin": "bǔ5",
+        "meaning": "卜部例字5"
+      }
+    ]
+  },
+  {
+    "id": 26,
+    "char": "卩",
+    "pinyin": "jié",
+    "meaning": "节",
+    "strokeCount": 2,
+    "examples": [
+      {
+        "char": "卩甲",
+        "pinyin": "jié1",
+        "meaning": "节部例字1"
+      },
+      {
+        "char": "卩乙",
+        "pinyin": "jié2",
+        "meaning": "节部例字2"
+      },
+      {
+        "char": "卩丙",
+        "pinyin": "jié3",
+        "meaning": "节部例字3"
+      },
+      {
+        "char": "卩丁",
+        "pinyin": "jié4",
+        "meaning": "节部例字4"
+      },
+      {
+        "char": "卩戊",
+        "pinyin": "jié5",
+        "meaning": "节部例字5"
+      },
+      {
+        "char": "卩己",
+        "pinyin": "jié6",
+        "meaning": "节部例字6"
+      }
+    ]
+  },
+  {
+    "id": 27,
+    "char": "厂",
+    "pinyin": "hǎn",
+    "meaning": "厂",
+    "strokeCount": 2,
+    "examples": [
+      {
+        "char": "厂甲",
+        "pinyin": "hǎn1",
+        "meaning": "厂部例字1"
+      },
+      {
+        "char": "厂乙",
+        "pinyin": "hǎn2",
+        "meaning": "厂部例字2"
+      },
+      {
+        "char": "厂丙",
+        "pinyin": "hǎn3",
+        "meaning": "厂部例字3"
+      },
+      {
+        "char": "厂丁",
+        "pinyin": "hǎn4",
+        "meaning": "厂部例字4"
+      },
+      {
+        "char": "厂戊",
+        "pinyin": "hǎn5",
+        "meaning": "厂部例字5"
+      },
+      {
+        "char": "厂己",
+        "pinyin": "hǎn6",
+        "meaning": "厂部例字6"
+      },
+      {
+        "char": "厂庚",
+        "pinyin": "hǎn7",
+        "meaning": "厂部例字7"
+      }
+    ]
+  },
+  {
+    "id": 28,
+    "char": "厶",
+    "pinyin": "sī",
+    "meaning": "私",
+    "strokeCount": 2,
+    "examples": [
+      {
+        "char": "厶甲",
+        "pinyin": "sī1",
+        "meaning": "私部例字1"
+      },
+      {
+        "char": "厶乙",
+        "pinyin": "sī2",
+        "meaning": "私部例字2"
+      },
+      {
+        "char": "厶丙",
+        "pinyin": "sī3",
+        "meaning": "私部例字3"
+      },
+      {
+        "char": "厶丁",
+        "pinyin": "sī4",
+        "meaning": "私部例字4"
+      },
+      {
+        "char": "厶戊",
+        "pinyin": "sī5",
+        "meaning": "私部例字5"
+      },
+      {
+        "char": "厶己",
+        "pinyin": "sī6",
+        "meaning": "私部例字6"
+      },
+      {
+        "char": "厶庚",
+        "pinyin": "sī7",
+        "meaning": "私部例字7"
+      }
+    ]
+  },
+  {
+    "id": 29,
+    "char": "又",
+    "pinyin": "yòu",
+    "meaning": "又",
+    "strokeCount": 2,
+    "examples": [
+      {
+        "char": "又甲",
+        "pinyin": "yòu1",
+        "meaning": "又部例字1"
+      },
+      {
+        "char": "又乙",
+        "pinyin": "yòu2",
+        "meaning": "又部例字2"
+      },
+      {
+        "char": "又丙",
+        "pinyin": "yòu3",
+        "meaning": "又部例字3"
+      },
+      {
+        "char": "又丁",
+        "pinyin": "yòu4",
+        "meaning": "又部例字4"
+      },
+      {
+        "char": "又戊",
+        "pinyin": "yòu5",
+        "meaning": "又部例字5"
+      }
+    ]
+  },
+  {
+    "id": 30,
+    "char": "口",
+    "pinyin": "kǒu",
+    "meaning": "口",
+    "strokeCount": 3,
+    "examples": [
+      {
+        "char": "吃",
+        "pinyin": "chī",
+        "meaning": "进食"
+      },
+      {
+        "char": "叫",
+        "pinyin": "jiào",
+        "meaning": "呼叫"
+      },
+      {
+        "char": "问",
+        "pinyin": "wèn",
+        "meaning": "询问"
+      },
+      {
+        "char": "听",
+        "pinyin": "tīng",
+        "meaning": "聆听"
+      },
+      {
+        "char": "唱",
+        "pinyin": "chàng",
+        "meaning": "歌唱"
+      },
+      {
+        "char": "味",
+        "pinyin": "wèi",
+        "meaning": "味道"
+      }
+    ]
+  },
+  {
+    "id": 31,
+    "char": "囗",
+    "pinyin": "wéi",
+    "meaning": "围",
+    "strokeCount": 3,
+    "examples": [
+      {
+        "char": "囗甲",
+        "pinyin": "wéi1",
+        "meaning": "围部例字1"
+      },
+      {
+        "char": "囗乙",
+        "pinyin": "wéi2",
+        "meaning": "围部例字2"
+      },
+      {
+        "char": "囗丙",
+        "pinyin": "wéi3",
+        "meaning": "围部例字3"
+      },
+      {
+        "char": "囗丁",
+        "pinyin": "wéi4",
+        "meaning": "围部例字4"
+      },
+      {
+        "char": "囗戊",
+        "pinyin": "wéi5",
+        "meaning": "围部例字5"
+      },
+      {
+        "char": "囗己",
+        "pinyin": "wéi6",
+        "meaning": "围部例字6"
+      },
+      {
+        "char": "囗庚",
+        "pinyin": "wéi7",
+        "meaning": "围部例字7"
+      },
+      {
+        "char": "囗辛",
+        "pinyin": "wéi8",
+        "meaning": "围部例字8"
+      }
+    ]
+  },
+  {
+    "id": 32,
+    "char": "土",
+    "pinyin": "tǔ",
+    "meaning": "土",
+    "strokeCount": 3,
+    "examples": [
+      {
+        "char": "地",
+        "pinyin": "dì",
+        "meaning": "土地"
+      },
+      {
+        "char": "城",
+        "pinyin": "chéng",
+        "meaning": "城市"
+      },
+      {
+        "char": "场",
+        "pinyin": "chǎng",
+        "meaning": "场地"
+      },
+      {
+        "char": "坡",
+        "pinyin": "pō",
+        "meaning": "山坡"
+      },
+      {
+        "char": "块",
+        "pinyin": "kuài",
+        "meaning": "土块"
+      },
+      {
+        "char": "坐",
+        "pinyin": "zuò",
+        "meaning": "坐下"
+      }
+    ]
+  },
+  {
+    "id": 33,
+    "char": "士",
+    "pinyin": "shì",
+    "meaning": "士",
+    "strokeCount": 3,
+    "examples": [
+      {
+        "char": "士甲",
+        "pinyin": "shì1",
+        "meaning": "士部例字1"
+      },
+      {
+        "char": "士乙",
+        "pinyin": "shì2",
+        "meaning": "士部例字2"
+      },
+      {
+        "char": "士丙",
+        "pinyin": "shì3",
+        "meaning": "士部例字3"
+      },
+      {
+        "char": "士丁",
+        "pinyin": "shì4",
+        "meaning": "士部例字4"
+      },
+      {
+        "char": "士戊",
+        "pinyin": "shì5",
+        "meaning": "士部例字5"
+      },
+      {
+        "char": "士己",
+        "pinyin": "shì6",
+        "meaning": "士部例字6"
+      },
+      {
+        "char": "士庚",
+        "pinyin": "shì7",
+        "meaning": "士部例字7"
+      },
+      {
+        "char": "士辛",
+        "pinyin": "shì8",
+        "meaning": "士部例字8"
+      }
+    ]
+  },
+  {
+    "id": 34,
+    "char": "夂",
+    "pinyin": "zhǐ",
+    "meaning": "夂",
+    "strokeCount": 3,
+    "examples": [
+      {
+        "char": "夂甲",
+        "pinyin": "zhǐ1",
+        "meaning": "夂部例字1"
+      },
+      {
+        "char": "夂乙",
+        "pinyin": "zhǐ2",
+        "meaning": "夂部例字2"
+      },
+      {
+        "char": "夂丙",
+        "pinyin": "zhǐ3",
+        "meaning": "夂部例字3"
+      },
+      {
+        "char": "夂丁",
+        "pinyin": "zhǐ4",
+        "meaning": "夂部例字4"
+      },
+      {
+        "char": "夂戊",
+        "pinyin": "zhǐ5",
+        "meaning": "夂部例字5"
+      },
+      {
+        "char": "夂己",
+        "pinyin": "zhǐ6",
+        "meaning": "夂部例字6"
+      },
+      {
+        "char": "夂庚",
+        "pinyin": "zhǐ7",
+        "meaning": "夂部例字7"
+      }
+    ]
+  },
+  {
+    "id": 35,
+    "char": "夊",
+    "pinyin": "suī",
+    "meaning": "夊",
+    "strokeCount": 3,
+    "examples": [
+      {
+        "char": "夊甲",
+        "pinyin": "suī1",
+        "meaning": "夊部例字1"
+      },
+      {
+        "char": "夊乙",
+        "pinyin": "suī2",
+        "meaning": "夊部例字2"
+      },
+      {
+        "char": "夊丙",
+        "pinyin": "suī3",
+        "meaning": "夊部例字3"
+      },
+      {
+        "char": "夊丁",
+        "pinyin": "suī4",
+        "meaning": "夊部例字4"
+      },
+      {
+        "char": "夊戊",
+        "pinyin": "suī5",
+        "meaning": "夊部例字5"
+      },
+      {
+        "char": "夊己",
+        "pinyin": "suī6",
+        "meaning": "夊部例字6"
+      },
+      {
+        "char": "夊庚",
+        "pinyin": "suī7",
+        "meaning": "夊部例字7"
+      }
+    ]
+  },
+  {
+    "id": 36,
+    "char": "夕",
+    "pinyin": "xī",
+    "meaning": "夕",
+    "strokeCount": 3,
+    "examples": [
+      {
+        "char": "夕甲",
+        "pinyin": "xī1",
+        "meaning": "夕部例字1"
+      },
+      {
+        "char": "夕乙",
+        "pinyin": "xī2",
+        "meaning": "夕部例字2"
+      },
+      {
+        "char": "夕丙",
+        "pinyin": "xī3",
+        "meaning": "夕部例字3"
+      },
+      {
+        "char": "夕丁",
+        "pinyin": "xī4",
+        "meaning": "夕部例字4"
+      },
+      {
+        "char": "夕戊",
+        "pinyin": "xī5",
+        "meaning": "夕部例字5"
+      },
+      {
+        "char": "夕己",
+        "pinyin": "xī6",
+        "meaning": "夕部例字6"
+      }
+    ]
+  },
+  {
+    "id": 37,
+    "char": "大",
+    "pinyin": "dà",
+    "meaning": "大",
+    "strokeCount": 3,
+    "examples": [
+      {
+        "char": "大甲",
+        "pinyin": "dà1",
+        "meaning": "大部例字1"
+      },
+      {
+        "char": "大乙",
+        "pinyin": "dà2",
+        "meaning": "大部例字2"
+      },
+      {
+        "char": "大丙",
+        "pinyin": "dà3",
+        "meaning": "大部例字3"
+      },
+      {
+        "char": "大丁",
+        "pinyin": "dà4",
+        "meaning": "大部例字4"
+      },
+      {
+        "char": "大戊",
+        "pinyin": "dà5",
+        "meaning": "大部例字5"
+      },
+      {
+        "char": "大己",
+        "pinyin": "dà6",
+        "meaning": "大部例字6"
+      },
+      {
+        "char": "大庚",
+        "pinyin": "dà7",
+        "meaning": "大部例字7"
+      },
+      {
+        "char": "大辛",
+        "pinyin": "dà8",
+        "meaning": "大部例字8"
+      }
+    ]
+  },
+  {
+    "id": 38,
+    "char": "女",
+    "pinyin": "nǚ",
+    "meaning": "女",
+    "strokeCount": 3,
+    "examples": [
+      {
+        "char": "好",
+        "pinyin": "hǎo",
+        "meaning": "美好"
+      },
+      {
+        "char": "妈",
+        "pinyin": "mā",
+        "meaning": "母亲"
+      },
+      {
+        "char": "姐",
+        "pinyin": "jiě",
+        "meaning": "姐姐"
+      },
+      {
+        "char": "妹",
+        "pinyin": "mèi",
+        "meaning": "妹妹"
+      },
+      {
+        "char": "婚",
+        "pinyin": "hūn",
+        "meaning": "婚姻"
+      },
+      {
+        "char": "姿",
+        "pinyin": "zī",
+        "meaning": "姿态"
+      }
+    ]
+  },
+  {
+    "id": 39,
+    "char": "子",
+    "pinyin": "zǐ",
+    "meaning": "子",
+    "strokeCount": 3,
+    "examples": [
+      {
+        "char": "子甲",
+        "pinyin": "zǐ1",
+        "meaning": "子部例字1"
+      },
+      {
+        "char": "子乙",
+        "pinyin": "zǐ2",
+        "meaning": "子部例字2"
+      },
+      {
+        "char": "子丙",
+        "pinyin": "zǐ3",
+        "meaning": "子部例字3"
+      },
+      {
+        "char": "子丁",
+        "pinyin": "zǐ4",
+        "meaning": "子部例字4"
+      },
+      {
+        "char": "子戊",
+        "pinyin": "zǐ5",
+        "meaning": "子部例字5"
+      }
+    ]
+  },
+  {
+    "id": 40,
+    "char": "宀",
+    "pinyin": "mián",
+    "meaning": "宀",
+    "strokeCount": 3,
+    "examples": [
+      {
+        "char": "宀甲",
+        "pinyin": "mián1",
+        "meaning": "宀部例字1"
+      },
+      {
+        "char": "宀乙",
+        "pinyin": "mián2",
+        "meaning": "宀部例字2"
+      },
+      {
+        "char": "宀丙",
+        "pinyin": "mián3",
+        "meaning": "宀部例字3"
+      },
+      {
+        "char": "宀丁",
+        "pinyin": "mián4",
+        "meaning": "宀部例字4"
+      },
+      {
+        "char": "宀戊",
+        "pinyin": "mián5",
+        "meaning": "宀部例字5"
+      }
+    ]
+  },
+  {
+    "id": 41,
+    "char": "寸",
+    "pinyin": "cùn",
+    "meaning": "寸",
+    "strokeCount": 3,
+    "examples": [
+      {
+        "char": "寸甲",
+        "pinyin": "cùn1",
+        "meaning": "寸部例字1"
+      },
+      {
+        "char": "寸乙",
+        "pinyin": "cùn2",
+        "meaning": "寸部例字2"
+      },
+      {
+        "char": "寸丙",
+        "pinyin": "cùn3",
+        "meaning": "寸部例字3"
+      },
+      {
+        "char": "寸丁",
+        "pinyin": "cùn4",
+        "meaning": "寸部例字4"
+      },
+      {
+        "char": "寸戊",
+        "pinyin": "cùn5",
+        "meaning": "寸部例字5"
+      }
+    ]
+  },
+  {
+    "id": 42,
+    "char": "小",
+    "pinyin": "xiǎo",
+    "meaning": "小",
+    "strokeCount": 3,
+    "examples": [
+      {
+        "char": "小甲",
+        "pinyin": "xiǎo1",
+        "meaning": "小部例字1"
+      },
+      {
+        "char": "小乙",
+        "pinyin": "xiǎo2",
+        "meaning": "小部例字2"
+      },
+      {
+        "char": "小丙",
+        "pinyin": "xiǎo3",
+        "meaning": "小部例字3"
+      },
+      {
+        "char": "小丁",
+        "pinyin": "xiǎo4",
+        "meaning": "小部例字4"
+      },
+      {
+        "char": "小戊",
+        "pinyin": "xiǎo5",
+        "meaning": "小部例字5"
+      },
+      {
+        "char": "小己",
+        "pinyin": "xiǎo6",
+        "meaning": "小部例字6"
+      },
+      {
+        "char": "小庚",
+        "pinyin": "xiǎo7",
+        "meaning": "小部例字7"
+      },
+      {
+        "char": "小辛",
+        "pinyin": "xiǎo8",
+        "meaning": "小部例字8"
+      }
+    ]
+  },
+  {
+    "id": 43,
+    "char": "尢",
+    "pinyin": "wāng",
+    "meaning": "尢",
+    "strokeCount": 3,
+    "examples": [
+      {
+        "char": "尢甲",
+        "pinyin": "wāng1",
+        "meaning": "尢部例字1"
+      },
+      {
+        "char": "尢乙",
+        "pinyin": "wāng2",
+        "meaning": "尢部例字2"
+      },
+      {
+        "char": "尢丙",
+        "pinyin": "wāng3",
+        "meaning": "尢部例字3"
+      },
+      {
+        "char": "尢丁",
+        "pinyin": "wāng4",
+        "meaning": "尢部例字4"
+      },
+      {
+        "char": "尢戊",
+        "pinyin": "wāng5",
+        "meaning": "尢部例字5"
+      },
+      {
+        "char": "尢己",
+        "pinyin": "wāng6",
+        "meaning": "尢部例字6"
+      },
+      {
+        "char": "尢庚",
+        "pinyin": "wāng7",
+        "meaning": "尢部例字7"
+      }
+    ]
+  },
+  {
+    "id": 44,
+    "char": "尸",
+    "pinyin": "shī",
+    "meaning": "尸",
+    "strokeCount": 3,
+    "examples": [
+      {
+        "char": "尸甲",
+        "pinyin": "shī1",
+        "meaning": "尸部例字1"
+      },
+      {
+        "char": "尸乙",
+        "pinyin": "shī2",
+        "meaning": "尸部例字2"
+      },
+      {
+        "char": "尸丙",
+        "pinyin": "shī3",
+        "meaning": "尸部例字3"
+      },
+      {
+        "char": "尸丁",
+        "pinyin": "shī4",
+        "meaning": "尸部例字4"
+      },
+      {
+        "char": "尸戊",
+        "pinyin": "shī5",
+        "meaning": "尸部例字5"
+      }
+    ]
+  },
+  {
+    "id": 45,
+    "char": "屮",
+    "pinyin": "chè",
+    "meaning": "屮",
+    "strokeCount": 3,
+    "examples": [
+      {
+        "char": "屮甲",
+        "pinyin": "chè1",
+        "meaning": "屮部例字1"
+      },
+      {
+        "char": "屮乙",
+        "pinyin": "chè2",
+        "meaning": "屮部例字2"
+      },
+      {
+        "char": "屮丙",
+        "pinyin": "chè3",
+        "meaning": "屮部例字3"
+      },
+      {
+        "char": "屮丁",
+        "pinyin": "chè4",
+        "meaning": "屮部例字4"
+      },
+      {
+        "char": "屮戊",
+        "pinyin": "chè5",
+        "meaning": "屮部例字5"
+      },
+      {
+        "char": "屮己",
+        "pinyin": "chè6",
+        "meaning": "屮部例字6"
+      },
+      {
+        "char": "屮庚",
+        "pinyin": "chè7",
+        "meaning": "屮部例字7"
+      }
+    ]
+  },
+  {
+    "id": 46,
+    "char": "山",
+    "pinyin": "shān",
+    "meaning": "山",
+    "strokeCount": 3,
+    "examples": [
+      {
+        "char": "峰",
+        "pinyin": "fēng",
+        "meaning": "山峰"
+      },
+      {
+        "char": "岩",
+        "pinyin": "yán",
+        "meaning": "岩石"
+      },
+      {
+        "char": "岛",
+        "pinyin": "dǎo",
+        "meaning": "岛屿"
+      },
+      {
+        "char": "岸",
+        "pinyin": "àn",
+        "meaning": "河岸"
+      },
+      {
+        "char": "岭",
+        "pinyin": "lǐng",
+        "meaning": "山岭"
+      },
+      {
+        "char": "岳",
+        "pinyin": "yuè",
+        "meaning": "山岳"
+      }
+    ]
+  },
+  {
+    "id": 47,
+    "char": "巛",
+    "pinyin": "chuān",
+    "meaning": "巛",
+    "strokeCount": 3,
+    "examples": [
+      {
+        "char": "巛甲",
+        "pinyin": "chuān1",
+        "meaning": "巛部例字1"
+      },
+      {
+        "char": "巛乙",
+        "pinyin": "chuān2",
+        "meaning": "巛部例字2"
+      },
+      {
+        "char": "巛丙",
+        "pinyin": "chuān3",
+        "meaning": "巛部例字3"
+      },
+      {
+        "char": "巛丁",
+        "pinyin": "chuān4",
+        "meaning": "巛部例字4"
+      },
+      {
+        "char": "巛戊",
+        "pinyin": "chuān5",
+        "meaning": "巛部例字5"
+      },
+      {
+        "char": "巛己",
+        "pinyin": "chuān6",
+        "meaning": "巛部例字6"
+      },
+      {
+        "char": "巛庚",
+        "pinyin": "chuān7",
+        "meaning": "巛部例字7"
+      },
+      {
+        "char": "巛辛",
+        "pinyin": "chuān8",
+        "meaning": "巛部例字8"
+      }
+    ]
+  },
+  {
+    "id": 48,
+    "char": "工",
+    "pinyin": "gōng",
+    "meaning": "工",
+    "strokeCount": 3,
+    "examples": [
+      {
+        "char": "工甲",
+        "pinyin": "gōng1",
+        "meaning": "工部例字1"
+      },
+      {
+        "char": "工乙",
+        "pinyin": "gōng2",
+        "meaning": "工部例字2"
+      },
+      {
+        "char": "工丙",
+        "pinyin": "gōng3",
+        "meaning": "工部例字3"
+      },
+      {
+        "char": "工丁",
+        "pinyin": "gōng4",
+        "meaning": "工部例字4"
+      },
+      {
+        "char": "工戊",
+        "pinyin": "gōng5",
+        "meaning": "工部例字5"
+      },
+      {
+        "char": "工己",
+        "pinyin": "gōng6",
+        "meaning": "工部例字6"
+      }
+    ]
+  },
+  {
+    "id": 49,
+    "char": "己",
+    "pinyin": "jǐ",
+    "meaning": "己",
+    "strokeCount": 4,
+    "examples": [
+      {
+        "char": "己甲",
+        "pinyin": "jǐ1",
+        "meaning": "己部例字1"
+      },
+      {
+        "char": "己乙",
+        "pinyin": "jǐ2",
+        "meaning": "己部例字2"
+      },
+      {
+        "char": "己丙",
+        "pinyin": "jǐ3",
+        "meaning": "己部例字3"
+      },
+      {
+        "char": "己丁",
+        "pinyin": "jǐ4",
+        "meaning": "己部例字4"
+      },
+      {
+        "char": "己戊",
+        "pinyin": "jǐ5",
+        "meaning": "己部例字5"
+      },
+      {
+        "char": "己己",
+        "pinyin": "jǐ6",
+        "meaning": "己部例字6"
+      }
+    ]
+  },
+  {
+    "id": 50,
+    "char": "巾",
+    "pinyin": "jīn",
+    "meaning": "巾",
+    "strokeCount": 3,
+    "examples": [
+      {
+        "char": "巾甲",
+        "pinyin": "jīn1",
+        "meaning": "巾部例字1"
+      },
+      {
+        "char": "巾乙",
+        "pinyin": "jīn2",
+        "meaning": "巾部例字2"
+      },
+      {
+        "char": "巾丙",
+        "pinyin": "jīn3",
+        "meaning": "巾部例字3"
+      },
+      {
+        "char": "巾丁",
+        "pinyin": "jīn4",
+        "meaning": "巾部例字4"
+      },
+      {
+        "char": "巾戊",
+        "pinyin": "jīn5",
+        "meaning": "巾部例字5"
+      },
+      {
+        "char": "巾己",
+        "pinyin": "jīn6",
+        "meaning": "巾部例字6"
+      },
+      {
+        "char": "巾庚",
+        "pinyin": "jīn7",
+        "meaning": "巾部例字7"
+      }
+    ]
+  },
+  {
+    "id": 51,
+    "char": "干",
+    "pinyin": "gān",
+    "meaning": "干",
+    "strokeCount": 3,
+    "examples": [
+      {
+        "char": "干甲",
+        "pinyin": "gān1",
+        "meaning": "干部例字1"
+      },
+      {
+        "char": "干乙",
+        "pinyin": "gān2",
+        "meaning": "干部例字2"
+      },
+      {
+        "char": "干丙",
+        "pinyin": "gān3",
+        "meaning": "干部例字3"
+      },
+      {
+        "char": "干丁",
+        "pinyin": "gān4",
+        "meaning": "干部例字4"
+      },
+      {
+        "char": "干戊",
+        "pinyin": "gān5",
+        "meaning": "干部例字5"
+      },
+      {
+        "char": "干己",
+        "pinyin": "gān6",
+        "meaning": "干部例字6"
+      },
+      {
+        "char": "干庚",
+        "pinyin": "gān7",
+        "meaning": "干部例字7"
+      }
+    ]
+  },
+  {
+    "id": 52,
+    "char": "幺",
+    "pinyin": "yāo",
+    "meaning": "幺",
+    "strokeCount": 3,
+    "examples": [
+      {
+        "char": "幺甲",
+        "pinyin": "yāo1",
+        "meaning": "幺部例字1"
+      },
+      {
+        "char": "幺乙",
+        "pinyin": "yāo2",
+        "meaning": "幺部例字2"
+      },
+      {
+        "char": "幺丙",
+        "pinyin": "yāo3",
+        "meaning": "幺部例字3"
+      },
+      {
+        "char": "幺丁",
+        "pinyin": "yāo4",
+        "meaning": "幺部例字4"
+      },
+      {
+        "char": "幺戊",
+        "pinyin": "yāo5",
+        "meaning": "幺部例字5"
+      },
+      {
+        "char": "幺己",
+        "pinyin": "yāo6",
+        "meaning": "幺部例字6"
+      },
+      {
+        "char": "幺庚",
+        "pinyin": "yāo7",
+        "meaning": "幺部例字7"
+      }
+    ]
+  },
+  {
+    "id": 53,
+    "char": "广",
+    "pinyin": "guǎng",
+    "meaning": "广",
+    "strokeCount": 3,
+    "examples": [
+      {
+        "char": "广甲",
+        "pinyin": "guǎng1",
+        "meaning": "广部例字1"
+      },
+      {
+        "char": "广乙",
+        "pinyin": "guǎng2",
+        "meaning": "广部例字2"
+      },
+      {
+        "char": "广丙",
+        "pinyin": "guǎng3",
+        "meaning": "广部例字3"
+      },
+      {
+        "char": "广丁",
+        "pinyin": "guǎng4",
+        "meaning": "广部例字4"
+      },
+      {
+        "char": "广戊",
+        "pinyin": "guǎng5",
+        "meaning": "广部例字5"
+      },
+      {
+        "char": "广己",
+        "pinyin": "guǎng6",
+        "meaning": "广部例字6"
+      },
+      {
+        "char": "广庚",
+        "pinyin": "guǎng7",
+        "meaning": "广部例字7"
+      },
+      {
+        "char": "广辛",
+        "pinyin": "guǎng8",
+        "meaning": "广部例字8"
+      }
+    ]
+  },
+  {
+    "id": 54,
+    "char": "廴",
+    "pinyin": "yǐn",
+    "meaning": "廴",
+    "strokeCount": 3,
+    "examples": [
+      {
+        "char": "廴甲",
+        "pinyin": "yǐn1",
+        "meaning": "廴部例字1"
+      },
+      {
+        "char": "廴乙",
+        "pinyin": "yǐn2",
+        "meaning": "廴部例字2"
+      },
+      {
+        "char": "廴丙",
+        "pinyin": "yǐn3",
+        "meaning": "廴部例字3"
+      },
+      {
+        "char": "廴丁",
+        "pinyin": "yǐn4",
+        "meaning": "廴部例字4"
+      },
+      {
+        "char": "廴戊",
+        "pinyin": "yǐn5",
+        "meaning": "廴部例字5"
+      }
+    ]
+  },
+  {
+    "id": 55,
+    "char": "廾",
+    "pinyin": "gǒng",
+    "meaning": "廾",
+    "strokeCount": 3,
+    "examples": [
+      {
+        "char": "廾甲",
+        "pinyin": "gǒng1",
+        "meaning": "廾部例字1"
+      },
+      {
+        "char": "廾乙",
+        "pinyin": "gǒng2",
+        "meaning": "廾部例字2"
+      },
+      {
+        "char": "廾丙",
+        "pinyin": "gǒng3",
+        "meaning": "廾部例字3"
+      },
+      {
+        "char": "廾丁",
+        "pinyin": "gǒng4",
+        "meaning": "廾部例字4"
+      },
+      {
+        "char": "廾戊",
+        "pinyin": "gǒng5",
+        "meaning": "廾部例字5"
+      },
+      {
+        "char": "廾己",
+        "pinyin": "gǒng6",
+        "meaning": "廾部例字6"
+      },
+      {
+        "char": "廾庚",
+        "pinyin": "gǒng7",
+        "meaning": "廾部例字7"
+      }
+    ]
+  },
+  {
+    "id": 56,
+    "char": "弋",
+    "pinyin": "yì",
+    "meaning": "弋",
+    "strokeCount": 3,
+    "examples": [
+      {
+        "char": "弋甲",
+        "pinyin": "yì1",
+        "meaning": "弋部例字1"
+      },
+      {
+        "char": "弋乙",
+        "pinyin": "yì2",
+        "meaning": "弋部例字2"
+      },
+      {
+        "char": "弋丙",
+        "pinyin": "yì3",
+        "meaning": "弋部例字3"
+      },
+      {
+        "char": "弋丁",
+        "pinyin": "yì4",
+        "meaning": "弋部例字4"
+      },
+      {
+        "char": "弋戊",
+        "pinyin": "yì5",
+        "meaning": "弋部例字5"
+      },
+      {
+        "char": "弋己",
+        "pinyin": "yì6",
+        "meaning": "弋部例字6"
+      },
+      {
+        "char": "弋庚",
+        "pinyin": "yì7",
+        "meaning": "弋部例字7"
+      },
+      {
+        "char": "弋辛",
+        "pinyin": "yì8",
+        "meaning": "弋部例字8"
+      }
+    ]
+  },
+  {
+    "id": 57,
+    "char": "弓",
+    "pinyin": "gōng",
+    "meaning": "弓",
+    "strokeCount": 3,
+    "examples": [
+      {
+        "char": "弓甲",
+        "pinyin": "gōng1",
+        "meaning": "弓部例字1"
+      },
+      {
+        "char": "弓乙",
+        "pinyin": "gōng2",
+        "meaning": "弓部例字2"
+      },
+      {
+        "char": "弓丙",
+        "pinyin": "gōng3",
+        "meaning": "弓部例字3"
+      },
+      {
+        "char": "弓丁",
+        "pinyin": "gōng4",
+        "meaning": "弓部例字4"
+      },
+      {
+        "char": "弓戊",
+        "pinyin": "gōng5",
+        "meaning": "弓部例字5"
+      },
+      {
+        "char": "弓己",
+        "pinyin": "gōng6",
+        "meaning": "弓部例字6"
+      },
+      {
+        "char": "弓庚",
+        "pinyin": "gōng7",
+        "meaning": "弓部例字7"
+      },
+      {
+        "char": "弓辛",
+        "pinyin": "gōng8",
+        "meaning": "弓部例字8"
+      }
+    ]
+  },
+  {
+    "id": 58,
+    "char": "彐",
+    "pinyin": "jì",
+    "meaning": "彐",
+    "strokeCount": 3,
+    "examples": [
+      {
+        "char": "彐甲",
+        "pinyin": "jì1",
+        "meaning": "彐部例字1"
+      },
+      {
+        "char": "彐乙",
+        "pinyin": "jì2",
+        "meaning": "彐部例字2"
+      },
+      {
+        "char": "彐丙",
+        "pinyin": "jì3",
+        "meaning": "彐部例字3"
+      },
+      {
+        "char": "彐丁",
+        "pinyin": "jì4",
+        "meaning": "彐部例字4"
+      },
+      {
+        "char": "彐戊",
+        "pinyin": "jì5",
+        "meaning": "彐部例字5"
+      }
+    ]
+  },
+  {
+    "id": 59,
+    "char": "彡",
+    "pinyin": "shān",
+    "meaning": "彡",
+    "strokeCount": 3,
+    "examples": [
+      {
+        "char": "彡甲",
+        "pinyin": "shān1",
+        "meaning": "彡部例字1"
+      },
+      {
+        "char": "彡乙",
+        "pinyin": "shān2",
+        "meaning": "彡部例字2"
+      },
+      {
+        "char": "彡丙",
+        "pinyin": "shān3",
+        "meaning": "彡部例字3"
+      },
+      {
+        "char": "彡丁",
+        "pinyin": "shān4",
+        "meaning": "彡部例字4"
+      },
+      {
+        "char": "彡戊",
+        "pinyin": "shān5",
+        "meaning": "彡部例字5"
+      },
+      {
+        "char": "彡己",
+        "pinyin": "shān6",
+        "meaning": "彡部例字6"
+      }
+    ]
+  },
+  {
+    "id": 60,
+    "char": "彳",
+    "pinyin": "chì",
+    "meaning": "彳",
+    "strokeCount": 3,
+    "examples": [
+      {
+        "char": "彳甲",
+        "pinyin": "chì1",
+        "meaning": "彳部例字1"
+      },
+      {
+        "char": "彳乙",
+        "pinyin": "chì2",
+        "meaning": "彳部例字2"
+      },
+      {
+        "char": "彳丙",
+        "pinyin": "chì3",
+        "meaning": "彳部例字3"
+      },
+      {
+        "char": "彳丁",
+        "pinyin": "chì4",
+        "meaning": "彳部例字4"
+      },
+      {
+        "char": "彳戊",
+        "pinyin": "chì5",
+        "meaning": "彳部例字5"
+      },
+      {
+        "char": "彳己",
+        "pinyin": "chì6",
+        "meaning": "彳部例字6"
+      },
+      {
+        "char": "彳庚",
+        "pinyin": "chì7",
+        "meaning": "彳部例字7"
+      },
+      {
+        "char": "彳辛",
+        "pinyin": "chì8",
+        "meaning": "彳部例字8"
+      }
+    ]
+  },
+  {
+    "id": 61,
+    "char": "心",
+    "pinyin": "xīn",
+    "meaning": "心",
+    "strokeCount": 4,
+    "examples": [
+      {
+        "char": "思",
+        "pinyin": "sī",
+        "meaning": "思考"
+      },
+      {
+        "char": "想",
+        "pinyin": "xiǎng",
+        "meaning": "想象"
+      },
+      {
+        "char": "情",
+        "pinyin": "qíng",
+        "meaning": "情感"
+      },
+      {
+        "char": "意",
+        "pinyin": "yì",
+        "meaning": "意思"
+      },
+      {
+        "char": "愿",
+        "pinyin": "yuàn",
+        "meaning": "愿望"
+      },
+      {
+        "char": "愁",
+        "pinyin": "chóu",
+        "meaning": "忧愁"
+      }
+    ]
+  },
+  {
+    "id": 62,
+    "char": "戈",
+    "pinyin": "gē",
+    "meaning": "戈",
+    "strokeCount": 4,
+    "examples": [
+      {
+        "char": "戈甲",
+        "pinyin": "gē1",
+        "meaning": "戈部例字1"
+      },
+      {
+        "char": "戈乙",
+        "pinyin": "gē2",
+        "meaning": "戈部例字2"
+      },
+      {
+        "char": "戈丙",
+        "pinyin": "gē3",
+        "meaning": "戈部例字3"
+      },
+      {
+        "char": "戈丁",
+        "pinyin": "gē4",
+        "meaning": "戈部例字4"
+      },
+      {
+        "char": "戈戊",
+        "pinyin": "gē5",
+        "meaning": "戈部例字5"
+      }
+    ]
+  },
+  {
+    "id": 63,
+    "char": "戶",
+    "pinyin": "hù",
+    "meaning": "户",
+    "strokeCount": 4,
+    "examples": [
+      {
+        "char": "戶甲",
+        "pinyin": "hù1",
+        "meaning": "户部例字1"
+      },
+      {
+        "char": "戶乙",
+        "pinyin": "hù2",
+        "meaning": "户部例字2"
+      },
+      {
+        "char": "戶丙",
+        "pinyin": "hù3",
+        "meaning": "户部例字3"
+      },
+      {
+        "char": "戶丁",
+        "pinyin": "hù4",
+        "meaning": "户部例字4"
+      },
+      {
+        "char": "戶戊",
+        "pinyin": "hù5",
+        "meaning": "户部例字5"
+      },
+      {
+        "char": "戶己",
+        "pinyin": "hù6",
+        "meaning": "户部例字6"
+      },
+      {
+        "char": "戶庚",
+        "pinyin": "hù7",
+        "meaning": "户部例字7"
+      }
+    ]
+  },
+  {
+    "id": 64,
+    "char": "手",
+    "pinyin": "shǒu",
+    "meaning": "手",
+    "strokeCount": 4,
+    "examples": [
+      {
+        "char": "打",
+        "pinyin": "dǎ",
+        "meaning": "击打"
+      },
+      {
+        "char": "持",
+        "pinyin": "chí",
+        "meaning": "持有"
+      },
+      {
+        "char": "拉",
+        "pinyin": "lā",
+        "meaning": "拉动"
+      },
+      {
+        "char": "推",
+        "pinyin": "tuī",
+        "meaning": "推动"
+      },
+      {
+        "char": "拿",
+        "pinyin": "ná",
+        "meaning": "拿取"
+      },
+      {
+        "char": "找",
+        "pinyin": "zhǎo",
+        "meaning": "寻找"
+      }
+    ]
+  },
+  {
+    "id": 65,
+    "char": "支",
+    "pinyin": "zhī",
+    "meaning": "支",
+    "strokeCount": 4,
+    "examples": [
+      {
+        "char": "支甲",
+        "pinyin": "zhī1",
+        "meaning": "支部例字1"
+      },
+      {
+        "char": "支乙",
+        "pinyin": "zhī2",
+        "meaning": "支部例字2"
+      },
+      {
+        "char": "支丙",
+        "pinyin": "zhī3",
+        "meaning": "支部例字3"
+      },
+      {
+        "char": "支丁",
+        "pinyin": "zhī4",
+        "meaning": "支部例字4"
+      },
+      {
+        "char": "支戊",
+        "pinyin": "zhī5",
+        "meaning": "支部例字5"
+      },
+      {
+        "char": "支己",
+        "pinyin": "zhī6",
+        "meaning": "支部例字6"
+      },
+      {
+        "char": "支庚",
+        "pinyin": "zhī7",
+        "meaning": "支部例字7"
+      },
+      {
+        "char": "支辛",
+        "pinyin": "zhī8",
+        "meaning": "支部例字8"
+      }
+    ]
+  },
+  {
+    "id": 66,
+    "char": "攴",
+    "pinyin": "pū",
+    "meaning": "攴",
+    "strokeCount": 4,
+    "examples": [
+      {
+        "char": "攴甲",
+        "pinyin": "pū1",
+        "meaning": "攴部例字1"
+      },
+      {
+        "char": "攴乙",
+        "pinyin": "pū2",
+        "meaning": "攴部例字2"
+      },
+      {
+        "char": "攴丙",
+        "pinyin": "pū3",
+        "meaning": "攴部例字3"
+      },
+      {
+        "char": "攴丁",
+        "pinyin": "pū4",
+        "meaning": "攴部例字4"
+      },
+      {
+        "char": "攴戊",
+        "pinyin": "pū5",
+        "meaning": "攴部例字5"
+      }
+    ]
+  },
+  {
+    "id": 67,
+    "char": "文",
+    "pinyin": "wén",
+    "meaning": "文",
+    "strokeCount": 4,
+    "examples": [
+      {
+        "char": "文甲",
+        "pinyin": "wén1",
+        "meaning": "文部例字1"
+      },
+      {
+        "char": "文乙",
+        "pinyin": "wén2",
+        "meaning": "文部例字2"
+      },
+      {
+        "char": "文丙",
+        "pinyin": "wén3",
+        "meaning": "文部例字3"
+      },
+      {
+        "char": "文丁",
+        "pinyin": "wén4",
+        "meaning": "文部例字4"
+      },
+      {
+        "char": "文戊",
+        "pinyin": "wén5",
+        "meaning": "文部例字5"
+      },
+      {
+        "char": "文己",
+        "pinyin": "wén6",
+        "meaning": "文部例字6"
+      },
+      {
+        "char": "文庚",
+        "pinyin": "wén7",
+        "meaning": "文部例字7"
+      },
+      {
+        "char": "文辛",
+        "pinyin": "wén8",
+        "meaning": "文部例字8"
+      }
+    ]
+  },
+  {
+    "id": 68,
+    "char": "斗",
+    "pinyin": "dǒu",
+    "meaning": "斗",
+    "strokeCount": 4,
+    "examples": [
+      {
+        "char": "斗甲",
+        "pinyin": "dǒu1",
+        "meaning": "斗部例字1"
+      },
+      {
+        "char": "斗乙",
+        "pinyin": "dǒu2",
+        "meaning": "斗部例字2"
+      },
+      {
+        "char": "斗丙",
+        "pinyin": "dǒu3",
+        "meaning": "斗部例字3"
+      },
+      {
+        "char": "斗丁",
+        "pinyin": "dǒu4",
+        "meaning": "斗部例字4"
+      },
+      {
+        "char": "斗戊",
+        "pinyin": "dǒu5",
+        "meaning": "斗部例字5"
+      },
+      {
+        "char": "斗己",
+        "pinyin": "dǒu6",
+        "meaning": "斗部例字6"
+      },
+      {
+        "char": "斗庚",
+        "pinyin": "dǒu7",
+        "meaning": "斗部例字7"
+      },
+      {
+        "char": "斗辛",
+        "pinyin": "dǒu8",
+        "meaning": "斗部例字8"
+      }
+    ]
+  },
+  {
+    "id": 69,
+    "char": "斤",
+    "pinyin": "jīn",
+    "meaning": "斤",
+    "strokeCount": 4,
+    "examples": [
+      {
+        "char": "斤甲",
+        "pinyin": "jīn1",
+        "meaning": "斤部例字1"
+      },
+      {
+        "char": "斤乙",
+        "pinyin": "jīn2",
+        "meaning": "斤部例字2"
+      },
+      {
+        "char": "斤丙",
+        "pinyin": "jīn3",
+        "meaning": "斤部例字3"
+      },
+      {
+        "char": "斤丁",
+        "pinyin": "jīn4",
+        "meaning": "斤部例字4"
+      },
+      {
+        "char": "斤戊",
+        "pinyin": "jīn5",
+        "meaning": "斤部例字5"
+      }
+    ]
+  },
+  {
+    "id": 70,
+    "char": "方",
+    "pinyin": "fāng",
+    "meaning": "方",
+    "strokeCount": 4,
+    "examples": [
+      {
+        "char": "方甲",
+        "pinyin": "fāng1",
+        "meaning": "方部例字1"
+      },
+      {
+        "char": "方乙",
+        "pinyin": "fāng2",
+        "meaning": "方部例字2"
+      },
+      {
+        "char": "方丙",
+        "pinyin": "fāng3",
+        "meaning": "方部例字3"
+      },
+      {
+        "char": "方丁",
+        "pinyin": "fāng4",
+        "meaning": "方部例字4"
+      },
+      {
+        "char": "方戊",
+        "pinyin": "fāng5",
+        "meaning": "方部例字5"
+      },
+      {
+        "char": "方己",
+        "pinyin": "fāng6",
+        "meaning": "方部例字6"
+      }
+    ]
+  },
+  {
+    "id": 71,
+    "char": "无",
+    "pinyin": "wú",
+    "meaning": "无",
+    "strokeCount": 4,
+    "examples": [
+      {
+        "char": "无甲",
+        "pinyin": "wú1",
+        "meaning": "无部例字1"
+      },
+      {
+        "char": "无乙",
+        "pinyin": "wú2",
+        "meaning": "无部例字2"
+      },
+      {
+        "char": "无丙",
+        "pinyin": "wú3",
+        "meaning": "无部例字3"
+      },
+      {
+        "char": "无丁",
+        "pinyin": "wú4",
+        "meaning": "无部例字4"
+      },
+      {
+        "char": "无戊",
+        "pinyin": "wú5",
+        "meaning": "无部例字5"
+      }
+    ]
+  },
+  {
+    "id": 72,
+    "char": "日",
+    "pinyin": "rì",
+    "meaning": "日",
+    "strokeCount": 4,
+    "examples": [
+      {
+        "char": "明",
+        "pinyin": "míng",
+        "meaning": "明亮"
+      },
+      {
+        "char": "时",
+        "pinyin": "shí",
+        "meaning": "时间"
+      },
+      {
+        "char": "早",
+        "pinyin": "zǎo",
+        "meaning": "早晨"
+      },
+      {
+        "char": "晚",
+        "pinyin": "wǎn",
+        "meaning": "晚上"
+      },
+      {
+        "char": "春",
+        "pinyin": "chūn",
+        "meaning": "春天"
+      },
+      {
+        "char": "晴",
+        "pinyin": "qíng",
+        "meaning": "晴天"
+      }
+    ]
+  },
+  {
+    "id": 73,
+    "char": "曰",
+    "pinyin": "yuē",
+    "meaning": "曰",
+    "strokeCount": 4,
+    "examples": [
+      {
+        "char": "曰甲",
+        "pinyin": "yuē1",
+        "meaning": "曰部例字1"
+      },
+      {
+        "char": "曰乙",
+        "pinyin": "yuē2",
+        "meaning": "曰部例字2"
+      },
+      {
+        "char": "曰丙",
+        "pinyin": "yuē3",
+        "meaning": "曰部例字3"
+      },
+      {
+        "char": "曰丁",
+        "pinyin": "yuē4",
+        "meaning": "曰部例字4"
+      },
+      {
+        "char": "曰戊",
+        "pinyin": "yuē5",
+        "meaning": "曰部例字5"
+      }
+    ]
+  },
+  {
+    "id": 74,
+    "char": "月",
+    "pinyin": "yuè",
+    "meaning": "月",
+    "strokeCount": 4,
+    "examples": [
+      {
+        "char": "朋",
+        "pinyin": "péng",
+        "meaning": "朋友"
+      },
+      {
+        "char": "期",
+        "pinyin": "qī",
+        "meaning": "时期"
+      },
+      {
+        "char": "朝",
+        "pinyin": "cháo",
+        "meaning": "朝廷"
+      },
+      {
+        "char": "望",
+        "pinyin": "wàng",
+        "meaning": "盼望"
+      },
+      {
+        "char": "朗",
+        "pinyin": "lǎng",
+        "meaning": "明朗"
+      },
+      {
+        "char": "胡",
+        "pinyin": "hú",
+        "meaning": "胡子"
+      }
+    ]
+  },
+  {
+    "id": 75,
+    "char": "木",
+    "pinyin": "mù",
+    "meaning": "木",
+    "strokeCount": 4,
+    "examples": [
+      {
+        "char": "林",
+        "pinyin": "lín",
+        "meaning": "树林"
+      },
+      {
+        "char": "树",
+        "pinyin": "shù",
+        "meaning": "树木"
+      },
+      {
+        "char": "桌",
+        "pinyin": "zhuō",
+        "meaning": "桌子"
+      },
+      {
+        "char": "桥",
+        "pinyin": "qiáo",
+        "meaning": "桥梁"
+      },
+      {
+        "char": "板",
+        "pinyin": "bǎn",
+        "meaning": "木板"
+      },
+      {
+        "char": "根",
+        "pinyin": "gēn",
+        "meaning": "树根"
+      }
+    ]
+  },
+  {
+    "id": 76,
+    "char": "欠",
+    "pinyin": "qiàn",
+    "meaning": "欠",
+    "strokeCount": 4,
+    "examples": [
+      {
+        "char": "欠甲",
+        "pinyin": "qiàn1",
+        "meaning": "欠部例字1"
+      },
+      {
+        "char": "欠乙",
+        "pinyin": "qiàn2",
+        "meaning": "欠部例字2"
+      },
+      {
+        "char": "欠丙",
+        "pinyin": "qiàn3",
+        "meaning": "欠部例字3"
+      },
+      {
+        "char": "欠丁",
+        "pinyin": "qiàn4",
+        "meaning": "欠部例字4"
+      },
+      {
+        "char": "欠戊",
+        "pinyin": "qiàn5",
+        "meaning": "欠部例字5"
+      }
+    ]
+  },
+  {
+    "id": 77,
+    "char": "止",
+    "pinyin": "zhǐ",
+    "meaning": "止",
+    "strokeCount": 4,
+    "examples": [
+      {
+        "char": "止甲",
+        "pinyin": "zhǐ1",
+        "meaning": "止部例字1"
+      },
+      {
+        "char": "止乙",
+        "pinyin": "zhǐ2",
+        "meaning": "止部例字2"
+      },
+      {
+        "char": "止丙",
+        "pinyin": "zhǐ3",
+        "meaning": "止部例字3"
+      },
+      {
+        "char": "止丁",
+        "pinyin": "zhǐ4",
+        "meaning": "止部例字4"
+      },
+      {
+        "char": "止戊",
+        "pinyin": "zhǐ5",
+        "meaning": "止部例字5"
+      },
+      {
+        "char": "止己",
+        "pinyin": "zhǐ6",
+        "meaning": "止部例字6"
+      },
+      {
+        "char": "止庚",
+        "pinyin": "zhǐ7",
+        "meaning": "止部例字7"
+      }
+    ]
+  },
+  {
+    "id": 78,
+    "char": "歹",
+    "pinyin": "dǎi",
+    "meaning": "歹",
+    "strokeCount": 4,
+    "examples": [
+      {
+        "char": "歹甲",
+        "pinyin": "dǎi1",
+        "meaning": "歹部例字1"
+      },
+      {
+        "char": "歹乙",
+        "pinyin": "dǎi2",
+        "meaning": "歹部例字2"
+      },
+      {
+        "char": "歹丙",
+        "pinyin": "dǎi3",
+        "meaning": "歹部例字3"
+      },
+      {
+        "char": "歹丁",
+        "pinyin": "dǎi4",
+        "meaning": "歹部例字4"
+      },
+      {
+        "char": "歹戊",
+        "pinyin": "dǎi5",
+        "meaning": "歹部例字5"
+      },
+      {
+        "char": "歹己",
+        "pinyin": "dǎi6",
+        "meaning": "歹部例字6"
+      }
+    ]
+  },
+  {
+    "id": 79,
+    "char": "殳",
+    "pinyin": "shū",
+    "meaning": "殳",
+    "strokeCount": 4,
+    "examples": [
+      {
+        "char": "殳甲",
+        "pinyin": "shū1",
+        "meaning": "殳部例字1"
+      },
+      {
+        "char": "殳乙",
+        "pinyin": "shū2",
+        "meaning": "殳部例字2"
+      },
+      {
+        "char": "殳丙",
+        "pinyin": "shū3",
+        "meaning": "殳部例字3"
+      },
+      {
+        "char": "殳丁",
+        "pinyin": "shū4",
+        "meaning": "殳部例字4"
+      },
+      {
+        "char": "殳戊",
+        "pinyin": "shū5",
+        "meaning": "殳部例字5"
+      },
+      {
+        "char": "殳己",
+        "pinyin": "shū6",
+        "meaning": "殳部例字6"
+      },
+      {
+        "char": "殳庚",
+        "pinyin": "shū7",
+        "meaning": "殳部例字7"
+      },
+      {
+        "char": "殳辛",
+        "pinyin": "shū8",
+        "meaning": "殳部例字8"
+      }
+    ]
+  },
+  {
+    "id": 80,
+    "char": "毋",
+    "pinyin": "wú",
+    "meaning": "毋",
+    "strokeCount": 4,
+    "examples": [
+      {
+        "char": "毋甲",
+        "pinyin": "wú1",
+        "meaning": "毋部例字1"
+      },
+      {
+        "char": "毋乙",
+        "pinyin": "wú2",
+        "meaning": "毋部例字2"
+      },
+      {
+        "char": "毋丙",
+        "pinyin": "wú3",
+        "meaning": "毋部例字3"
+      },
+      {
+        "char": "毋丁",
+        "pinyin": "wú4",
+        "meaning": "毋部例字4"
+      },
+      {
+        "char": "毋戊",
+        "pinyin": "wú5",
+        "meaning": "毋部例字5"
+      },
+      {
+        "char": "毋己",
+        "pinyin": "wú6",
+        "meaning": "毋部例字6"
+      },
+      {
+        "char": "毋庚",
+        "pinyin": "wú7",
+        "meaning": "毋部例字7"
+      },
+      {
+        "char": "毋辛",
+        "pinyin": "wú8",
+        "meaning": "毋部例字8"
+      }
+    ]
+  },
+  {
+    "id": 81,
+    "char": "比",
+    "pinyin": "bǐ",
+    "meaning": "比",
+    "strokeCount": 4,
+    "examples": [
+      {
+        "char": "比甲",
+        "pinyin": "bǐ1",
+        "meaning": "比部例字1"
+      },
+      {
+        "char": "比乙",
+        "pinyin": "bǐ2",
+        "meaning": "比部例字2"
+      },
+      {
+        "char": "比丙",
+        "pinyin": "bǐ3",
+        "meaning": "比部例字3"
+      },
+      {
+        "char": "比丁",
+        "pinyin": "bǐ4",
+        "meaning": "比部例字4"
+      },
+      {
+        "char": "比戊",
+        "pinyin": "bǐ5",
+        "meaning": "比部例字5"
+      }
+    ]
+  },
+  {
+    "id": 82,
+    "char": "毛",
+    "pinyin": "máo",
+    "meaning": "毛",
+    "strokeCount": 4,
+    "examples": [
+      {
+        "char": "毛甲",
+        "pinyin": "máo1",
+        "meaning": "毛部例字1"
+      },
+      {
+        "char": "毛乙",
+        "pinyin": "máo2",
+        "meaning": "毛部例字2"
+      },
+      {
+        "char": "毛丙",
+        "pinyin": "máo3",
+        "meaning": "毛部例字3"
+      },
+      {
+        "char": "毛丁",
+        "pinyin": "máo4",
+        "meaning": "毛部例字4"
+      },
+      {
+        "char": "毛戊",
+        "pinyin": "máo5",
+        "meaning": "毛部例字5"
+      },
+      {
+        "char": "毛己",
+        "pinyin": "máo6",
+        "meaning": "毛部例字6"
+      },
+      {
+        "char": "毛庚",
+        "pinyin": "máo7",
+        "meaning": "毛部例字7"
+      },
+      {
+        "char": "毛辛",
+        "pinyin": "máo8",
+        "meaning": "毛部例字8"
+      }
+    ]
+  },
+  {
+    "id": 83,
+    "char": "氏",
+    "pinyin": "shì",
+    "meaning": "氏",
+    "strokeCount": 4,
+    "examples": [
+      {
+        "char": "氏甲",
+        "pinyin": "shì1",
+        "meaning": "氏部例字1"
+      },
+      {
+        "char": "氏乙",
+        "pinyin": "shì2",
+        "meaning": "氏部例字2"
+      },
+      {
+        "char": "氏丙",
+        "pinyin": "shì3",
+        "meaning": "氏部例字3"
+      },
+      {
+        "char": "氏丁",
+        "pinyin": "shì4",
+        "meaning": "氏部例字4"
+      },
+      {
+        "char": "氏戊",
+        "pinyin": "shì5",
+        "meaning": "氏部例字5"
+      },
+      {
+        "char": "氏己",
+        "pinyin": "shì6",
+        "meaning": "氏部例字6"
+      },
+      {
+        "char": "氏庚",
+        "pinyin": "shì7",
+        "meaning": "氏部例字7"
+      },
+      {
+        "char": "氏辛",
+        "pinyin": "shì8",
+        "meaning": "氏部例字8"
+      }
+    ]
+  },
+  {
+    "id": 84,
+    "char": "气",
+    "pinyin": "qì",
+    "meaning": "气",
+    "strokeCount": 4,
+    "examples": [
+      {
+        "char": "气甲",
+        "pinyin": "qì1",
+        "meaning": "气部例字1"
+      },
+      {
+        "char": "气乙",
+        "pinyin": "qì2",
+        "meaning": "气部例字2"
+      },
+      {
+        "char": "气丙",
+        "pinyin": "qì3",
+        "meaning": "气部例字3"
+      },
+      {
+        "char": "气丁",
+        "pinyin": "qì4",
+        "meaning": "气部例字4"
+      },
+      {
+        "char": "气戊",
+        "pinyin": "qì5",
+        "meaning": "气部例字5"
+      }
+    ]
+  },
+  {
+    "id": 85,
+    "char": "水",
+    "pinyin": "shuǐ",
+    "meaning": "水",
+    "strokeCount": 4,
+    "examples": [
+      {
+        "char": "江",
+        "pinyin": "jiāng",
+        "meaning": "江河"
+      },
+      {
+        "char": "河",
+        "pinyin": "hé",
+        "meaning": "河流"
+      },
+      {
+        "char": "海",
+        "pinyin": "hǎi",
+        "meaning": "海洋"
+      },
+      {
+        "char": "洗",
+        "pinyin": "xǐ",
+        "meaning": "洗涤"
+      },
+      {
+        "char": "游",
+        "pinyin": "yóu",
+        "meaning": "游泳"
+      },
+      {
+        "char": "深",
+        "pinyin": "shēn",
+        "meaning": "深浅"
+      }
+    ]
+  },
+  {
+    "id": 86,
+    "char": "火",
+    "pinyin": "huǒ",
+    "meaning": "火",
+    "strokeCount": 4,
+    "examples": [
+      {
+        "char": "灯",
+        "pinyin": "dēng",
+        "meaning": "灯火"
+      },
+      {
+        "char": "烧",
+        "pinyin": "shāo",
+        "meaning": "燃烧"
+      },
+      {
+        "char": "热",
+        "pinyin": "rè",
+        "meaning": "温度"
+      },
+      {
+        "char": "烟",
+        "pinyin": "yān",
+        "meaning": "烟雾"
+      },
+      {
+        "char": "照",
+        "pinyin": "zhào",
+        "meaning": "照明"
+      },
+      {
+        "char": "炒",
+        "pinyin": "chǎo",
+        "meaning": "翻炒"
+      }
+    ]
+  },
+  {
+    "id": 87,
+    "char": "爪",
+    "pinyin": "zhǎo",
+    "meaning": "爪",
+    "strokeCount": 4,
+    "examples": [
+      {
+        "char": "爪甲",
+        "pinyin": "zhǎo1",
+        "meaning": "爪部例字1"
+      },
+      {
+        "char": "爪乙",
+        "pinyin": "zhǎo2",
+        "meaning": "爪部例字2"
+      },
+      {
+        "char": "爪丙",
+        "pinyin": "zhǎo3",
+        "meaning": "爪部例字3"
+      },
+      {
+        "char": "爪丁",
+        "pinyin": "zhǎo4",
+        "meaning": "爪部例字4"
+      },
+      {
+        "char": "爪戊",
+        "pinyin": "zhǎo5",
+        "meaning": "爪部例字5"
+      },
+      {
+        "char": "爪己",
+        "pinyin": "zhǎo6",
+        "meaning": "爪部例字6"
+      },
+      {
+        "char": "爪庚",
+        "pinyin": "zhǎo7",
+        "meaning": "爪部例字7"
+      }
+    ]
+  },
+  {
+    "id": 88,
+    "char": "父",
+    "pinyin": "fù",
+    "meaning": "父",
+    "strokeCount": 4,
+    "examples": [
+      {
+        "char": "父甲",
+        "pinyin": "fù1",
+        "meaning": "父部例字1"
+      },
+      {
+        "char": "父乙",
+        "pinyin": "fù2",
+        "meaning": "父部例字2"
+      },
+      {
+        "char": "父丙",
+        "pinyin": "fù3",
+        "meaning": "父部例字3"
+      },
+      {
+        "char": "父丁",
+        "pinyin": "fù4",
+        "meaning": "父部例字4"
+      },
+      {
+        "char": "父戊",
+        "pinyin": "fù5",
+        "meaning": "父部例字5"
+      },
+      {
+        "char": "父己",
+        "pinyin": "fù6",
+        "meaning": "父部例字6"
+      },
+      {
+        "char": "父庚",
+        "pinyin": "fù7",
+        "meaning": "父部例字7"
+      }
+    ]
+  },
+  {
+    "id": 89,
+    "char": "爻",
+    "pinyin": "yáo",
+    "meaning": "爻",
+    "strokeCount": 4,
+    "examples": [
+      {
+        "char": "爻甲",
+        "pinyin": "yáo1",
+        "meaning": "爻部例字1"
+      },
+      {
+        "char": "爻乙",
+        "pinyin": "yáo2",
+        "meaning": "爻部例字2"
+      },
+      {
+        "char": "爻丙",
+        "pinyin": "yáo3",
+        "meaning": "爻部例字3"
+      },
+      {
+        "char": "爻丁",
+        "pinyin": "yáo4",
+        "meaning": "爻部例字4"
+      },
+      {
+        "char": "爻戊",
+        "pinyin": "yáo5",
+        "meaning": "爻部例字5"
+      },
+      {
+        "char": "爻己",
+        "pinyin": "yáo6",
+        "meaning": "爻部例字6"
+      },
+      {
+        "char": "爻庚",
+        "pinyin": "yáo7",
+        "meaning": "爻部例字7"
+      },
+      {
+        "char": "爻辛",
+        "pinyin": "yáo8",
+        "meaning": "爻部例字8"
+      }
+    ]
+  },
+  {
+    "id": 90,
+    "char": "爿",
+    "pinyin": "pán",
+    "meaning": "爿",
+    "strokeCount": 4,
+    "examples": [
+      {
+        "char": "爿甲",
+        "pinyin": "pán1",
+        "meaning": "爿部例字1"
+      },
+      {
+        "char": "爿乙",
+        "pinyin": "pán2",
+        "meaning": "爿部例字2"
+      },
+      {
+        "char": "爿丙",
+        "pinyin": "pán3",
+        "meaning": "爿部例字3"
+      },
+      {
+        "char": "爿丁",
+        "pinyin": "pán4",
+        "meaning": "爿部例字4"
+      },
+      {
+        "char": "爿戊",
+        "pinyin": "pán5",
+        "meaning": "爿部例字5"
+      },
+      {
+        "char": "爿己",
+        "pinyin": "pán6",
+        "meaning": "爿部例字6"
+      },
+      {
+        "char": "爿庚",
+        "pinyin": "pán7",
+        "meaning": "爿部例字7"
+      },
+      {
+        "char": "爿辛",
+        "pinyin": "pán8",
+        "meaning": "爿部例字8"
+      }
+    ]
+  },
+  {
+    "id": 91,
+    "char": "片",
+    "pinyin": "piàn",
+    "meaning": "片",
+    "strokeCount": 4,
+    "examples": [
+      {
+        "char": "片甲",
+        "pinyin": "piàn1",
+        "meaning": "片部例字1"
+      },
+      {
+        "char": "片乙",
+        "pinyin": "piàn2",
+        "meaning": "片部例字2"
+      },
+      {
+        "char": "片丙",
+        "pinyin": "piàn3",
+        "meaning": "片部例字3"
+      },
+      {
+        "char": "片丁",
+        "pinyin": "piàn4",
+        "meaning": "片部例字4"
+      },
+      {
+        "char": "片戊",
+        "pinyin": "piàn5",
+        "meaning": "片部例字5"
+      },
+      {
+        "char": "片己",
+        "pinyin": "piàn6",
+        "meaning": "片部例字6"
+      },
+      {
+        "char": "片庚",
+        "pinyin": "piàn7",
+        "meaning": "片部例字7"
+      },
+      {
+        "char": "片辛",
+        "pinyin": "piàn8",
+        "meaning": "片部例字8"
+      }
+    ]
+  },
+  {
+    "id": 92,
+    "char": "牙",
+    "pinyin": "yá",
+    "meaning": "牙",
+    "strokeCount": 4,
+    "examples": [
+      {
+        "char": "牙甲",
+        "pinyin": "yá1",
+        "meaning": "牙部例字1"
+      },
+      {
+        "char": "牙乙",
+        "pinyin": "yá2",
+        "meaning": "牙部例字2"
+      },
+      {
+        "char": "牙丙",
+        "pinyin": "yá3",
+        "meaning": "牙部例字3"
+      },
+      {
+        "char": "牙丁",
+        "pinyin": "yá4",
+        "meaning": "牙部例字4"
+      },
+      {
+        "char": "牙戊",
+        "pinyin": "yá5",
+        "meaning": "牙部例字5"
+      },
+      {
+        "char": "牙己",
+        "pinyin": "yá6",
+        "meaning": "牙部例字6"
+      }
+    ]
+  },
+  {
+    "id": 93,
+    "char": "牛",
+    "pinyin": "niú",
+    "meaning": "牛",
+    "strokeCount": 4,
+    "examples": [
+      {
+        "char": "牛甲",
+        "pinyin": "niú1",
+        "meaning": "牛部例字1"
+      },
+      {
+        "char": "牛乙",
+        "pinyin": "niú2",
+        "meaning": "牛部例字2"
+      },
+      {
+        "char": "牛丙",
+        "pinyin": "niú3",
+        "meaning": "牛部例字3"
+      },
+      {
+        "char": "牛丁",
+        "pinyin": "niú4",
+        "meaning": "牛部例字4"
+      },
+      {
+        "char": "牛戊",
+        "pinyin": "niú5",
+        "meaning": "牛部例字5"
+      },
+      {
+        "char": "牛己",
+        "pinyin": "niú6",
+        "meaning": "牛部例字6"
+      },
+      {
+        "char": "牛庚",
+        "pinyin": "niú7",
+        "meaning": "牛部例字7"
+      },
+      {
+        "char": "牛辛",
+        "pinyin": "niú8",
+        "meaning": "牛部例字8"
+      }
+    ]
+  },
+  {
+    "id": 94,
+    "char": "犬",
+    "pinyin": "quǎn",
+    "meaning": "犬",
+    "strokeCount": 4,
+    "examples": [
+      {
+        "char": "犬甲",
+        "pinyin": "quǎn1",
+        "meaning": "犬部例字1"
+      },
+      {
+        "char": "犬乙",
+        "pinyin": "quǎn2",
+        "meaning": "犬部例字2"
+      },
+      {
+        "char": "犬丙",
+        "pinyin": "quǎn3",
+        "meaning": "犬部例字3"
+      },
+      {
+        "char": "犬丁",
+        "pinyin": "quǎn4",
+        "meaning": "犬部例字4"
+      },
+      {
+        "char": "犬戊",
+        "pinyin": "quǎn5",
+        "meaning": "犬部例字5"
+      }
+    ]
+  },
+  {
+    "id": 95,
+    "char": "玄",
+    "pinyin": "xuán",
+    "meaning": "玄",
+    "strokeCount": 5,
+    "examples": [
+      {
+        "char": "玄甲",
+        "pinyin": "xuán1",
+        "meaning": "玄部例字1"
+      },
+      {
+        "char": "玄乙",
+        "pinyin": "xuán2",
+        "meaning": "玄部例字2"
+      },
+      {
+        "char": "玄丙",
+        "pinyin": "xuán3",
+        "meaning": "玄部例字3"
+      },
+      {
+        "char": "玄丁",
+        "pinyin": "xuán4",
+        "meaning": "玄部例字4"
+      },
+      {
+        "char": "玄戊",
+        "pinyin": "xuán5",
+        "meaning": "玄部例字5"
+      }
+    ]
+  },
+  {
+    "id": 96,
+    "char": "玉",
+    "pinyin": "yù",
+    "meaning": "玉",
+    "strokeCount": 5,
+    "examples": [
+      {
+        "char": "玉甲",
+        "pinyin": "yù1",
+        "meaning": "玉部例字1"
+      },
+      {
+        "char": "玉乙",
+        "pinyin": "yù2",
+        "meaning": "玉部例字2"
+      },
+      {
+        "char": "玉丙",
+        "pinyin": "yù3",
+        "meaning": "玉部例字3"
+      },
+      {
+        "char": "玉丁",
+        "pinyin": "yù4",
+        "meaning": "玉部例字4"
+      },
+      {
+        "char": "玉戊",
+        "pinyin": "yù5",
+        "meaning": "玉部例字5"
+      },
+      {
+        "char": "玉己",
+        "pinyin": "yù6",
+        "meaning": "玉部例字6"
+      }
+    ]
+  },
+  {
+    "id": 97,
+    "char": "瓜",
+    "pinyin": "guā",
+    "meaning": "瓜",
+    "strokeCount": 5,
+    "examples": [
+      {
+        "char": "瓜甲",
+        "pinyin": "guā1",
+        "meaning": "瓜部例字1"
+      },
+      {
+        "char": "瓜乙",
+        "pinyin": "guā2",
+        "meaning": "瓜部例字2"
+      },
+      {
+        "char": "瓜丙",
+        "pinyin": "guā3",
+        "meaning": "瓜部例字3"
+      },
+      {
+        "char": "瓜丁",
+        "pinyin": "guā4",
+        "meaning": "瓜部例字4"
+      },
+      {
+        "char": "瓜戊",
+        "pinyin": "guā5",
+        "meaning": "瓜部例字5"
+      }
+    ]
+  },
+  {
+    "id": 98,
+    "char": "瓦",
+    "pinyin": "wǎ",
+    "meaning": "瓦",
+    "strokeCount": 5,
+    "examples": [
+      {
+        "char": "瓦甲",
+        "pinyin": "wǎ1",
+        "meaning": "瓦部例字1"
+      },
+      {
+        "char": "瓦乙",
+        "pinyin": "wǎ2",
+        "meaning": "瓦部例字2"
+      },
+      {
+        "char": "瓦丙",
+        "pinyin": "wǎ3",
+        "meaning": "瓦部例字3"
+      },
+      {
+        "char": "瓦丁",
+        "pinyin": "wǎ4",
+        "meaning": "瓦部例字4"
+      },
+      {
+        "char": "瓦戊",
+        "pinyin": "wǎ5",
+        "meaning": "瓦部例字5"
+      },
+      {
+        "char": "瓦己",
+        "pinyin": "wǎ6",
+        "meaning": "瓦部例字6"
+      },
+      {
+        "char": "瓦庚",
+        "pinyin": "wǎ7",
+        "meaning": "瓦部例字7"
+      }
+    ]
+  },
+  {
+    "id": 99,
+    "char": "甘",
+    "pinyin": "gān",
+    "meaning": "甘",
+    "strokeCount": 5,
+    "examples": [
+      {
+        "char": "甘甲",
+        "pinyin": "gān1",
+        "meaning": "甘部例字1"
+      },
+      {
+        "char": "甘乙",
+        "pinyin": "gān2",
+        "meaning": "甘部例字2"
+      },
+      {
+        "char": "甘丙",
+        "pinyin": "gān3",
+        "meaning": "甘部例字3"
+      },
+      {
+        "char": "甘丁",
+        "pinyin": "gān4",
+        "meaning": "甘部例字4"
+      },
+      {
+        "char": "甘戊",
+        "pinyin": "gān5",
+        "meaning": "甘部例字5"
+      }
+    ]
+  },
+  {
+    "id": 100,
+    "char": "生",
+    "pinyin": "shēng",
+    "meaning": "生",
+    "strokeCount": 5,
+    "examples": [
+      {
+        "char": "生甲",
+        "pinyin": "shēng1",
+        "meaning": "生部例字1"
+      },
+      {
+        "char": "生乙",
+        "pinyin": "shēng2",
+        "meaning": "生部例字2"
+      },
+      {
+        "char": "生丙",
+        "pinyin": "shēng3",
+        "meaning": "生部例字3"
+      },
+      {
+        "char": "生丁",
+        "pinyin": "shēng4",
+        "meaning": "生部例字4"
+      },
+      {
+        "char": "生戊",
+        "pinyin": "shēng5",
+        "meaning": "生部例字5"
+      },
+      {
+        "char": "生己",
+        "pinyin": "shēng6",
+        "meaning": "生部例字6"
+      },
+      {
+        "char": "生庚",
+        "pinyin": "shēng7",
+        "meaning": "生部例字7"
+      },
+      {
+        "char": "生辛",
+        "pinyin": "shēng8",
+        "meaning": "生部例字8"
+      }
+    ]
+  },
+  {
+    "id": 101,
+    "char": "用",
+    "pinyin": "yòng",
+    "meaning": "用",
+    "strokeCount": 5,
+    "examples": [
+      {
+        "char": "用甲",
+        "pinyin": "yòng1",
+        "meaning": "用部例字1"
+      },
+      {
+        "char": "用乙",
+        "pinyin": "yòng2",
+        "meaning": "用部例字2"
+      },
+      {
+        "char": "用丙",
+        "pinyin": "yòng3",
+        "meaning": "用部例字3"
+      },
+      {
+        "char": "用丁",
+        "pinyin": "yòng4",
+        "meaning": "用部例字4"
+      },
+      {
+        "char": "用戊",
+        "pinyin": "yòng5",
+        "meaning": "用部例字5"
+      }
+    ]
+  },
+  {
+    "id": 102,
+    "char": "田",
+    "pinyin": "tián",
+    "meaning": "田",
+    "strokeCount": 5,
+    "examples": [
+      {
+        "char": "田甲",
+        "pinyin": "tián1",
+        "meaning": "田部例字1"
+      },
+      {
+        "char": "田乙",
+        "pinyin": "tián2",
+        "meaning": "田部例字2"
+      },
+      {
+        "char": "田丙",
+        "pinyin": "tián3",
+        "meaning": "田部例字3"
+      },
+      {
+        "char": "田丁",
+        "pinyin": "tián4",
+        "meaning": "田部例字4"
+      },
+      {
+        "char": "田戊",
+        "pinyin": "tián5",
+        "meaning": "田部例字5"
+      }
+    ]
+  },
+  {
+    "id": 103,
+    "char": "疋",
+    "pinyin": "pǐ",
+    "meaning": "疋",
+    "strokeCount": 5,
+    "examples": [
+      {
+        "char": "疋甲",
+        "pinyin": "pǐ1",
+        "meaning": "疋部例字1"
+      },
+      {
+        "char": "疋乙",
+        "pinyin": "pǐ2",
+        "meaning": "疋部例字2"
+      },
+      {
+        "char": "疋丙",
+        "pinyin": "pǐ3",
+        "meaning": "疋部例字3"
+      },
+      {
+        "char": "疋丁",
+        "pinyin": "pǐ4",
+        "meaning": "疋部例字4"
+      },
+      {
+        "char": "疋戊",
+        "pinyin": "pǐ5",
+        "meaning": "疋部例字5"
+      },
+      {
+        "char": "疋己",
+        "pinyin": "pǐ6",
+        "meaning": "疋部例字6"
+      },
+      {
+        "char": "疋庚",
+        "pinyin": "pǐ7",
+        "meaning": "疋部例字7"
+      },
+      {
+        "char": "疋辛",
+        "pinyin": "pǐ8",
+        "meaning": "疋部例字8"
+      }
+    ]
+  },
+  {
+    "id": 104,
+    "char": "疒",
+    "pinyin": "nè",
+    "meaning": "疒",
+    "strokeCount": 5,
+    "examples": [
+      {
+        "char": "疒甲",
+        "pinyin": "nè1",
+        "meaning": "疒部例字1"
+      },
+      {
+        "char": "疒乙",
+        "pinyin": "nè2",
+        "meaning": "疒部例字2"
+      },
+      {
+        "char": "疒丙",
+        "pinyin": "nè3",
+        "meaning": "疒部例字3"
+      },
+      {
+        "char": "疒丁",
+        "pinyin": "nè4",
+        "meaning": "疒部例字4"
+      },
+      {
+        "char": "疒戊",
+        "pinyin": "nè5",
+        "meaning": "疒部例字5"
+      },
+      {
+        "char": "疒己",
+        "pinyin": "nè6",
+        "meaning": "疒部例字6"
+      },
+      {
+        "char": "疒庚",
+        "pinyin": "nè7",
+        "meaning": "疒部例字7"
+      }
+    ]
+  },
+  {
+    "id": 105,
+    "char": "癶",
+    "pinyin": "bō",
+    "meaning": "癶",
+    "strokeCount": 5,
+    "examples": [
+      {
+        "char": "癶甲",
+        "pinyin": "bō1",
+        "meaning": "癶部例字1"
+      },
+      {
+        "char": "癶乙",
+        "pinyin": "bō2",
+        "meaning": "癶部例字2"
+      },
+      {
+        "char": "癶丙",
+        "pinyin": "bō3",
+        "meaning": "癶部例字3"
+      },
+      {
+        "char": "癶丁",
+        "pinyin": "bō4",
+        "meaning": "癶部例字4"
+      },
+      {
+        "char": "癶戊",
+        "pinyin": "bō5",
+        "meaning": "癶部例字5"
+      },
+      {
+        "char": "癶己",
+        "pinyin": "bō6",
+        "meaning": "癶部例字6"
+      },
+      {
+        "char": "癶庚",
+        "pinyin": "bō7",
+        "meaning": "癶部例字7"
+      }
+    ]
+  },
+  {
+    "id": 106,
+    "char": "白",
+    "pinyin": "bái",
+    "meaning": "白",
+    "strokeCount": 5,
+    "examples": [
+      {
+        "char": "白甲",
+        "pinyin": "bái1",
+        "meaning": "白部例字1"
+      },
+      {
+        "char": "白乙",
+        "pinyin": "bái2",
+        "meaning": "白部例字2"
+      },
+      {
+        "char": "白丙",
+        "pinyin": "bái3",
+        "meaning": "白部例字3"
+      },
+      {
+        "char": "白丁",
+        "pinyin": "bái4",
+        "meaning": "白部例字4"
+      },
+      {
+        "char": "白戊",
+        "pinyin": "bái5",
+        "meaning": "白部例字5"
+      },
+      {
+        "char": "白己",
+        "pinyin": "bái6",
+        "meaning": "白部例字6"
+      }
+    ]
+  },
+  {
+    "id": 107,
+    "char": "皮",
+    "pinyin": "pí",
+    "meaning": "皮",
+    "strokeCount": 5,
+    "examples": [
+      {
+        "char": "皮甲",
+        "pinyin": "pí1",
+        "meaning": "皮部例字1"
+      },
+      {
+        "char": "皮乙",
+        "pinyin": "pí2",
+        "meaning": "皮部例字2"
+      },
+      {
+        "char": "皮丙",
+        "pinyin": "pí3",
+        "meaning": "皮部例字3"
+      },
+      {
+        "char": "皮丁",
+        "pinyin": "pí4",
+        "meaning": "皮部例字4"
+      },
+      {
+        "char": "皮戊",
+        "pinyin": "pí5",
+        "meaning": "皮部例字5"
+      },
+      {
+        "char": "皮己",
+        "pinyin": "pí6",
+        "meaning": "皮部例字6"
+      },
+      {
+        "char": "皮庚",
+        "pinyin": "pí7",
+        "meaning": "皮部例字7"
+      }
+    ]
+  },
+  {
+    "id": 108,
+    "char": "皿",
+    "pinyin": "mǐn",
+    "meaning": "皿",
+    "strokeCount": 5,
+    "examples": [
+      {
+        "char": "皿甲",
+        "pinyin": "mǐn1",
+        "meaning": "皿部例字1"
+      },
+      {
+        "char": "皿乙",
+        "pinyin": "mǐn2",
+        "meaning": "皿部例字2"
+      },
+      {
+        "char": "皿丙",
+        "pinyin": "mǐn3",
+        "meaning": "皿部例字3"
+      },
+      {
+        "char": "皿丁",
+        "pinyin": "mǐn4",
+        "meaning": "皿部例字4"
+      },
+      {
+        "char": "皿戊",
+        "pinyin": "mǐn5",
+        "meaning": "皿部例字5"
+      },
+      {
+        "char": "皿己",
+        "pinyin": "mǐn6",
+        "meaning": "皿部例字6"
+      },
+      {
+        "char": "皿庚",
+        "pinyin": "mǐn7",
+        "meaning": "皿部例字7"
+      },
+      {
+        "char": "皿辛",
+        "pinyin": "mǐn8",
+        "meaning": "皿部例字8"
+      }
+    ]
+  },
+  {
+    "id": 109,
+    "char": "目",
+    "pinyin": "mù",
+    "meaning": "目",
+    "strokeCount": 5,
+    "examples": [
+      {
+        "char": "目甲",
+        "pinyin": "mù1",
+        "meaning": "目部例字1"
+      },
+      {
+        "char": "目乙",
+        "pinyin": "mù2",
+        "meaning": "目部例字2"
+      },
+      {
+        "char": "目丙",
+        "pinyin": "mù3",
+        "meaning": "目部例字3"
+      },
+      {
+        "char": "目丁",
+        "pinyin": "mù4",
+        "meaning": "目部例字4"
+      },
+      {
+        "char": "目戊",
+        "pinyin": "mù5",
+        "meaning": "目部例字5"
+      },
+      {
+        "char": "目己",
+        "pinyin": "mù6",
+        "meaning": "目部例字6"
+      },
+      {
+        "char": "目庚",
+        "pinyin": "mù7",
+        "meaning": "目部例字7"
+      }
+    ]
+  },
+  {
+    "id": 110,
+    "char": "矛",
+    "pinyin": "máo",
+    "meaning": "矛",
+    "strokeCount": 5,
+    "examples": [
+      {
+        "char": "矛甲",
+        "pinyin": "máo1",
+        "meaning": "矛部例字1"
+      },
+      {
+        "char": "矛乙",
+        "pinyin": "máo2",
+        "meaning": "矛部例字2"
+      },
+      {
+        "char": "矛丙",
+        "pinyin": "máo3",
+        "meaning": "矛部例字3"
+      },
+      {
+        "char": "矛丁",
+        "pinyin": "máo4",
+        "meaning": "矛部例字4"
+      },
+      {
+        "char": "矛戊",
+        "pinyin": "máo5",
+        "meaning": "矛部例字5"
+      },
+      {
+        "char": "矛己",
+        "pinyin": "máo6",
+        "meaning": "矛部例字6"
+      },
+      {
+        "char": "矛庚",
+        "pinyin": "máo7",
+        "meaning": "矛部例字7"
+      },
+      {
+        "char": "矛辛",
+        "pinyin": "máo8",
+        "meaning": "矛部例字8"
+      }
+    ]
+  },
+  {
+    "id": 111,
+    "char": "矢",
+    "pinyin": "shǐ",
+    "meaning": "矢",
+    "strokeCount": 5,
+    "examples": [
+      {
+        "char": "矢甲",
+        "pinyin": "shǐ1",
+        "meaning": "矢部例字1"
+      },
+      {
+        "char": "矢乙",
+        "pinyin": "shǐ2",
+        "meaning": "矢部例字2"
+      },
+      {
+        "char": "矢丙",
+        "pinyin": "shǐ3",
+        "meaning": "矢部例字3"
+      },
+      {
+        "char": "矢丁",
+        "pinyin": "shǐ4",
+        "meaning": "矢部例字4"
+      },
+      {
+        "char": "矢戊",
+        "pinyin": "shǐ5",
+        "meaning": "矢部例字5"
+      },
+      {
+        "char": "矢己",
+        "pinyin": "shǐ6",
+        "meaning": "矢部例字6"
+      },
+      {
+        "char": "矢庚",
+        "pinyin": "shǐ7",
+        "meaning": "矢部例字7"
+      }
+    ]
+  },
+  {
+    "id": 112,
+    "char": "石",
+    "pinyin": "shí",
+    "meaning": "石",
+    "strokeCount": 5,
+    "examples": [
+      {
+        "char": "石甲",
+        "pinyin": "shí1",
+        "meaning": "石部例字1"
+      },
+      {
+        "char": "石乙",
+        "pinyin": "shí2",
+        "meaning": "石部例字2"
+      },
+      {
+        "char": "石丙",
+        "pinyin": "shí3",
+        "meaning": "石部例字3"
+      },
+      {
+        "char": "石丁",
+        "pinyin": "shí4",
+        "meaning": "石部例字4"
+      },
+      {
+        "char": "石戊",
+        "pinyin": "shí5",
+        "meaning": "石部例字5"
+      },
+      {
+        "char": "石己",
+        "pinyin": "shí6",
+        "meaning": "石部例字6"
+      },
+      {
+        "char": "石庚",
+        "pinyin": "shí7",
+        "meaning": "石部例字7"
+      },
+      {
+        "char": "石辛",
+        "pinyin": "shí8",
+        "meaning": "石部例字8"
+      }
+    ]
+  },
+  {
+    "id": 113,
+    "char": "示",
+    "pinyin": "shì",
+    "meaning": "示",
+    "strokeCount": 5,
+    "examples": [
+      {
+        "char": "示甲",
+        "pinyin": "shì1",
+        "meaning": "示部例字1"
+      },
+      {
+        "char": "示乙",
+        "pinyin": "shì2",
+        "meaning": "示部例字2"
+      },
+      {
+        "char": "示丙",
+        "pinyin": "shì3",
+        "meaning": "示部例字3"
+      },
+      {
+        "char": "示丁",
+        "pinyin": "shì4",
+        "meaning": "示部例字4"
+      },
+      {
+        "char": "示戊",
+        "pinyin": "shì5",
+        "meaning": "示部例字5"
+      },
+      {
+        "char": "示己",
+        "pinyin": "shì6",
+        "meaning": "示部例字6"
+      },
+      {
+        "char": "示庚",
+        "pinyin": "shì7",
+        "meaning": "示部例字7"
+      }
+    ]
+  },
+  {
+    "id": 114,
+    "char": "禸",
+    "pinyin": "róu",
+    "meaning": "禸",
+    "strokeCount": 5,
+    "examples": [
+      {
+        "char": "禸甲",
+        "pinyin": "róu1",
+        "meaning": "禸部例字1"
+      },
+      {
+        "char": "禸乙",
+        "pinyin": "róu2",
+        "meaning": "禸部例字2"
+      },
+      {
+        "char": "禸丙",
+        "pinyin": "róu3",
+        "meaning": "禸部例字3"
+      },
+      {
+        "char": "禸丁",
+        "pinyin": "róu4",
+        "meaning": "禸部例字4"
+      },
+      {
+        "char": "禸戊",
+        "pinyin": "róu5",
+        "meaning": "禸部例字5"
+      }
+    ]
+  },
+  {
+    "id": 115,
+    "char": "禾",
+    "pinyin": "hé",
+    "meaning": "禾",
+    "strokeCount": 5,
+    "examples": [
+      {
+        "char": "禾甲",
+        "pinyin": "hé1",
+        "meaning": "禾部例字1"
+      },
+      {
+        "char": "禾乙",
+        "pinyin": "hé2",
+        "meaning": "禾部例字2"
+      },
+      {
+        "char": "禾丙",
+        "pinyin": "hé3",
+        "meaning": "禾部例字3"
+      },
+      {
+        "char": "禾丁",
+        "pinyin": "hé4",
+        "meaning": "禾部例字4"
+      },
+      {
+        "char": "禾戊",
+        "pinyin": "hé5",
+        "meaning": "禾部例字5"
+      },
+      {
+        "char": "禾己",
+        "pinyin": "hé6",
+        "meaning": "禾部例字6"
+      },
+      {
+        "char": "禾庚",
+        "pinyin": "hé7",
+        "meaning": "禾部例字7"
+      }
+    ]
+  },
+  {
+    "id": 116,
+    "char": "穴",
+    "pinyin": "xué",
+    "meaning": "穴",
+    "strokeCount": 5,
+    "examples": [
+      {
+        "char": "穴甲",
+        "pinyin": "xué1",
+        "meaning": "穴部例字1"
+      },
+      {
+        "char": "穴乙",
+        "pinyin": "xué2",
+        "meaning": "穴部例字2"
+      },
+      {
+        "char": "穴丙",
+        "pinyin": "xué3",
+        "meaning": "穴部例字3"
+      },
+      {
+        "char": "穴丁",
+        "pinyin": "xué4",
+        "meaning": "穴部例字4"
+      },
+      {
+        "char": "穴戊",
+        "pinyin": "xué5",
+        "meaning": "穴部例字5"
+      }
+    ]
+  },
+  {
+    "id": 117,
+    "char": "立",
+    "pinyin": "lì",
+    "meaning": "立",
+    "strokeCount": 5,
+    "examples": [
+      {
+        "char": "立甲",
+        "pinyin": "lì1",
+        "meaning": "立部例字1"
+      },
+      {
+        "char": "立乙",
+        "pinyin": "lì2",
+        "meaning": "立部例字2"
+      },
+      {
+        "char": "立丙",
+        "pinyin": "lì3",
+        "meaning": "立部例字3"
+      },
+      {
+        "char": "立丁",
+        "pinyin": "lì4",
+        "meaning": "立部例字4"
+      },
+      {
+        "char": "立戊",
+        "pinyin": "lì5",
+        "meaning": "立部例字5"
+      },
+      {
+        "char": "立己",
+        "pinyin": "lì6",
+        "meaning": "立部例字6"
+      },
+      {
+        "char": "立庚",
+        "pinyin": "lì7",
+        "meaning": "立部例字7"
+      },
+      {
+        "char": "立辛",
+        "pinyin": "lì8",
+        "meaning": "立部例字8"
+      }
+    ]
+  },
+  {
+    "id": 118,
+    "char": "竹",
+    "pinyin": "zhú",
+    "meaning": "竹",
+    "strokeCount": 6,
+    "examples": [
+      {
+        "char": "笔",
+        "pinyin": "bǐ",
+        "meaning": "毛笔"
+      },
+      {
+        "char": "笑",
+        "pinyin": "xiào",
+        "meaning": "笑容"
+      },
+      {
+        "char": "等",
+        "pinyin": "děng",
+        "meaning": "等待"
+      },
+      {
+        "char": "简",
+        "pinyin": "jiǎn",
+        "meaning": "简单"
+      },
+      {
+        "char": "篮",
+        "pinyin": "lán",
+        "meaning": "竹篮"
+      },
+      {
+        "char": "管",
+        "pinyin": "guǎn",
+        "meaning": "管理"
+      }
+    ]
+  },
+  {
+    "id": 119,
+    "char": "米",
+    "pinyin": "mǐ",
+    "meaning": "米",
+    "strokeCount": 6,
+    "examples": [
+      {
+        "char": "粮",
+        "pinyin": "liáng",
+        "meaning": "粮食"
+      },
+      {
+        "char": "粉",
+        "pinyin": "fěn",
+        "meaning": "粉末"
+      },
+      {
+        "char": "糖",
+        "pinyin": "táng",
+        "meaning": "糖果"
+      },
+      {
+        "char": "粒",
+        "pinyin": "lì",
+        "meaning": "颗粒"
+      },
+      {
+        "char": "粥",
+        "pinyin": "zhōu",
+        "meaning": "米粥"
+      },
+      {
+        "char": "精",
+        "pinyin": "jīng",
+        "meaning": "精细"
+      }
+    ]
+  },
+  {
+    "id": 120,
+    "char": "糸",
+    "pinyin": "mì",
+    "meaning": "丝",
+    "strokeCount": 6,
+    "examples": [
+      {
+        "char": "红",
+        "pinyin": "hóng",
+        "meaning": "红色"
+      },
+      {
+        "char": "纸",
+        "pinyin": "zhǐ",
+        "meaning": "纸张"
+      },
+      {
+        "char": "细",
+        "pinyin": "xì",
+        "meaning": "细小"
+      },
+      {
+        "char": "线",
+        "pinyin": "xiàn",
+        "meaning": "线条"
+      },
+      {
+        "char": "织",
+        "pinyin": "zhī",
+        "meaning": "纺织"
+      },
+      {
+        "char": "绑",
+        "pinyin": "bǎng",
+        "meaning": "捆绑"
+      }
+    ]
+  },
+  {
+    "id": 121,
+    "char": "缶",
+    "pinyin": "fǒu",
+    "meaning": "缶",
+    "strokeCount": 6,
+    "examples": [
+      {
+        "char": "缶甲",
+        "pinyin": "fǒu1",
+        "meaning": "缶部例字1"
+      },
+      {
+        "char": "缶乙",
+        "pinyin": "fǒu2",
+        "meaning": "缶部例字2"
+      },
+      {
+        "char": "缶丙",
+        "pinyin": "fǒu3",
+        "meaning": "缶部例字3"
+      },
+      {
+        "char": "缶丁",
+        "pinyin": "fǒu4",
+        "meaning": "缶部例字4"
+      },
+      {
+        "char": "缶戊",
+        "pinyin": "fǒu5",
+        "meaning": "缶部例字5"
+      },
+      {
+        "char": "缶己",
+        "pinyin": "fǒu6",
+        "meaning": "缶部例字6"
+      },
+      {
+        "char": "缶庚",
+        "pinyin": "fǒu7",
+        "meaning": "缶部例字7"
+      }
+    ]
+  },
+  {
+    "id": 122,
+    "char": "网",
+    "pinyin": "wǎng",
+    "meaning": "网",
+    "strokeCount": 6,
+    "examples": [
+      {
+        "char": "网甲",
+        "pinyin": "wǎng1",
+        "meaning": "网部例字1"
+      },
+      {
+        "char": "网乙",
+        "pinyin": "wǎng2",
+        "meaning": "网部例字2"
+      },
+      {
+        "char": "网丙",
+        "pinyin": "wǎng3",
+        "meaning": "网部例字3"
+      },
+      {
+        "char": "网丁",
+        "pinyin": "wǎng4",
+        "meaning": "网部例字4"
+      },
+      {
+        "char": "网戊",
+        "pinyin": "wǎng5",
+        "meaning": "网部例字5"
+      },
+      {
+        "char": "网己",
+        "pinyin": "wǎng6",
+        "meaning": "网部例字6"
+      }
+    ]
+  },
+  {
+    "id": 123,
+    "char": "羊",
+    "pinyin": "yáng",
+    "meaning": "羊",
+    "strokeCount": 6,
+    "examples": [
+      {
+        "char": "羊甲",
+        "pinyin": "yáng1",
+        "meaning": "羊部例字1"
+      },
+      {
+        "char": "羊乙",
+        "pinyin": "yáng2",
+        "meaning": "羊部例字2"
+      },
+      {
+        "char": "羊丙",
+        "pinyin": "yáng3",
+        "meaning": "羊部例字3"
+      },
+      {
+        "char": "羊丁",
+        "pinyin": "yáng4",
+        "meaning": "羊部例字4"
+      },
+      {
+        "char": "羊戊",
+        "pinyin": "yáng5",
+        "meaning": "羊部例字5"
+      },
+      {
+        "char": "羊己",
+        "pinyin": "yáng6",
+        "meaning": "羊部例字6"
+      },
+      {
+        "char": "羊庚",
+        "pinyin": "yáng7",
+        "meaning": "羊部例字7"
+      }
+    ]
+  },
+  {
+    "id": 124,
+    "char": "羽",
+    "pinyin": "yǔ",
+    "meaning": "羽",
+    "strokeCount": 6,
+    "examples": [
+      {
+        "char": "羽甲",
+        "pinyin": "yǔ1",
+        "meaning": "羽部例字1"
+      },
+      {
+        "char": "羽乙",
+        "pinyin": "yǔ2",
+        "meaning": "羽部例字2"
+      },
+      {
+        "char": "羽丙",
+        "pinyin": "yǔ3",
+        "meaning": "羽部例字3"
+      },
+      {
+        "char": "羽丁",
+        "pinyin": "yǔ4",
+        "meaning": "羽部例字4"
+      },
+      {
+        "char": "羽戊",
+        "pinyin": "yǔ5",
+        "meaning": "羽部例字5"
+      },
+      {
+        "char": "羽己",
+        "pinyin": "yǔ6",
+        "meaning": "羽部例字6"
+      }
+    ]
+  },
+  {
+    "id": 125,
+    "char": "老",
+    "pinyin": "lǎo",
+    "meaning": "老",
+    "strokeCount": 6,
+    "examples": [
+      {
+        "char": "老甲",
+        "pinyin": "lǎo1",
+        "meaning": "老部例字1"
+      },
+      {
+        "char": "老乙",
+        "pinyin": "lǎo2",
+        "meaning": "老部例字2"
+      },
+      {
+        "char": "老丙",
+        "pinyin": "lǎo3",
+        "meaning": "老部例字3"
+      },
+      {
+        "char": "老丁",
+        "pinyin": "lǎo4",
+        "meaning": "老部例字4"
+      },
+      {
+        "char": "老戊",
+        "pinyin": "lǎo5",
+        "meaning": "老部例字5"
+      },
+      {
+        "char": "老己",
+        "pinyin": "lǎo6",
+        "meaning": "老部例字6"
+      }
+    ]
+  },
+  {
+    "id": 126,
+    "char": "而",
+    "pinyin": "ér",
+    "meaning": "而",
+    "strokeCount": 6,
+    "examples": [
+      {
+        "char": "而甲",
+        "pinyin": "ér1",
+        "meaning": "而部例字1"
+      },
+      {
+        "char": "而乙",
+        "pinyin": "ér2",
+        "meaning": "而部例字2"
+      },
+      {
+        "char": "而丙",
+        "pinyin": "ér3",
+        "meaning": "而部例字3"
+      },
+      {
+        "char": "而丁",
+        "pinyin": "ér4",
+        "meaning": "而部例字4"
+      },
+      {
+        "char": "而戊",
+        "pinyin": "ér5",
+        "meaning": "而部例字5"
+      }
+    ]
+  },
+  {
+    "id": 127,
+    "char": "耒",
+    "pinyin": "lěi",
+    "meaning": "耒",
+    "strokeCount": 6,
+    "examples": [
+      {
+        "char": "耒甲",
+        "pinyin": "lěi1",
+        "meaning": "耒部例字1"
+      },
+      {
+        "char": "耒乙",
+        "pinyin": "lěi2",
+        "meaning": "耒部例字2"
+      },
+      {
+        "char": "耒丙",
+        "pinyin": "lěi3",
+        "meaning": "耒部例字3"
+      },
+      {
+        "char": "耒丁",
+        "pinyin": "lěi4",
+        "meaning": "耒部例字4"
+      },
+      {
+        "char": "耒戊",
+        "pinyin": "lěi5",
+        "meaning": "耒部例字5"
+      },
+      {
+        "char": "耒己",
+        "pinyin": "lěi6",
+        "meaning": "耒部例字6"
+      },
+      {
+        "char": "耒庚",
+        "pinyin": "lěi7",
+        "meaning": "耒部例字7"
+      }
+    ]
+  },
+  {
+    "id": 128,
+    "char": "耳",
+    "pinyin": "ěr",
+    "meaning": "耳",
+    "strokeCount": 6,
+    "examples": [
+      {
+        "char": "耳甲",
+        "pinyin": "ěr1",
+        "meaning": "耳部例字1"
+      },
+      {
+        "char": "耳乙",
+        "pinyin": "ěr2",
+        "meaning": "耳部例字2"
+      },
+      {
+        "char": "耳丙",
+        "pinyin": "ěr3",
+        "meaning": "耳部例字3"
+      },
+      {
+        "char": "耳丁",
+        "pinyin": "ěr4",
+        "meaning": "耳部例字4"
+      },
+      {
+        "char": "耳戊",
+        "pinyin": "ěr5",
+        "meaning": "耳部例字5"
+      },
+      {
+        "char": "耳己",
+        "pinyin": "ěr6",
+        "meaning": "耳部例字6"
+      },
+      {
+        "char": "耳庚",
+        "pinyin": "ěr7",
+        "meaning": "耳部例字7"
+      },
+      {
+        "char": "耳辛",
+        "pinyin": "ěr8",
+        "meaning": "耳部例字8"
+      }
+    ]
+  },
+  {
+    "id": 129,
+    "char": "聿",
+    "pinyin": "yù",
+    "meaning": "聿",
+    "strokeCount": 6,
+    "examples": [
+      {
+        "char": "聿甲",
+        "pinyin": "yù1",
+        "meaning": "聿部例字1"
+      },
+      {
+        "char": "聿乙",
+        "pinyin": "yù2",
+        "meaning": "聿部例字2"
+      },
+      {
+        "char": "聿丙",
+        "pinyin": "yù3",
+        "meaning": "聿部例字3"
+      },
+      {
+        "char": "聿丁",
+        "pinyin": "yù4",
+        "meaning": "聿部例字4"
+      },
+      {
+        "char": "聿戊",
+        "pinyin": "yù5",
+        "meaning": "聿部例字5"
+      },
+      {
+        "char": "聿己",
+        "pinyin": "yù6",
+        "meaning": "聿部例字6"
+      },
+      {
+        "char": "聿庚",
+        "pinyin": "yù7",
+        "meaning": "聿部例字7"
+      },
+      {
+        "char": "聿辛",
+        "pinyin": "yù8",
+        "meaning": "聿部例字8"
+      }
+    ]
+  },
+  {
+    "id": 130,
+    "char": "肉",
+    "pinyin": "ròu",
+    "meaning": "肉",
+    "strokeCount": 6,
+    "examples": [
+      {
+        "char": "肉甲",
+        "pinyin": "ròu1",
+        "meaning": "肉部例字1"
+      },
+      {
+        "char": "肉乙",
+        "pinyin": "ròu2",
+        "meaning": "肉部例字2"
+      },
+      {
+        "char": "肉丙",
+        "pinyin": "ròu3",
+        "meaning": "肉部例字3"
+      },
+      {
+        "char": "肉丁",
+        "pinyin": "ròu4",
+        "meaning": "肉部例字4"
+      },
+      {
+        "char": "肉戊",
+        "pinyin": "ròu5",
+        "meaning": "肉部例字5"
+      },
+      {
+        "char": "肉己",
+        "pinyin": "ròu6",
+        "meaning": "肉部例字6"
+      }
+    ]
+  },
+  {
+    "id": 131,
+    "char": "臣",
+    "pinyin": "chén",
+    "meaning": "臣",
+    "strokeCount": 6,
+    "examples": [
+      {
+        "char": "臣甲",
+        "pinyin": "chén1",
+        "meaning": "臣部例字1"
+      },
+      {
+        "char": "臣乙",
+        "pinyin": "chén2",
+        "meaning": "臣部例字2"
+      },
+      {
+        "char": "臣丙",
+        "pinyin": "chén3",
+        "meaning": "臣部例字3"
+      },
+      {
+        "char": "臣丁",
+        "pinyin": "chén4",
+        "meaning": "臣部例字4"
+      },
+      {
+        "char": "臣戊",
+        "pinyin": "chén5",
+        "meaning": "臣部例字5"
+      },
+      {
+        "char": "臣己",
+        "pinyin": "chén6",
+        "meaning": "臣部例字6"
+      },
+      {
+        "char": "臣庚",
+        "pinyin": "chén7",
+        "meaning": "臣部例字7"
+      },
+      {
+        "char": "臣辛",
+        "pinyin": "chén8",
+        "meaning": "臣部例字8"
+      }
+    ]
+  },
+  {
+    "id": 132,
+    "char": "自",
+    "pinyin": "zì",
+    "meaning": "自",
+    "strokeCount": 6,
+    "examples": [
+      {
+        "char": "自甲",
+        "pinyin": "zì1",
+        "meaning": "自部例字1"
+      },
+      {
+        "char": "自乙",
+        "pinyin": "zì2",
+        "meaning": "自部例字2"
+      },
+      {
+        "char": "自丙",
+        "pinyin": "zì3",
+        "meaning": "自部例字3"
+      },
+      {
+        "char": "自丁",
+        "pinyin": "zì4",
+        "meaning": "自部例字4"
+      },
+      {
+        "char": "自戊",
+        "pinyin": "zì5",
+        "meaning": "自部例字5"
+      },
+      {
+        "char": "自己",
+        "pinyin": "zì6",
+        "meaning": "自部例字6"
+      },
+      {
+        "char": "自庚",
+        "pinyin": "zì7",
+        "meaning": "自部例字7"
+      }
+    ]
+  },
+  {
+    "id": 133,
+    "char": "至",
+    "pinyin": "zhì",
+    "meaning": "至",
+    "strokeCount": 6,
+    "examples": [
+      {
+        "char": "至甲",
+        "pinyin": "zhì1",
+        "meaning": "至部例字1"
+      },
+      {
+        "char": "至乙",
+        "pinyin": "zhì2",
+        "meaning": "至部例字2"
+      },
+      {
+        "char": "至丙",
+        "pinyin": "zhì3",
+        "meaning": "至部例字3"
+      },
+      {
+        "char": "至丁",
+        "pinyin": "zhì4",
+        "meaning": "至部例字4"
+      },
+      {
+        "char": "至戊",
+        "pinyin": "zhì5",
+        "meaning": "至部例字5"
+      },
+      {
+        "char": "至己",
+        "pinyin": "zhì6",
+        "meaning": "至部例字6"
+      },
+      {
+        "char": "至庚",
+        "pinyin": "zhì7",
+        "meaning": "至部例字7"
+      },
+      {
+        "char": "至辛",
+        "pinyin": "zhì8",
+        "meaning": "至部例字8"
+      }
+    ]
+  },
+  {
+    "id": 134,
+    "char": "臼",
+    "pinyin": "jiù",
+    "meaning": "臼",
+    "strokeCount": 6,
+    "examples": [
+      {
+        "char": "臼甲",
+        "pinyin": "jiù1",
+        "meaning": "臼部例字1"
+      },
+      {
+        "char": "臼乙",
+        "pinyin": "jiù2",
+        "meaning": "臼部例字2"
+      },
+      {
+        "char": "臼丙",
+        "pinyin": "jiù3",
+        "meaning": "臼部例字3"
+      },
+      {
+        "char": "臼丁",
+        "pinyin": "jiù4",
+        "meaning": "臼部例字4"
+      },
+      {
+        "char": "臼戊",
+        "pinyin": "jiù5",
+        "meaning": "臼部例字5"
+      }
+    ]
+  },
+  {
+    "id": 135,
+    "char": "舌",
+    "pinyin": "shé",
+    "meaning": "舌",
+    "strokeCount": 6,
+    "examples": [
+      {
+        "char": "舌甲",
+        "pinyin": "shé1",
+        "meaning": "舌部例字1"
+      },
+      {
+        "char": "舌乙",
+        "pinyin": "shé2",
+        "meaning": "舌部例字2"
+      },
+      {
+        "char": "舌丙",
+        "pinyin": "shé3",
+        "meaning": "舌部例字3"
+      },
+      {
+        "char": "舌丁",
+        "pinyin": "shé4",
+        "meaning": "舌部例字4"
+      },
+      {
+        "char": "舌戊",
+        "pinyin": "shé5",
+        "meaning": "舌部例字5"
+      }
+    ]
+  },
+  {
+    "id": 136,
+    "char": "舛",
+    "pinyin": "chuǎn",
+    "meaning": "舛",
+    "strokeCount": 6,
+    "examples": [
+      {
+        "char": "舛甲",
+        "pinyin": "chuǎn1",
+        "meaning": "舛部例字1"
+      },
+      {
+        "char": "舛乙",
+        "pinyin": "chuǎn2",
+        "meaning": "舛部例字2"
+      },
+      {
+        "char": "舛丙",
+        "pinyin": "chuǎn3",
+        "meaning": "舛部例字3"
+      },
+      {
+        "char": "舛丁",
+        "pinyin": "chuǎn4",
+        "meaning": "舛部例字4"
+      },
+      {
+        "char": "舛戊",
+        "pinyin": "chuǎn5",
+        "meaning": "舛部例字5"
+      },
+      {
+        "char": "舛己",
+        "pinyin": "chuǎn6",
+        "meaning": "舛部例字6"
+      },
+      {
+        "char": "舛庚",
+        "pinyin": "chuǎn7",
+        "meaning": "舛部例字7"
+      },
+      {
+        "char": "舛辛",
+        "pinyin": "chuǎn8",
+        "meaning": "舛部例字8"
+      }
+    ]
+  },
+  {
+    "id": 137,
+    "char": "舟",
+    "pinyin": "zhōu",
+    "meaning": "舟",
+    "strokeCount": 6,
+    "examples": [
+      {
+        "char": "舟甲",
+        "pinyin": "zhōu1",
+        "meaning": "舟部例字1"
+      },
+      {
+        "char": "舟乙",
+        "pinyin": "zhōu2",
+        "meaning": "舟部例字2"
+      },
+      {
+        "char": "舟丙",
+        "pinyin": "zhōu3",
+        "meaning": "舟部例字3"
+      },
+      {
+        "char": "舟丁",
+        "pinyin": "zhōu4",
+        "meaning": "舟部例字4"
+      },
+      {
+        "char": "舟戊",
+        "pinyin": "zhōu5",
+        "meaning": "舟部例字5"
+      },
+      {
+        "char": "舟己",
+        "pinyin": "zhōu6",
+        "meaning": "舟部例字6"
+      },
+      {
+        "char": "舟庚",
+        "pinyin": "zhōu7",
+        "meaning": "舟部例字7"
+      },
+      {
+        "char": "舟辛",
+        "pinyin": "zhōu8",
+        "meaning": "舟部例字8"
+      }
+    ]
+  },
+  {
+    "id": 138,
+    "char": "艮",
+    "pinyin": "gèn",
+    "meaning": "艮",
+    "strokeCount": 6,
+    "examples": [
+      {
+        "char": "艮甲",
+        "pinyin": "gèn1",
+        "meaning": "艮部例字1"
+      },
+      {
+        "char": "艮乙",
+        "pinyin": "gèn2",
+        "meaning": "艮部例字2"
+      },
+      {
+        "char": "艮丙",
+        "pinyin": "gèn3",
+        "meaning": "艮部例字3"
+      },
+      {
+        "char": "艮丁",
+        "pinyin": "gèn4",
+        "meaning": "艮部例字4"
+      },
+      {
+        "char": "艮戊",
+        "pinyin": "gèn5",
+        "meaning": "艮部例字5"
+      },
+      {
+        "char": "艮己",
+        "pinyin": "gèn6",
+        "meaning": "艮部例字6"
+      },
+      {
+        "char": "艮庚",
+        "pinyin": "gèn7",
+        "meaning": "艮部例字7"
+      }
+    ]
+  },
+  {
+    "id": 139,
+    "char": "色",
+    "pinyin": "sè",
+    "meaning": "色",
+    "strokeCount": 6,
+    "examples": [
+      {
+        "char": "色甲",
+        "pinyin": "sè1",
+        "meaning": "色部例字1"
+      },
+      {
+        "char": "色乙",
+        "pinyin": "sè2",
+        "meaning": "色部例字2"
+      },
+      {
+        "char": "色丙",
+        "pinyin": "sè3",
+        "meaning": "色部例字3"
+      },
+      {
+        "char": "色丁",
+        "pinyin": "sè4",
+        "meaning": "色部例字4"
+      },
+      {
+        "char": "色戊",
+        "pinyin": "sè5",
+        "meaning": "色部例字5"
+      },
+      {
+        "char": "色己",
+        "pinyin": "sè6",
+        "meaning": "色部例字6"
+      },
+      {
+        "char": "色庚",
+        "pinyin": "sè7",
+        "meaning": "色部例字7"
+      }
+    ]
+  },
+  {
+    "id": 140,
+    "char": "艸",
+    "pinyin": "cǎo",
+    "meaning": "艸",
+    "strokeCount": 6,
+    "examples": [
+      {
+        "char": "艸甲",
+        "pinyin": "cǎo1",
+        "meaning": "艸部例字1"
+      },
+      {
+        "char": "艸乙",
+        "pinyin": "cǎo2",
+        "meaning": "艸部例字2"
+      },
+      {
+        "char": "艸丙",
+        "pinyin": "cǎo3",
+        "meaning": "艸部例字3"
+      },
+      {
+        "char": "艸丁",
+        "pinyin": "cǎo4",
+        "meaning": "艸部例字4"
+      },
+      {
+        "char": "艸戊",
+        "pinyin": "cǎo5",
+        "meaning": "艸部例字5"
+      }
+    ]
+  },
+  {
+    "id": 141,
+    "char": "虍",
+    "pinyin": "hū",
+    "meaning": "虍",
+    "strokeCount": 6,
+    "examples": [
+      {
+        "char": "虍甲",
+        "pinyin": "hū1",
+        "meaning": "虍部例字1"
+      },
+      {
+        "char": "虍乙",
+        "pinyin": "hū2",
+        "meaning": "虍部例字2"
+      },
+      {
+        "char": "虍丙",
+        "pinyin": "hū3",
+        "meaning": "虍部例字3"
+      },
+      {
+        "char": "虍丁",
+        "pinyin": "hū4",
+        "meaning": "虍部例字4"
+      },
+      {
+        "char": "虍戊",
+        "pinyin": "hū5",
+        "meaning": "虍部例字5"
+      },
+      {
+        "char": "虍己",
+        "pinyin": "hū6",
+        "meaning": "虍部例字6"
+      }
+    ]
+  },
+  {
+    "id": 142,
+    "char": "虫",
+    "pinyin": "chóng",
+    "meaning": "虫",
+    "strokeCount": 6,
+    "examples": [
+      {
+        "char": "蛇",
+        "pinyin": "shé",
+        "meaning": "蛇类"
+      },
+      {
+        "char": "蜂",
+        "pinyin": "fēng",
+        "meaning": "蜜蜂"
+      },
+      {
+        "char": "蝶",
+        "pinyin": "dié",
+        "meaning": "蝴蝶"
+      },
+      {
+        "char": "蚊",
+        "pinyin": "wén",
+        "meaning": "蚊子"
+      },
+      {
+        "char": "蚁",
+        "pinyin": "yǐ",
+        "meaning": "蚂蚁"
+      },
+      {
+        "char": "蛙",
+        "pinyin": "wā",
+        "meaning": "青蛙"
+      }
+    ]
+  },
+  {
+    "id": 143,
+    "char": "血",
+    "pinyin": "xuè",
+    "meaning": "血",
+    "strokeCount": 6,
+    "examples": [
+      {
+        "char": "血甲",
+        "pinyin": "xuè1",
+        "meaning": "血部例字1"
+      },
+      {
+        "char": "血乙",
+        "pinyin": "xuè2",
+        "meaning": "血部例字2"
+      },
+      {
+        "char": "血丙",
+        "pinyin": "xuè3",
+        "meaning": "血部例字3"
+      },
+      {
+        "char": "血丁",
+        "pinyin": "xuè4",
+        "meaning": "血部例字4"
+      },
+      {
+        "char": "血戊",
+        "pinyin": "xuè5",
+        "meaning": "血部例字5"
+      }
+    ]
+  },
+  {
+    "id": 144,
+    "char": "行",
+    "pinyin": "xíng",
+    "meaning": "行",
+    "strokeCount": 6,
+    "examples": [
+      {
+        "char": "行甲",
+        "pinyin": "xíng1",
+        "meaning": "行部例字1"
+      },
+      {
+        "char": "行乙",
+        "pinyin": "xíng2",
+        "meaning": "行部例字2"
+      },
+      {
+        "char": "行丙",
+        "pinyin": "xíng3",
+        "meaning": "行部例字3"
+      },
+      {
+        "char": "行丁",
+        "pinyin": "xíng4",
+        "meaning": "行部例字4"
+      },
+      {
+        "char": "行戊",
+        "pinyin": "xíng5",
+        "meaning": "行部例字5"
+      }
+    ]
+  },
+  {
+    "id": 145,
+    "char": "衣",
+    "pinyin": "yī",
+    "meaning": "衣",
+    "strokeCount": 6,
+    "examples": [
+      {
+        "char": "衣甲",
+        "pinyin": "yī1",
+        "meaning": "衣部例字1"
+      },
+      {
+        "char": "衣乙",
+        "pinyin": "yī2",
+        "meaning": "衣部例字2"
+      },
+      {
+        "char": "衣丙",
+        "pinyin": "yī3",
+        "meaning": "衣部例字3"
+      },
+      {
+        "char": "衣丁",
+        "pinyin": "yī4",
+        "meaning": "衣部例字4"
+      },
+      {
+        "char": "衣戊",
+        "pinyin": "yī5",
+        "meaning": "衣部例字5"
+      },
+      {
+        "char": "衣己",
+        "pinyin": "yī6",
+        "meaning": "衣部例字6"
+      },
+      {
+        "char": "衣庚",
+        "pinyin": "yī7",
+        "meaning": "衣部例字7"
+      },
+      {
+        "char": "衣辛",
+        "pinyin": "yī8",
+        "meaning": "衣部例字8"
+      }
+    ]
+  },
+  {
+    "id": 146,
+    "char": "襾",
+    "pinyin": "yà",
+    "meaning": "襾",
+    "strokeCount": 6,
+    "examples": [
+      {
+        "char": "襾甲",
+        "pinyin": "yà1",
+        "meaning": "襾部例字1"
+      },
+      {
+        "char": "襾乙",
+        "pinyin": "yà2",
+        "meaning": "襾部例字2"
+      },
+      {
+        "char": "襾丙",
+        "pinyin": "yà3",
+        "meaning": "襾部例字3"
+      },
+      {
+        "char": "襾丁",
+        "pinyin": "yà4",
+        "meaning": "襾部例字4"
+      },
+      {
+        "char": "襾戊",
+        "pinyin": "yà5",
+        "meaning": "襾部例字5"
+      },
+      {
+        "char": "襾己",
+        "pinyin": "yà6",
+        "meaning": "襾部例字6"
+      },
+      {
+        "char": "襾庚",
+        "pinyin": "yà7",
+        "meaning": "襾部例字7"
+      }
+    ]
+  },
+  {
+    "id": 147,
+    "char": "見",
+    "pinyin": "jiàn",
+    "meaning": "见",
+    "strokeCount": 7,
+    "examples": [
+      {
+        "char": "見甲",
+        "pinyin": "jiàn1",
+        "meaning": "见部例字1"
+      },
+      {
+        "char": "見乙",
+        "pinyin": "jiàn2",
+        "meaning": "见部例字2"
+      },
+      {
+        "char": "見丙",
+        "pinyin": "jiàn3",
+        "meaning": "见部例字3"
+      },
+      {
+        "char": "見丁",
+        "pinyin": "jiàn4",
+        "meaning": "见部例字4"
+      },
+      {
+        "char": "見戊",
+        "pinyin": "jiàn5",
+        "meaning": "见部例字5"
+      },
+      {
+        "char": "見己",
+        "pinyin": "jiàn6",
+        "meaning": "见部例字6"
+      },
+      {
+        "char": "見庚",
+        "pinyin": "jiàn7",
+        "meaning": "见部例字7"
+      },
+      {
+        "char": "見辛",
+        "pinyin": "jiàn8",
+        "meaning": "见部例字8"
+      }
+    ]
+  },
+  {
+    "id": 148,
+    "char": "角",
+    "pinyin": "jiǎo",
+    "meaning": "角",
+    "strokeCount": 7,
+    "examples": [
+      {
+        "char": "角甲",
+        "pinyin": "jiǎo1",
+        "meaning": "角部例字1"
+      },
+      {
+        "char": "角乙",
+        "pinyin": "jiǎo2",
+        "meaning": "角部例字2"
+      },
+      {
+        "char": "角丙",
+        "pinyin": "jiǎo3",
+        "meaning": "角部例字3"
+      },
+      {
+        "char": "角丁",
+        "pinyin": "jiǎo4",
+        "meaning": "角部例字4"
+      },
+      {
+        "char": "角戊",
+        "pinyin": "jiǎo5",
+        "meaning": "角部例字5"
+      },
+      {
+        "char": "角己",
+        "pinyin": "jiǎo6",
+        "meaning": "角部例字6"
+      },
+      {
+        "char": "角庚",
+        "pinyin": "jiǎo7",
+        "meaning": "角部例字7"
+      }
+    ]
+  },
+  {
+    "id": 149,
+    "char": "言",
+    "pinyin": "yán",
+    "meaning": "言",
+    "strokeCount": 7,
+    "examples": [
+      {
+        "char": "话",
+        "pinyin": "huà",
+        "meaning": "话语"
+      },
+      {
+        "char": "语",
+        "pinyin": "yǔ",
+        "meaning": "语言"
+      },
+      {
+        "char": "说",
+        "pinyin": "shuō",
+        "meaning": "说话"
+      },
+      {
+        "char": "读",
+        "pinyin": "dú",
+        "meaning": "阅读"
+      },
+      {
+        "char": "诗",
+        "pinyin": "shī",
+        "meaning": "诗歌"
+      },
+      {
+        "char": "论",
+        "pinyin": "lùn",
+        "meaning": "论述"
+      }
+    ]
+  },
+  {
+    "id": 150,
+    "char": "谷",
+    "pinyin": "gǔ",
+    "meaning": "谷",
+    "strokeCount": 7,
+    "examples": [
+      {
+        "char": "谷甲",
+        "pinyin": "gǔ1",
+        "meaning": "谷部例字1"
+      },
+      {
+        "char": "谷乙",
+        "pinyin": "gǔ2",
+        "meaning": "谷部例字2"
+      },
+      {
+        "char": "谷丙",
+        "pinyin": "gǔ3",
+        "meaning": "谷部例字3"
+      },
+      {
+        "char": "谷丁",
+        "pinyin": "gǔ4",
+        "meaning": "谷部例字4"
+      },
+      {
+        "char": "谷戊",
+        "pinyin": "gǔ5",
+        "meaning": "谷部例字5"
+      },
+      {
+        "char": "谷己",
+        "pinyin": "gǔ6",
+        "meaning": "谷部例字6"
+      },
+      {
+        "char": "谷庚",
+        "pinyin": "gǔ7",
+        "meaning": "谷部例字7"
+      },
+      {
+        "char": "谷辛",
+        "pinyin": "gǔ8",
+        "meaning": "谷部例字8"
+      }
+    ]
+  },
+  {
+    "id": 151,
+    "char": "豆",
+    "pinyin": "dòu",
+    "meaning": "豆",
+    "strokeCount": 7,
+    "examples": [
+      {
+        "char": "豆甲",
+        "pinyin": "dòu1",
+        "meaning": "豆部例字1"
+      },
+      {
+        "char": "豆乙",
+        "pinyin": "dòu2",
+        "meaning": "豆部例字2"
+      },
+      {
+        "char": "豆丙",
+        "pinyin": "dòu3",
+        "meaning": "豆部例字3"
+      },
+      {
+        "char": "豆丁",
+        "pinyin": "dòu4",
+        "meaning": "豆部例字4"
+      },
+      {
+        "char": "豆戊",
+        "pinyin": "dòu5",
+        "meaning": "豆部例字5"
+      },
+      {
+        "char": "豆己",
+        "pinyin": "dòu6",
+        "meaning": "豆部例字6"
+      },
+      {
+        "char": "豆庚",
+        "pinyin": "dòu7",
+        "meaning": "豆部例字7"
+      }
+    ]
+  },
+  {
+    "id": 152,
+    "char": "豕",
+    "pinyin": "shǐ",
+    "meaning": "豕",
+    "strokeCount": 7,
+    "examples": [
+      {
+        "char": "豕甲",
+        "pinyin": "shǐ1",
+        "meaning": "豕部例字1"
+      },
+      {
+        "char": "豕乙",
+        "pinyin": "shǐ2",
+        "meaning": "豕部例字2"
+      },
+      {
+        "char": "豕丙",
+        "pinyin": "shǐ3",
+        "meaning": "豕部例字3"
+      },
+      {
+        "char": "豕丁",
+        "pinyin": "shǐ4",
+        "meaning": "豕部例字4"
+      },
+      {
+        "char": "豕戊",
+        "pinyin": "shǐ5",
+        "meaning": "豕部例字5"
+      },
+      {
+        "char": "豕己",
+        "pinyin": "shǐ6",
+        "meaning": "豕部例字6"
+      }
+    ]
+  },
+  {
+    "id": 153,
+    "char": "豸",
+    "pinyin": "zhì",
+    "meaning": "豸",
+    "strokeCount": 7,
+    "examples": [
+      {
+        "char": "豸甲",
+        "pinyin": "zhì1",
+        "meaning": "豸部例字1"
+      },
+      {
+        "char": "豸乙",
+        "pinyin": "zhì2",
+        "meaning": "豸部例字2"
+      },
+      {
+        "char": "豸丙",
+        "pinyin": "zhì3",
+        "meaning": "豸部例字3"
+      },
+      {
+        "char": "豸丁",
+        "pinyin": "zhì4",
+        "meaning": "豸部例字4"
+      },
+      {
+        "char": "豸戊",
+        "pinyin": "zhì5",
+        "meaning": "豸部例字5"
+      }
+    ]
+  },
+  {
+    "id": 154,
+    "char": "貝",
+    "pinyin": "bèi",
+    "meaning": "贝",
+    "strokeCount": 7,
+    "examples": [
+      {
+        "char": "貝甲",
+        "pinyin": "bèi1",
+        "meaning": "贝部例字1"
+      },
+      {
+        "char": "貝乙",
+        "pinyin": "bèi2",
+        "meaning": "贝部例字2"
+      },
+      {
+        "char": "貝丙",
+        "pinyin": "bèi3",
+        "meaning": "贝部例字3"
+      },
+      {
+        "char": "貝丁",
+        "pinyin": "bèi4",
+        "meaning": "贝部例字4"
+      },
+      {
+        "char": "貝戊",
+        "pinyin": "bèi5",
+        "meaning": "贝部例字5"
+      },
+      {
+        "char": "貝己",
+        "pinyin": "bèi6",
+        "meaning": "贝部例字6"
+      }
+    ]
+  },
+  {
+    "id": 155,
+    "char": "赤",
+    "pinyin": "chì",
+    "meaning": "赤",
+    "strokeCount": 7,
+    "examples": [
+      {
+        "char": "赤甲",
+        "pinyin": "chì1",
+        "meaning": "赤部例字1"
+      },
+      {
+        "char": "赤乙",
+        "pinyin": "chì2",
+        "meaning": "赤部例字2"
+      },
+      {
+        "char": "赤丙",
+        "pinyin": "chì3",
+        "meaning": "赤部例字3"
+      },
+      {
+        "char": "赤丁",
+        "pinyin": "chì4",
+        "meaning": "赤部例字4"
+      },
+      {
+        "char": "赤戊",
+        "pinyin": "chì5",
+        "meaning": "赤部例字5"
+      }
+    ]
+  },
+  {
+    "id": 156,
+    "char": "走",
+    "pinyin": "zǒu",
+    "meaning": "走",
+    "strokeCount": 7,
+    "examples": [
+      {
+        "char": "走甲",
+        "pinyin": "zǒu1",
+        "meaning": "走部例字1"
+      },
+      {
+        "char": "走乙",
+        "pinyin": "zǒu2",
+        "meaning": "走部例字2"
+      },
+      {
+        "char": "走丙",
+        "pinyin": "zǒu3",
+        "meaning": "走部例字3"
+      },
+      {
+        "char": "走丁",
+        "pinyin": "zǒu4",
+        "meaning": "走部例字4"
+      },
+      {
+        "char": "走戊",
+        "pinyin": "zǒu5",
+        "meaning": "走部例字5"
+      }
+    ]
+  },
+  {
+    "id": 157,
+    "char": "足",
+    "pinyin": "zú",
+    "meaning": "足",
+    "strokeCount": 7,
+    "examples": [
+      {
+        "char": "跑",
+        "pinyin": "pǎo",
+        "meaning": "奔跑"
+      },
+      {
+        "char": "跳",
+        "pinyin": "tiào",
+        "meaning": "跳跃"
+      },
+      {
+        "char": "路",
+        "pinyin": "lù",
+        "meaning": "道路"
+      },
+      {
+        "char": "跟",
+        "pinyin": "gēn",
+        "meaning": "跟随"
+      },
+      {
+        "char": "距",
+        "pinyin": "jù",
+        "meaning": "距离"
+      },
+      {
+        "char": "踢",
+        "pinyin": "tī",
+        "meaning": "踢打"
+      }
+    ]
+  },
+  {
+    "id": 158,
+    "char": "身",
+    "pinyin": "shēn",
+    "meaning": "身",
+    "strokeCount": 7,
+    "examples": [
+      {
+        "char": "身甲",
+        "pinyin": "shēn1",
+        "meaning": "身部例字1"
+      },
+      {
+        "char": "身乙",
+        "pinyin": "shēn2",
+        "meaning": "身部例字2"
+      },
+      {
+        "char": "身丙",
+        "pinyin": "shēn3",
+        "meaning": "身部例字3"
+      },
+      {
+        "char": "身丁",
+        "pinyin": "shēn4",
+        "meaning": "身部例字4"
+      },
+      {
+        "char": "身戊",
+        "pinyin": "shēn5",
+        "meaning": "身部例字5"
+      },
+      {
+        "char": "身己",
+        "pinyin": "shēn6",
+        "meaning": "身部例字6"
+      },
+      {
+        "char": "身庚",
+        "pinyin": "shēn7",
+        "meaning": "身部例字7"
+      },
+      {
+        "char": "身辛",
+        "pinyin": "shēn8",
+        "meaning": "身部例字8"
+      }
+    ]
+  },
+  {
+    "id": 159,
+    "char": "車",
+    "pinyin": "chē",
+    "meaning": "车",
+    "strokeCount": 7,
+    "examples": [
+      {
+        "char": "車甲",
+        "pinyin": "chē1",
+        "meaning": "车部例字1"
+      },
+      {
+        "char": "車乙",
+        "pinyin": "chē2",
+        "meaning": "车部例字2"
+      },
+      {
+        "char": "車丙",
+        "pinyin": "chē3",
+        "meaning": "车部例字3"
+      },
+      {
+        "char": "車丁",
+        "pinyin": "chē4",
+        "meaning": "车部例字4"
+      },
+      {
+        "char": "車戊",
+        "pinyin": "chē5",
+        "meaning": "车部例字5"
+      },
+      {
+        "char": "車己",
+        "pinyin": "chē6",
+        "meaning": "车部例字6"
+      },
+      {
+        "char": "車庚",
+        "pinyin": "chē7",
+        "meaning": "车部例字7"
+      }
+    ]
+  },
+  {
+    "id": 160,
+    "char": "辛",
+    "pinyin": "xīn",
+    "meaning": "辛",
+    "strokeCount": 7,
+    "examples": [
+      {
+        "char": "辛甲",
+        "pinyin": "xīn1",
+        "meaning": "辛部例字1"
+      },
+      {
+        "char": "辛乙",
+        "pinyin": "xīn2",
+        "meaning": "辛部例字2"
+      },
+      {
+        "char": "辛丙",
+        "pinyin": "xīn3",
+        "meaning": "辛部例字3"
+      },
+      {
+        "char": "辛丁",
+        "pinyin": "xīn4",
+        "meaning": "辛部例字4"
+      },
+      {
+        "char": "辛戊",
+        "pinyin": "xīn5",
+        "meaning": "辛部例字5"
+      },
+      {
+        "char": "辛己",
+        "pinyin": "xīn6",
+        "meaning": "辛部例字6"
+      },
+      {
+        "char": "辛庚",
+        "pinyin": "xīn7",
+        "meaning": "辛部例字7"
+      },
+      {
+        "char": "辛辛",
+        "pinyin": "xīn8",
+        "meaning": "辛部例字8"
+      }
+    ]
+  },
+  {
+    "id": 161,
+    "char": "辰",
+    "pinyin": "chén",
+    "meaning": "辰",
+    "strokeCount": 7,
+    "examples": [
+      {
+        "char": "辰甲",
+        "pinyin": "chén1",
+        "meaning": "辰部例字1"
+      },
+      {
+        "char": "辰乙",
+        "pinyin": "chén2",
+        "meaning": "辰部例字2"
+      },
+      {
+        "char": "辰丙",
+        "pinyin": "chén3",
+        "meaning": "辰部例字3"
+      },
+      {
+        "char": "辰丁",
+        "pinyin": "chén4",
+        "meaning": "辰部例字4"
+      },
+      {
+        "char": "辰戊",
+        "pinyin": "chén5",
+        "meaning": "辰部例字5"
+      }
+    ]
+  },
+  {
+    "id": 162,
+    "char": "辵",
+    "pinyin": "chuò",
+    "meaning": "辵",
+    "strokeCount": 7,
+    "examples": [
+      {
+        "char": "辵甲",
+        "pinyin": "chuò1",
+        "meaning": "辵部例字1"
+      },
+      {
+        "char": "辵乙",
+        "pinyin": "chuò2",
+        "meaning": "辵部例字2"
+      },
+      {
+        "char": "辵丙",
+        "pinyin": "chuò3",
+        "meaning": "辵部例字3"
+      },
+      {
+        "char": "辵丁",
+        "pinyin": "chuò4",
+        "meaning": "辵部例字4"
+      },
+      {
+        "char": "辵戊",
+        "pinyin": "chuò5",
+        "meaning": "辵部例字5"
+      },
+      {
+        "char": "辵己",
+        "pinyin": "chuò6",
+        "meaning": "辵部例字6"
+      }
+    ]
+  },
+  {
+    "id": 163,
+    "char": "邑",
+    "pinyin": "yì",
+    "meaning": "邑",
+    "strokeCount": 7,
+    "examples": [
+      {
+        "char": "邑甲",
+        "pinyin": "yì1",
+        "meaning": "邑部例字1"
+      },
+      {
+        "char": "邑乙",
+        "pinyin": "yì2",
+        "meaning": "邑部例字2"
+      },
+      {
+        "char": "邑丙",
+        "pinyin": "yì3",
+        "meaning": "邑部例字3"
+      },
+      {
+        "char": "邑丁",
+        "pinyin": "yì4",
+        "meaning": "邑部例字4"
+      },
+      {
+        "char": "邑戊",
+        "pinyin": "yì5",
+        "meaning": "邑部例字5"
+      },
+      {
+        "char": "邑己",
+        "pinyin": "yì6",
+        "meaning": "邑部例字6"
+      }
+    ]
+  },
+  {
+    "id": 164,
+    "char": "酉",
+    "pinyin": "yǒu",
+    "meaning": "酉",
+    "strokeCount": 7,
+    "examples": [
+      {
+        "char": "酉甲",
+        "pinyin": "yǒu1",
+        "meaning": "酉部例字1"
+      },
+      {
+        "char": "酉乙",
+        "pinyin": "yǒu2",
+        "meaning": "酉部例字2"
+      },
+      {
+        "char": "酉丙",
+        "pinyin": "yǒu3",
+        "meaning": "酉部例字3"
+      },
+      {
+        "char": "酉丁",
+        "pinyin": "yǒu4",
+        "meaning": "酉部例字4"
+      },
+      {
+        "char": "酉戊",
+        "pinyin": "yǒu5",
+        "meaning": "酉部例字5"
+      },
+      {
+        "char": "酉己",
+        "pinyin": "yǒu6",
+        "meaning": "酉部例字6"
+      }
+    ]
+  },
+  {
+    "id": 165,
+    "char": "釆",
+    "pinyin": "biàn",
+    "meaning": "釆",
+    "strokeCount": 7,
+    "examples": [
+      {
+        "char": "釆甲",
+        "pinyin": "biàn1",
+        "meaning": "釆部例字1"
+      },
+      {
+        "char": "釆乙",
+        "pinyin": "biàn2",
+        "meaning": "釆部例字2"
+      },
+      {
+        "char": "釆丙",
+        "pinyin": "biàn3",
+        "meaning": "釆部例字3"
+      },
+      {
+        "char": "釆丁",
+        "pinyin": "biàn4",
+        "meaning": "釆部例字4"
+      },
+      {
+        "char": "釆戊",
+        "pinyin": "biàn5",
+        "meaning": "釆部例字5"
+      },
+      {
+        "char": "釆己",
+        "pinyin": "biàn6",
+        "meaning": "釆部例字6"
+      },
+      {
+        "char": "釆庚",
+        "pinyin": "biàn7",
+        "meaning": "釆部例字7"
+      }
+    ]
+  },
+  {
+    "id": 166,
+    "char": "里",
+    "pinyin": "lǐ",
+    "meaning": "里",
+    "strokeCount": 7,
+    "examples": [
+      {
+        "char": "里甲",
+        "pinyin": "lǐ1",
+        "meaning": "里部例字1"
+      },
+      {
+        "char": "里乙",
+        "pinyin": "lǐ2",
+        "meaning": "里部例字2"
+      },
+      {
+        "char": "里丙",
+        "pinyin": "lǐ3",
+        "meaning": "里部例字3"
+      },
+      {
+        "char": "里丁",
+        "pinyin": "lǐ4",
+        "meaning": "里部例字4"
+      },
+      {
+        "char": "里戊",
+        "pinyin": "lǐ5",
+        "meaning": "里部例字5"
+      }
+    ]
+  },
+  {
+    "id": 167,
+    "char": "金",
+    "pinyin": "jīn",
+    "meaning": "金",
+    "strokeCount": 8,
+    "examples": [
+      {
+        "char": "钱",
+        "pinyin": "qián",
+        "meaning": "金钱"
+      },
+      {
+        "char": "银",
+        "pinyin": "yín",
+        "meaning": "白银"
+      },
+      {
+        "char": "铁",
+        "pinyin": "tiě",
+        "meaning": "钢铁"
+      },
+      {
+        "char": "铜",
+        "pinyin": "tóng",
+        "meaning": "青铜"
+      },
+      {
+        "char": "针",
+        "pinyin": "zhēn",
+        "meaning": "针线"
+      },
+      {
+        "char": "钟",
+        "pinyin": "zhōng",
+        "meaning": "钟表"
+      }
+    ]
+  },
+  {
+    "id": 168,
+    "char": "長",
+    "pinyin": "cháng",
+    "meaning": "长",
+    "strokeCount": 8,
+    "examples": [
+      {
+        "char": "長甲",
+        "pinyin": "cháng1",
+        "meaning": "长部例字1"
+      },
+      {
+        "char": "長乙",
+        "pinyin": "cháng2",
+        "meaning": "长部例字2"
+      },
+      {
+        "char": "長丙",
+        "pinyin": "cháng3",
+        "meaning": "长部例字3"
+      },
+      {
+        "char": "長丁",
+        "pinyin": "cháng4",
+        "meaning": "长部例字4"
+      },
+      {
+        "char": "長戊",
+        "pinyin": "cháng5",
+        "meaning": "长部例字5"
+      },
+      {
+        "char": "長己",
+        "pinyin": "cháng6",
+        "meaning": "长部例字6"
+      },
+      {
+        "char": "長庚",
+        "pinyin": "cháng7",
+        "meaning": "长部例字7"
+      },
+      {
+        "char": "長辛",
+        "pinyin": "cháng8",
+        "meaning": "长部例字8"
+      }
+    ]
+  },
+  {
+    "id": 169,
+    "char": "門",
+    "pinyin": "mén",
+    "meaning": "门",
+    "strokeCount": 8,
+    "examples": [
+      {
+        "char": "門甲",
+        "pinyin": "mén1",
+        "meaning": "门部例字1"
+      },
+      {
+        "char": "門乙",
+        "pinyin": "mén2",
+        "meaning": "门部例字2"
+      },
+      {
+        "char": "門丙",
+        "pinyin": "mén3",
+        "meaning": "门部例字3"
+      },
+      {
+        "char": "門丁",
+        "pinyin": "mén4",
+        "meaning": "门部例字4"
+      },
+      {
+        "char": "門戊",
+        "pinyin": "mén5",
+        "meaning": "门部例字5"
+      }
+    ]
+  },
+  {
+    "id": 170,
+    "char": "阜",
+    "pinyin": "fù",
+    "meaning": "阜",
+    "strokeCount": 8,
+    "examples": [
+      {
+        "char": "阜甲",
+        "pinyin": "fù1",
+        "meaning": "阜部例字1"
+      },
+      {
+        "char": "阜乙",
+        "pinyin": "fù2",
+        "meaning": "阜部例字2"
+      },
+      {
+        "char": "阜丙",
+        "pinyin": "fù3",
+        "meaning": "阜部例字3"
+      },
+      {
+        "char": "阜丁",
+        "pinyin": "fù4",
+        "meaning": "阜部例字4"
+      },
+      {
+        "char": "阜戊",
+        "pinyin": "fù5",
+        "meaning": "阜部例字5"
+      }
+    ]
+  },
+  {
+    "id": 171,
+    "char": "隶",
+    "pinyin": "lì",
+    "meaning": "隶",
+    "strokeCount": 8,
+    "examples": [
+      {
+        "char": "隶甲",
+        "pinyin": "lì1",
+        "meaning": "隶部例字1"
+      },
+      {
+        "char": "隶乙",
+        "pinyin": "lì2",
+        "meaning": "隶部例字2"
+      },
+      {
+        "char": "隶丙",
+        "pinyin": "lì3",
+        "meaning": "隶部例字3"
+      },
+      {
+        "char": "隶丁",
+        "pinyin": "lì4",
+        "meaning": "隶部例字4"
+      },
+      {
+        "char": "隶戊",
+        "pinyin": "lì5",
+        "meaning": "隶部例字5"
+      },
+      {
+        "char": "隶己",
+        "pinyin": "lì6",
+        "meaning": "隶部例字6"
+      },
+      {
+        "char": "隶庚",
+        "pinyin": "lì7",
+        "meaning": "隶部例字7"
+      }
+    ]
+  },
+  {
+    "id": 172,
+    "char": "隹",
+    "pinyin": "zhuī",
+    "meaning": "隹",
+    "strokeCount": 8,
+    "examples": [
+      {
+        "char": "隹甲",
+        "pinyin": "zhuī1",
+        "meaning": "隹部例字1"
+      },
+      {
+        "char": "隹乙",
+        "pinyin": "zhuī2",
+        "meaning": "隹部例字2"
+      },
+      {
+        "char": "隹丙",
+        "pinyin": "zhuī3",
+        "meaning": "隹部例字3"
+      },
+      {
+        "char": "隹丁",
+        "pinyin": "zhuī4",
+        "meaning": "隹部例字4"
+      },
+      {
+        "char": "隹戊",
+        "pinyin": "zhuī5",
+        "meaning": "隹部例字5"
+      },
+      {
+        "char": "隹己",
+        "pinyin": "zhuī6",
+        "meaning": "隹部例字6"
+      }
+    ]
+  },
+  {
+    "id": 173,
+    "char": "雨",
+    "pinyin": "yǔ",
+    "meaning": "雨",
+    "strokeCount": 8,
+    "examples": [
+      {
+        "char": "雨甲",
+        "pinyin": "yǔ1",
+        "meaning": "雨部例字1"
+      },
+      {
+        "char": "雨乙",
+        "pinyin": "yǔ2",
+        "meaning": "雨部例字2"
+      },
+      {
+        "char": "雨丙",
+        "pinyin": "yǔ3",
+        "meaning": "雨部例字3"
+      },
+      {
+        "char": "雨丁",
+        "pinyin": "yǔ4",
+        "meaning": "雨部例字4"
+      },
+      {
+        "char": "雨戊",
+        "pinyin": "yǔ5",
+        "meaning": "雨部例字5"
+      }
+    ]
+  },
+  {
+    "id": 174,
+    "char": "靑",
+    "pinyin": "qīng",
+    "meaning": "青",
+    "strokeCount": 8,
+    "examples": [
+      {
+        "char": "靑甲",
+        "pinyin": "qīng1",
+        "meaning": "青部例字1"
+      },
+      {
+        "char": "靑乙",
+        "pinyin": "qīng2",
+        "meaning": "青部例字2"
+      },
+      {
+        "char": "靑丙",
+        "pinyin": "qīng3",
+        "meaning": "青部例字3"
+      },
+      {
+        "char": "靑丁",
+        "pinyin": "qīng4",
+        "meaning": "青部例字4"
+      },
+      {
+        "char": "靑戊",
+        "pinyin": "qīng5",
+        "meaning": "青部例字5"
+      },
+      {
+        "char": "靑己",
+        "pinyin": "qīng6",
+        "meaning": "青部例字6"
+      }
+    ]
+  },
+  {
+    "id": 175,
+    "char": "非",
+    "pinyin": "fēi",
+    "meaning": "非",
+    "strokeCount": 8,
+    "examples": [
+      {
+        "char": "非甲",
+        "pinyin": "fēi1",
+        "meaning": "非部例字1"
+      },
+      {
+        "char": "非乙",
+        "pinyin": "fēi2",
+        "meaning": "非部例字2"
+      },
+      {
+        "char": "非丙",
+        "pinyin": "fēi3",
+        "meaning": "非部例字3"
+      },
+      {
+        "char": "非丁",
+        "pinyin": "fēi4",
+        "meaning": "非部例字4"
+      },
+      {
+        "char": "非戊",
+        "pinyin": "fēi5",
+        "meaning": "非部例字5"
+      },
+      {
+        "char": "非己",
+        "pinyin": "fēi6",
+        "meaning": "非部例字6"
+      },
+      {
+        "char": "非庚",
+        "pinyin": "fēi7",
+        "meaning": "非部例字7"
+      }
+    ]
+  },
+  {
+    "id": 176,
+    "char": "面",
+    "pinyin": "miàn",
+    "meaning": "面",
+    "strokeCount": 9,
+    "examples": [
+      {
+        "char": "面甲",
+        "pinyin": "miàn1",
+        "meaning": "面部例字1"
+      },
+      {
+        "char": "面乙",
+        "pinyin": "miàn2",
+        "meaning": "面部例字2"
+      },
+      {
+        "char": "面丙",
+        "pinyin": "miàn3",
+        "meaning": "面部例字3"
+      },
+      {
+        "char": "面丁",
+        "pinyin": "miàn4",
+        "meaning": "面部例字4"
+      },
+      {
+        "char": "面戊",
+        "pinyin": "miàn5",
+        "meaning": "面部例字5"
+      },
+      {
+        "char": "面己",
+        "pinyin": "miàn6",
+        "meaning": "面部例字6"
+      },
+      {
+        "char": "面庚",
+        "pinyin": "miàn7",
+        "meaning": "面部例字7"
+      }
+    ]
+  },
+  {
+    "id": 177,
+    "char": "革",
+    "pinyin": "gé",
+    "meaning": "革",
+    "strokeCount": 9,
+    "examples": [
+      {
+        "char": "革甲",
+        "pinyin": "gé1",
+        "meaning": "革部例字1"
+      },
+      {
+        "char": "革乙",
+        "pinyin": "gé2",
+        "meaning": "革部例字2"
+      },
+      {
+        "char": "革丙",
+        "pinyin": "gé3",
+        "meaning": "革部例字3"
+      },
+      {
+        "char": "革丁",
+        "pinyin": "gé4",
+        "meaning": "革部例字4"
+      },
+      {
+        "char": "革戊",
+        "pinyin": "gé5",
+        "meaning": "革部例字5"
+      },
+      {
+        "char": "革己",
+        "pinyin": "gé6",
+        "meaning": "革部例字6"
+      }
+    ]
+  },
+  {
+    "id": 178,
+    "char": "韋",
+    "pinyin": "wéi",
+    "meaning": "韦",
+    "strokeCount": 9,
+    "examples": [
+      {
+        "char": "韋甲",
+        "pinyin": "wéi1",
+        "meaning": "韦部例字1"
+      },
+      {
+        "char": "韋乙",
+        "pinyin": "wéi2",
+        "meaning": "韦部例字2"
+      },
+      {
+        "char": "韋丙",
+        "pinyin": "wéi3",
+        "meaning": "韦部例字3"
+      },
+      {
+        "char": "韋丁",
+        "pinyin": "wéi4",
+        "meaning": "韦部例字4"
+      },
+      {
+        "char": "韋戊",
+        "pinyin": "wéi5",
+        "meaning": "韦部例字5"
+      },
+      {
+        "char": "韋己",
+        "pinyin": "wéi6",
+        "meaning": "韦部例字6"
+      },
+      {
+        "char": "韋庚",
+        "pinyin": "wéi7",
+        "meaning": "韦部例字7"
+      },
+      {
+        "char": "韋辛",
+        "pinyin": "wéi8",
+        "meaning": "韦部例字8"
+      }
+    ]
+  },
+  {
+    "id": 179,
+    "char": "韭",
+    "pinyin": "jiǔ",
+    "meaning": "韭",
+    "strokeCount": 9,
+    "examples": [
+      {
+        "char": "韭甲",
+        "pinyin": "jiǔ1",
+        "meaning": "韭部例字1"
+      },
+      {
+        "char": "韭乙",
+        "pinyin": "jiǔ2",
+        "meaning": "韭部例字2"
+      },
+      {
+        "char": "韭丙",
+        "pinyin": "jiǔ3",
+        "meaning": "韭部例字3"
+      },
+      {
+        "char": "韭丁",
+        "pinyin": "jiǔ4",
+        "meaning": "韭部例字4"
+      },
+      {
+        "char": "韭戊",
+        "pinyin": "jiǔ5",
+        "meaning": "韭部例字5"
+      },
+      {
+        "char": "韭己",
+        "pinyin": "jiǔ6",
+        "meaning": "韭部例字6"
+      }
+    ]
+  },
+  {
+    "id": 180,
+    "char": "音",
+    "pinyin": "yīn",
+    "meaning": "音",
+    "strokeCount": 9,
+    "examples": [
+      {
+        "char": "音甲",
+        "pinyin": "yīn1",
+        "meaning": "音部例字1"
+      },
+      {
+        "char": "音乙",
+        "pinyin": "yīn2",
+        "meaning": "音部例字2"
+      },
+      {
+        "char": "音丙",
+        "pinyin": "yīn3",
+        "meaning": "音部例字3"
+      },
+      {
+        "char": "音丁",
+        "pinyin": "yīn4",
+        "meaning": "音部例字4"
+      },
+      {
+        "char": "音戊",
+        "pinyin": "yīn5",
+        "meaning": "音部例字5"
+      },
+      {
+        "char": "音己",
+        "pinyin": "yīn6",
+        "meaning": "音部例字6"
+      },
+      {
+        "char": "音庚",
+        "pinyin": "yīn7",
+        "meaning": "音部例字7"
+      },
+      {
+        "char": "音辛",
+        "pinyin": "yīn8",
+        "meaning": "音部例字8"
+      }
+    ]
+  },
+  {
+    "id": 181,
+    "char": "頁",
+    "pinyin": "yè",
+    "meaning": "页",
+    "strokeCount": 9,
+    "examples": [
+      {
+        "char": "頁甲",
+        "pinyin": "yè1",
+        "meaning": "页部例字1"
+      },
+      {
+        "char": "頁乙",
+        "pinyin": "yè2",
+        "meaning": "页部例字2"
+      },
+      {
+        "char": "頁丙",
+        "pinyin": "yè3",
+        "meaning": "页部例字3"
+      },
+      {
+        "char": "頁丁",
+        "pinyin": "yè4",
+        "meaning": "页部例字4"
+      },
+      {
+        "char": "頁戊",
+        "pinyin": "yè5",
+        "meaning": "页部例字5"
+      },
+      {
+        "char": "頁己",
+        "pinyin": "yè6",
+        "meaning": "页部例字6"
+      }
+    ]
+  },
+  {
+    "id": 182,
+    "char": "風",
+    "pinyin": "fēng",
+    "meaning": "风",
+    "strokeCount": 9,
+    "examples": [
+      {
+        "char": "風甲",
+        "pinyin": "fēng1",
+        "meaning": "风部例字1"
+      },
+      {
+        "char": "風乙",
+        "pinyin": "fēng2",
+        "meaning": "风部例字2"
+      },
+      {
+        "char": "風丙",
+        "pinyin": "fēng3",
+        "meaning": "风部例字3"
+      },
+      {
+        "char": "風丁",
+        "pinyin": "fēng4",
+        "meaning": "风部例字4"
+      },
+      {
+        "char": "風戊",
+        "pinyin": "fēng5",
+        "meaning": "风部例字5"
+      }
+    ]
+  },
+  {
+    "id": 183,
+    "char": "飛",
+    "pinyin": "fēi",
+    "meaning": "飞",
+    "strokeCount": 9,
+    "examples": [
+      {
+        "char": "飛甲",
+        "pinyin": "fēi1",
+        "meaning": "飞部例字1"
+      },
+      {
+        "char": "飛乙",
+        "pinyin": "fēi2",
+        "meaning": "飞部例字2"
+      },
+      {
+        "char": "飛丙",
+        "pinyin": "fēi3",
+        "meaning": "飞部例字3"
+      },
+      {
+        "char": "飛丁",
+        "pinyin": "fēi4",
+        "meaning": "飞部例字4"
+      },
+      {
+        "char": "飛戊",
+        "pinyin": "fēi5",
+        "meaning": "飞部例字5"
+      },
+      {
+        "char": "飛己",
+        "pinyin": "fēi6",
+        "meaning": "飞部例字6"
+      },
+      {
+        "char": "飛庚",
+        "pinyin": "fēi7",
+        "meaning": "飞部例字7"
+      },
+      {
+        "char": "飛辛",
+        "pinyin": "fēi8",
+        "meaning": "飞部例字8"
+      }
+    ]
+  },
+  {
+    "id": 184,
+    "char": "食",
+    "pinyin": "shí",
+    "meaning": "食",
+    "strokeCount": 9,
+    "examples": [
+      {
+        "char": "食甲",
+        "pinyin": "shí1",
+        "meaning": "食部例字1"
+      },
+      {
+        "char": "食乙",
+        "pinyin": "shí2",
+        "meaning": "食部例字2"
+      },
+      {
+        "char": "食丙",
+        "pinyin": "shí3",
+        "meaning": "食部例字3"
+      },
+      {
+        "char": "食丁",
+        "pinyin": "shí4",
+        "meaning": "食部例字4"
+      },
+      {
+        "char": "食戊",
+        "pinyin": "shí5",
+        "meaning": "食部例字5"
+      },
+      {
+        "char": "食己",
+        "pinyin": "shí6",
+        "meaning": "食部例字6"
+      },
+      {
+        "char": "食庚",
+        "pinyin": "shí7",
+        "meaning": "食部例字7"
+      },
+      {
+        "char": "食辛",
+        "pinyin": "shí8",
+        "meaning": "食部例字8"
+      }
+    ]
+  },
+  {
+    "id": 185,
+    "char": "首",
+    "pinyin": "shǒu",
+    "meaning": "首",
+    "strokeCount": 9,
+    "examples": [
+      {
+        "char": "首甲",
+        "pinyin": "shǒu1",
+        "meaning": "首部例字1"
+      },
+      {
+        "char": "首乙",
+        "pinyin": "shǒu2",
+        "meaning": "首部例字2"
+      },
+      {
+        "char": "首丙",
+        "pinyin": "shǒu3",
+        "meaning": "首部例字3"
+      },
+      {
+        "char": "首丁",
+        "pinyin": "shǒu4",
+        "meaning": "首部例字4"
+      },
+      {
+        "char": "首戊",
+        "pinyin": "shǒu5",
+        "meaning": "首部例字5"
+      },
+      {
+        "char": "首己",
+        "pinyin": "shǒu6",
+        "meaning": "首部例字6"
+      },
+      {
+        "char": "首庚",
+        "pinyin": "shǒu7",
+        "meaning": "首部例字7"
+      }
+    ]
+  },
+  {
+    "id": 186,
+    "char": "香",
+    "pinyin": "xiāng",
+    "meaning": "香",
+    "strokeCount": 9,
+    "examples": [
+      {
+        "char": "香甲",
+        "pinyin": "xiāng1",
+        "meaning": "香部例字1"
+      },
+      {
+        "char": "香乙",
+        "pinyin": "xiāng2",
+        "meaning": "香部例字2"
+      },
+      {
+        "char": "香丙",
+        "pinyin": "xiāng3",
+        "meaning": "香部例字3"
+      },
+      {
+        "char": "香丁",
+        "pinyin": "xiāng4",
+        "meaning": "香部例字4"
+      },
+      {
+        "char": "香戊",
+        "pinyin": "xiāng5",
+        "meaning": "香部例字5"
+      },
+      {
+        "char": "香己",
+        "pinyin": "xiāng6",
+        "meaning": "香部例字6"
+      }
+    ]
+  },
+  {
+    "id": 187,
+    "char": "馬",
+    "pinyin": "mǎ",
+    "meaning": "马",
+    "strokeCount": 10,
+    "examples": [
+      {
+        "char": "馬甲",
+        "pinyin": "mǎ1",
+        "meaning": "马部例字1"
+      },
+      {
+        "char": "馬乙",
+        "pinyin": "mǎ2",
+        "meaning": "马部例字2"
+      },
+      {
+        "char": "馬丙",
+        "pinyin": "mǎ3",
+        "meaning": "马部例字3"
+      },
+      {
+        "char": "馬丁",
+        "pinyin": "mǎ4",
+        "meaning": "马部例字4"
+      },
+      {
+        "char": "馬戊",
+        "pinyin": "mǎ5",
+        "meaning": "马部例字5"
+      }
+    ]
+  },
+  {
+    "id": 188,
+    "char": "骨",
+    "pinyin": "gǔ",
+    "meaning": "骨",
+    "strokeCount": 10,
+    "examples": [
+      {
+        "char": "骨甲",
+        "pinyin": "gǔ1",
+        "meaning": "骨部例字1"
+      },
+      {
+        "char": "骨乙",
+        "pinyin": "gǔ2",
+        "meaning": "骨部例字2"
+      },
+      {
+        "char": "骨丙",
+        "pinyin": "gǔ3",
+        "meaning": "骨部例字3"
+      },
+      {
+        "char": "骨丁",
+        "pinyin": "gǔ4",
+        "meaning": "骨部例字4"
+      },
+      {
+        "char": "骨戊",
+        "pinyin": "gǔ5",
+        "meaning": "骨部例字5"
+      }
+    ]
+  },
+  {
+    "id": 189,
+    "char": "高",
+    "pinyin": "gāo",
+    "meaning": "高",
+    "strokeCount": 10,
+    "examples": [
+      {
+        "char": "高甲",
+        "pinyin": "gāo1",
+        "meaning": "高部例字1"
+      },
+      {
+        "char": "高乙",
+        "pinyin": "gāo2",
+        "meaning": "高部例字2"
+      },
+      {
+        "char": "高丙",
+        "pinyin": "gāo3",
+        "meaning": "高部例字3"
+      },
+      {
+        "char": "高丁",
+        "pinyin": "gāo4",
+        "meaning": "高部例字4"
+      },
+      {
+        "char": "高戊",
+        "pinyin": "gāo5",
+        "meaning": "高部例字5"
+      }
+    ]
+  },
+  {
+    "id": 190,
+    "char": "髟",
+    "pinyin": "biāo",
+    "meaning": "髟",
+    "strokeCount": 10,
+    "examples": [
+      {
+        "char": "髟甲",
+        "pinyin": "biāo1",
+        "meaning": "髟部例字1"
+      },
+      {
+        "char": "髟乙",
+        "pinyin": "biāo2",
+        "meaning": "髟部例字2"
+      },
+      {
+        "char": "髟丙",
+        "pinyin": "biāo3",
+        "meaning": "髟部例字3"
+      },
+      {
+        "char": "髟丁",
+        "pinyin": "biāo4",
+        "meaning": "髟部例字4"
+      },
+      {
+        "char": "髟戊",
+        "pinyin": "biāo5",
+        "meaning": "髟部例字5"
+      },
+      {
+        "char": "髟己",
+        "pinyin": "biāo6",
+        "meaning": "髟部例字6"
+      },
+      {
+        "char": "髟庚",
+        "pinyin": "biāo7",
+        "meaning": "髟部例字7"
+      },
+      {
+        "char": "髟辛",
+        "pinyin": "biāo8",
+        "meaning": "髟部例字8"
+      }
+    ]
+  },
+  {
+    "id": 191,
+    "char": "鬥",
+    "pinyin": "dòu",
+    "meaning": "斗",
+    "strokeCount": 10,
+    "examples": [
+      {
+        "char": "鬥甲",
+        "pinyin": "dòu1",
+        "meaning": "斗部例字1"
+      },
+      {
+        "char": "鬥乙",
+        "pinyin": "dòu2",
+        "meaning": "斗部例字2"
+      },
+      {
+        "char": "鬥丙",
+        "pinyin": "dòu3",
+        "meaning": "斗部例字3"
+      },
+      {
+        "char": "鬥丁",
+        "pinyin": "dòu4",
+        "meaning": "斗部例字4"
+      },
+      {
+        "char": "鬥戊",
+        "pinyin": "dòu5",
+        "meaning": "斗部例字5"
+      },
+      {
+        "char": "鬥己",
+        "pinyin": "dòu6",
+        "meaning": "斗部例字6"
+      }
+    ]
+  },
+  {
+    "id": 192,
+    "char": "鬯",
+    "pinyin": "chàng",
+    "meaning": "鬯",
+    "strokeCount": 10,
+    "examples": [
+      {
+        "char": "鬯甲",
+        "pinyin": "chàng1",
+        "meaning": "鬯部例字1"
+      },
+      {
+        "char": "鬯乙",
+        "pinyin": "chàng2",
+        "meaning": "鬯部例字2"
+      },
+      {
+        "char": "鬯丙",
+        "pinyin": "chàng3",
+        "meaning": "鬯部例字3"
+      },
+      {
+        "char": "鬯丁",
+        "pinyin": "chàng4",
+        "meaning": "鬯部例字4"
+      },
+      {
+        "char": "鬯戊",
+        "pinyin": "chàng5",
+        "meaning": "鬯部例字5"
+      },
+      {
+        "char": "鬯己",
+        "pinyin": "chàng6",
+        "meaning": "鬯部例字6"
+      },
+      {
+        "char": "鬯庚",
+        "pinyin": "chàng7",
+        "meaning": "鬯部例字7"
+      },
+      {
+        "char": "鬯辛",
+        "pinyin": "chàng8",
+        "meaning": "鬯部例字8"
+      }
+    ]
+  },
+  {
+    "id": 193,
+    "char": "鬲",
+    "pinyin": "gé",
+    "meaning": "鬲",
+    "strokeCount": 10,
+    "examples": [
+      {
+        "char": "鬲甲",
+        "pinyin": "gé1",
+        "meaning": "鬲部例字1"
+      },
+      {
+        "char": "鬲乙",
+        "pinyin": "gé2",
+        "meaning": "鬲部例字2"
+      },
+      {
+        "char": "鬲丙",
+        "pinyin": "gé3",
+        "meaning": "鬲部例字3"
+      },
+      {
+        "char": "鬲丁",
+        "pinyin": "gé4",
+        "meaning": "鬲部例字4"
+      },
+      {
+        "char": "鬲戊",
+        "pinyin": "gé5",
+        "meaning": "鬲部例字5"
+      },
+      {
+        "char": "鬲己",
+        "pinyin": "gé6",
+        "meaning": "鬲部例字6"
+      },
+      {
+        "char": "鬲庚",
+        "pinyin": "gé7",
+        "meaning": "鬲部例字7"
+      }
+    ]
+  },
+  {
+    "id": 194,
+    "char": "鬼",
+    "pinyin": "guǐ",
+    "meaning": "鬼",
+    "strokeCount": 10,
+    "examples": [
+      {
+        "char": "鬼甲",
+        "pinyin": "guǐ1",
+        "meaning": "鬼部例字1"
+      },
+      {
+        "char": "鬼乙",
+        "pinyin": "guǐ2",
+        "meaning": "鬼部例字2"
+      },
+      {
+        "char": "鬼丙",
+        "pinyin": "guǐ3",
+        "meaning": "鬼部例字3"
+      },
+      {
+        "char": "鬼丁",
+        "pinyin": "guǐ4",
+        "meaning": "鬼部例字4"
+      },
+      {
+        "char": "鬼戊",
+        "pinyin": "guǐ5",
+        "meaning": "鬼部例字5"
+      }
+    ]
+  },
+  {
+    "id": 195,
+    "char": "魚",
+    "pinyin": "yú",
+    "meaning": "鱼",
+    "strokeCount": 11,
+    "examples": [
+      {
+        "char": "魚甲",
+        "pinyin": "yú1",
+        "meaning": "鱼部例字1"
+      },
+      {
+        "char": "魚乙",
+        "pinyin": "yú2",
+        "meaning": "鱼部例字2"
+      },
+      {
+        "char": "魚丙",
+        "pinyin": "yú3",
+        "meaning": "鱼部例字3"
+      },
+      {
+        "char": "魚丁",
+        "pinyin": "yú4",
+        "meaning": "鱼部例字4"
+      },
+      {
+        "char": "魚戊",
+        "pinyin": "yú5",
+        "meaning": "鱼部例字5"
+      },
+      {
+        "char": "魚己",
+        "pinyin": "yú6",
+        "meaning": "鱼部例字6"
+      },
+      {
+        "char": "魚庚",
+        "pinyin": "yú7",
+        "meaning": "鱼部例字7"
+      }
+    ]
+  },
+  {
+    "id": 196,
+    "char": "鳥",
+    "pinyin": "niǎo",
+    "meaning": "鸟",
+    "strokeCount": 11,
+    "examples": [
+      {
+        "char": "鳥甲",
+        "pinyin": "niǎo1",
+        "meaning": "鸟部例字1"
+      },
+      {
+        "char": "鳥乙",
+        "pinyin": "niǎo2",
+        "meaning": "鸟部例字2"
+      },
+      {
+        "char": "鳥丙",
+        "pinyin": "niǎo3",
+        "meaning": "鸟部例字3"
+      },
+      {
+        "char": "鳥丁",
+        "pinyin": "niǎo4",
+        "meaning": "鸟部例字4"
+      },
+      {
+        "char": "鳥戊",
+        "pinyin": "niǎo5",
+        "meaning": "鸟部例字5"
+      },
+      {
+        "char": "鳥己",
+        "pinyin": "niǎo6",
+        "meaning": "鸟部例字6"
+      }
+    ]
+  },
+  {
+    "id": 197,
+    "char": "鹵",
+    "pinyin": "lǔ",
+    "meaning": "卤",
+    "strokeCount": 11,
+    "examples": [
+      {
+        "char": "鹵甲",
+        "pinyin": "lǔ1",
+        "meaning": "卤部例字1"
+      },
+      {
+        "char": "鹵乙",
+        "pinyin": "lǔ2",
+        "meaning": "卤部例字2"
+      },
+      {
+        "char": "鹵丙",
+        "pinyin": "lǔ3",
+        "meaning": "卤部例字3"
+      },
+      {
+        "char": "鹵丁",
+        "pinyin": "lǔ4",
+        "meaning": "卤部例字4"
+      },
+      {
+        "char": "鹵戊",
+        "pinyin": "lǔ5",
+        "meaning": "卤部例字5"
+      },
+      {
+        "char": "鹵己",
+        "pinyin": "lǔ6",
+        "meaning": "卤部例字6"
+      }
+    ]
+  },
+  {
+    "id": 198,
+    "char": "鹿",
+    "pinyin": "lù",
+    "meaning": "鹿",
+    "strokeCount": 11,
+    "examples": [
+      {
+        "char": "鹿甲",
+        "pinyin": "lù1",
+        "meaning": "鹿部例字1"
+      },
+      {
+        "char": "鹿乙",
+        "pinyin": "lù2",
+        "meaning": "鹿部例字2"
+      },
+      {
+        "char": "鹿丙",
+        "pinyin": "lù3",
+        "meaning": "鹿部例字3"
+      },
+      {
+        "char": "鹿丁",
+        "pinyin": "lù4",
+        "meaning": "鹿部例字4"
+      },
+      {
+        "char": "鹿戊",
+        "pinyin": "lù5",
+        "meaning": "鹿部例字5"
+      },
+      {
+        "char": "鹿己",
+        "pinyin": "lù6",
+        "meaning": "鹿部例字6"
+      },
+      {
+        "char": "鹿庚",
+        "pinyin": "lù7",
+        "meaning": "鹿部例字7"
+      },
+      {
+        "char": "鹿辛",
+        "pinyin": "lù8",
+        "meaning": "鹿部例字8"
+      }
+    ]
+  },
+  {
+    "id": 199,
+    "char": "麥",
+    "pinyin": "mài",
+    "meaning": "麦",
+    "strokeCount": 11,
+    "examples": [
+      {
+        "char": "麥甲",
+        "pinyin": "mài1",
+        "meaning": "麦部例字1"
+      },
+      {
+        "char": "麥乙",
+        "pinyin": "mài2",
+        "meaning": "麦部例字2"
+      },
+      {
+        "char": "麥丙",
+        "pinyin": "mài3",
+        "meaning": "麦部例字3"
+      },
+      {
+        "char": "麥丁",
+        "pinyin": "mài4",
+        "meaning": "麦部例字4"
+      },
+      {
+        "char": "麥戊",
+        "pinyin": "mài5",
+        "meaning": "麦部例字5"
+      },
+      {
+        "char": "麥己",
+        "pinyin": "mài6",
+        "meaning": "麦部例字6"
+      }
+    ]
+  },
+  {
+    "id": 200,
+    "char": "麻",
+    "pinyin": "má",
+    "meaning": "麻",
+    "strokeCount": 11,
+    "examples": [
+      {
+        "char": "麻甲",
+        "pinyin": "má1",
+        "meaning": "麻部例字1"
+      },
+      {
+        "char": "麻乙",
+        "pinyin": "má2",
+        "meaning": "麻部例字2"
+      },
+      {
+        "char": "麻丙",
+        "pinyin": "má3",
+        "meaning": "麻部例字3"
+      },
+      {
+        "char": "麻丁",
+        "pinyin": "má4",
+        "meaning": "麻部例字4"
+      },
+      {
+        "char": "麻戊",
+        "pinyin": "má5",
+        "meaning": "麻部例字5"
+      },
+      {
+        "char": "麻己",
+        "pinyin": "má6",
+        "meaning": "麻部例字6"
+      },
+      {
+        "char": "麻庚",
+        "pinyin": "má7",
+        "meaning": "麻部例字7"
+      },
+      {
+        "char": "麻辛",
+        "pinyin": "má8",
+        "meaning": "麻部例字8"
+      }
+    ]
+  },
+  {
+    "id": 201,
+    "char": "黃",
+    "pinyin": "huáng",
+    "meaning": "黄",
+    "strokeCount": 12,
+    "examples": [
+      {
+        "char": "黃甲",
+        "pinyin": "huáng1",
+        "meaning": "黄部例字1"
+      },
+      {
+        "char": "黃乙",
+        "pinyin": "huáng2",
+        "meaning": "黄部例字2"
+      },
+      {
+        "char": "黃丙",
+        "pinyin": "huáng3",
+        "meaning": "黄部例字3"
+      },
+      {
+        "char": "黃丁",
+        "pinyin": "huáng4",
+        "meaning": "黄部例字4"
+      },
+      {
+        "char": "黃戊",
+        "pinyin": "huáng5",
+        "meaning": "黄部例字5"
+      },
+      {
+        "char": "黃己",
+        "pinyin": "huáng6",
+        "meaning": "黄部例字6"
+      },
+      {
+        "char": "黃庚",
+        "pinyin": "huáng7",
+        "meaning": "黄部例字7"
+      },
+      {
+        "char": "黃辛",
+        "pinyin": "huáng8",
+        "meaning": "黄部例字8"
+      }
+    ]
+  },
+  {
+    "id": 202,
+    "char": "黍",
+    "pinyin": "shǔ",
+    "meaning": "黍",
+    "strokeCount": 12,
+    "examples": [
+      {
+        "char": "黍甲",
+        "pinyin": "shǔ1",
+        "meaning": "黍部例字1"
+      },
+      {
+        "char": "黍乙",
+        "pinyin": "shǔ2",
+        "meaning": "黍部例字2"
+      },
+      {
+        "char": "黍丙",
+        "pinyin": "shǔ3",
+        "meaning": "黍部例字3"
+      },
+      {
+        "char": "黍丁",
+        "pinyin": "shǔ4",
+        "meaning": "黍部例字4"
+      },
+      {
+        "char": "黍戊",
+        "pinyin": "shǔ5",
+        "meaning": "黍部例字5"
+      },
+      {
+        "char": "黍己",
+        "pinyin": "shǔ6",
+        "meaning": "黍部例字6"
+      }
+    ]
+  },
+  {
+    "id": 203,
+    "char": "黑",
+    "pinyin": "hēi",
+    "meaning": "黑",
+    "strokeCount": 12,
+    "examples": [
+      {
+        "char": "黑甲",
+        "pinyin": "hēi1",
+        "meaning": "黑部例字1"
+      },
+      {
+        "char": "黑乙",
+        "pinyin": "hēi2",
+        "meaning": "黑部例字2"
+      },
+      {
+        "char": "黑丙",
+        "pinyin": "hēi3",
+        "meaning": "黑部例字3"
+      },
+      {
+        "char": "黑丁",
+        "pinyin": "hēi4",
+        "meaning": "黑部例字4"
+      },
+      {
+        "char": "黑戊",
+        "pinyin": "hēi5",
+        "meaning": "黑部例字5"
+      },
+      {
+        "char": "黑己",
+        "pinyin": "hēi6",
+        "meaning": "黑部例字6"
+      }
+    ]
+  },
+  {
+    "id": 204,
+    "char": "黹",
+    "pinyin": "zhǐ",
+    "meaning": "黹",
+    "strokeCount": 12,
+    "examples": [
+      {
+        "char": "黹甲",
+        "pinyin": "zhǐ1",
+        "meaning": "黹部例字1"
+      },
+      {
+        "char": "黹乙",
+        "pinyin": "zhǐ2",
+        "meaning": "黹部例字2"
+      },
+      {
+        "char": "黹丙",
+        "pinyin": "zhǐ3",
+        "meaning": "黹部例字3"
+      },
+      {
+        "char": "黹丁",
+        "pinyin": "zhǐ4",
+        "meaning": "黹部例字4"
+      },
+      {
+        "char": "黹戊",
+        "pinyin": "zhǐ5",
+        "meaning": "黹部例字5"
+      },
+      {
+        "char": "黹己",
+        "pinyin": "zhǐ6",
+        "meaning": "黹部例字6"
+      }
+    ]
+  },
+  {
+    "id": 205,
+    "char": "黽",
+    "pinyin": "mǐn",
+    "meaning": "黽",
+    "strokeCount": 12,
+    "examples": [
+      {
+        "char": "黽甲",
+        "pinyin": "mǐn1",
+        "meaning": "黽部例字1"
+      },
+      {
+        "char": "黽乙",
+        "pinyin": "mǐn2",
+        "meaning": "黽部例字2"
+      },
+      {
+        "char": "黽丙",
+        "pinyin": "mǐn3",
+        "meaning": "黽部例字3"
+      },
+      {
+        "char": "黽丁",
+        "pinyin": "mǐn4",
+        "meaning": "黽部例字4"
+      },
+      {
+        "char": "黽戊",
+        "pinyin": "mǐn5",
+        "meaning": "黽部例字5"
+      },
+      {
+        "char": "黽己",
+        "pinyin": "mǐn6",
+        "meaning": "黽部例字6"
+      }
+    ]
+  },
+  {
+    "id": 206,
+    "char": "鼎",
+    "pinyin": "dǐng",
+    "meaning": "鼎",
+    "strokeCount": 13,
+    "examples": [
+      {
+        "char": "鼎甲",
+        "pinyin": "dǐng1",
+        "meaning": "鼎部例字1"
+      },
+      {
+        "char": "鼎乙",
+        "pinyin": "dǐng2",
+        "meaning": "鼎部例字2"
+      },
+      {
+        "char": "鼎丙",
+        "pinyin": "dǐng3",
+        "meaning": "鼎部例字3"
+      },
+      {
+        "char": "鼎丁",
+        "pinyin": "dǐng4",
+        "meaning": "鼎部例字4"
+      },
+      {
+        "char": "鼎戊",
+        "pinyin": "dǐng5",
+        "meaning": "鼎部例字5"
+      },
+      {
+        "char": "鼎己",
+        "pinyin": "dǐng6",
+        "meaning": "鼎部例字6"
+      },
+      {
+        "char": "鼎庚",
+        "pinyin": "dǐng7",
+        "meaning": "鼎部例字7"
+      }
+    ]
+  },
+  {
+    "id": 207,
+    "char": "鼓",
+    "pinyin": "gǔ",
+    "meaning": "鼓",
+    "strokeCount": 13,
+    "examples": [
+      {
+        "char": "鼓甲",
+        "pinyin": "gǔ1",
+        "meaning": "鼓部例字1"
+      },
+      {
+        "char": "鼓乙",
+        "pinyin": "gǔ2",
+        "meaning": "鼓部例字2"
+      },
+      {
+        "char": "鼓丙",
+        "pinyin": "gǔ3",
+        "meaning": "鼓部例字3"
+      },
+      {
+        "char": "鼓丁",
+        "pinyin": "gǔ4",
+        "meaning": "鼓部例字4"
+      },
+      {
+        "char": "鼓戊",
+        "pinyin": "gǔ5",
+        "meaning": "鼓部例字5"
+      },
+      {
+        "char": "鼓己",
+        "pinyin": "gǔ6",
+        "meaning": "鼓部例字6"
+      },
+      {
+        "char": "鼓庚",
+        "pinyin": "gǔ7",
+        "meaning": "鼓部例字7"
+      },
+      {
+        "char": "鼓辛",
+        "pinyin": "gǔ8",
+        "meaning": "鼓部例字8"
+      }
+    ]
+  },
+  {
+    "id": 208,
+    "char": "鼠",
+    "pinyin": "shǔ",
+    "meaning": "鼠",
+    "strokeCount": 13,
+    "examples": [
+      {
+        "char": "鼠甲",
+        "pinyin": "shǔ1",
+        "meaning": "鼠部例字1"
+      },
+      {
+        "char": "鼠乙",
+        "pinyin": "shǔ2",
+        "meaning": "鼠部例字2"
+      },
+      {
+        "char": "鼠丙",
+        "pinyin": "shǔ3",
+        "meaning": "鼠部例字3"
+      },
+      {
+        "char": "鼠丁",
+        "pinyin": "shǔ4",
+        "meaning": "鼠部例字4"
+      },
+      {
+        "char": "鼠戊",
+        "pinyin": "shǔ5",
+        "meaning": "鼠部例字5"
+      }
+    ]
+  },
+  {
+    "id": 209,
+    "char": "鼻",
+    "pinyin": "bí",
+    "meaning": "鼻",
+    "strokeCount": 14,
+    "examples": [
+      {
+        "char": "鼻甲",
+        "pinyin": "bí1",
+        "meaning": "鼻部例字1"
+      },
+      {
+        "char": "鼻乙",
+        "pinyin": "bí2",
+        "meaning": "鼻部例字2"
+      },
+      {
+        "char": "鼻丙",
+        "pinyin": "bí3",
+        "meaning": "鼻部例字3"
+      },
+      {
+        "char": "鼻丁",
+        "pinyin": "bí4",
+        "meaning": "鼻部例字4"
+      },
+      {
+        "char": "鼻戊",
+        "pinyin": "bí5",
+        "meaning": "鼻部例字5"
+      },
+      {
+        "char": "鼻己",
+        "pinyin": "bí6",
+        "meaning": "鼻部例字6"
+      },
+      {
+        "char": "鼻庚",
+        "pinyin": "bí7",
+        "meaning": "鼻部例字7"
+      },
+      {
+        "char": "鼻辛",
+        "pinyin": "bí8",
+        "meaning": "鼻部例字8"
+      }
+    ]
+  },
+  {
+    "id": 210,
+    "char": "齊",
+    "pinyin": "qí",
+    "meaning": "齐",
+    "strokeCount": 14,
+    "examples": [
+      {
+        "char": "齊甲",
+        "pinyin": "qí1",
+        "meaning": "齐部例字1"
+      },
+      {
+        "char": "齊乙",
+        "pinyin": "qí2",
+        "meaning": "齐部例字2"
+      },
+      {
+        "char": "齊丙",
+        "pinyin": "qí3",
+        "meaning": "齐部例字3"
+      },
+      {
+        "char": "齊丁",
+        "pinyin": "qí4",
+        "meaning": "齐部例字4"
+      },
+      {
+        "char": "齊戊",
+        "pinyin": "qí5",
+        "meaning": "齐部例字5"
+      },
+      {
+        "char": "齊己",
+        "pinyin": "qí6",
+        "meaning": "齐部例字6"
+      },
+      {
+        "char": "齊庚",
+        "pinyin": "qí7",
+        "meaning": "齐部例字7"
+      }
+    ]
+  },
+  {
+    "id": 211,
+    "char": "齒",
+    "pinyin": "chǐ",
+    "meaning": "齿",
+    "strokeCount": 15,
+    "examples": [
+      {
+        "char": "齒甲",
+        "pinyin": "chǐ1",
+        "meaning": "齿部例字1"
+      },
+      {
+        "char": "齒乙",
+        "pinyin": "chǐ2",
+        "meaning": "齿部例字2"
+      },
+      {
+        "char": "齒丙",
+        "pinyin": "chǐ3",
+        "meaning": "齿部例字3"
+      },
+      {
+        "char": "齒丁",
+        "pinyin": "chǐ4",
+        "meaning": "齿部例字4"
+      },
+      {
+        "char": "齒戊",
+        "pinyin": "chǐ5",
+        "meaning": "齿部例字5"
+      },
+      {
+        "char": "齒己",
+        "pinyin": "chǐ6",
+        "meaning": "齿部例字6"
+      },
+      {
+        "char": "齒庚",
+        "pinyin": "chǐ7",
+        "meaning": "齿部例字7"
+      }
+    ]
+  },
+  {
+    "id": 212,
+    "char": "龍",
+    "pinyin": "lóng",
+    "meaning": "龙",
+    "strokeCount": 16,
+    "examples": [
+      {
+        "char": "龍甲",
+        "pinyin": "lóng1",
+        "meaning": "龙部例字1"
+      },
+      {
+        "char": "龍乙",
+        "pinyin": "lóng2",
+        "meaning": "龙部例字2"
+      },
+      {
+        "char": "龍丙",
+        "pinyin": "lóng3",
+        "meaning": "龙部例字3"
+      },
+      {
+        "char": "龍丁",
+        "pinyin": "lóng4",
+        "meaning": "龙部例字4"
+      },
+      {
+        "char": "龍戊",
+        "pinyin": "lóng5",
+        "meaning": "龙部例字5"
+      },
+      {
+        "char": "龍己",
+        "pinyin": "lóng6",
+        "meaning": "龙部例字6"
+      }
+    ]
+  },
+  {
+    "id": 213,
+    "char": "龜",
+    "pinyin": "guī",
+    "meaning": "龟",
+    "strokeCount": 16,
+    "examples": [
+      {
+        "char": "龜甲",
+        "pinyin": "guī1",
+        "meaning": "龟部例字1"
+      },
+      {
+        "char": "龜乙",
+        "pinyin": "guī2",
+        "meaning": "龟部例字2"
+      },
+      {
+        "char": "龜丙",
+        "pinyin": "guī3",
+        "meaning": "龟部例字3"
+      },
+      {
+        "char": "龜丁",
+        "pinyin": "guī4",
+        "meaning": "龟部例字4"
+      },
+      {
+        "char": "龜戊",
+        "pinyin": "guī5",
+        "meaning": "龟部例字5"
+      }
+    ]
+  },
+  {
+    "id": 214,
+    "char": "龠",
+    "pinyin": "yuè",
+    "meaning": "龠",
+    "strokeCount": 17,
+    "examples": [
+      {
+        "char": "龠甲",
+        "pinyin": "yuè1",
+        "meaning": "龠部例字1"
+      },
+      {
+        "char": "龠乙",
+        "pinyin": "yuè2",
+        "meaning": "龠部例字2"
+      },
+      {
+        "char": "龠丙",
+        "pinyin": "yuè3",
+        "meaning": "龠部例字3"
+      },
+      {
+        "char": "龠丁",
+        "pinyin": "yuè4",
+        "meaning": "龠部例字4"
+      },
+      {
+        "char": "龠戊",
+        "pinyin": "yuè5",
+        "meaning": "龠部例字5"
+      }
+    ]
+  }
+]
