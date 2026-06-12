@@ -36,6 +36,7 @@ export default function SearchDrawer({ open, onClose }: SearchDrawerProps) {
   const [history, setHistory] = useState<SearchHistoryItem[]>([]);
   const { data: radicals } = useRadicals();
   const results = useRadicalSearch(radicals, query, matchFilter);
+  const allResults = useRadicalSearch(radicals, query, 'all');
 
   useEffect(() => {
     if (open) {
@@ -122,10 +123,12 @@ export default function SearchDrawer({ open, onClose }: SearchDrawerProps) {
               fullWidth
               value={matchFilter}
               onChange={handleFilterChange}
+              aria-label="搜索结果类型筛选"
+              role="group"
             >
-              <ToggleButton value="all">全部</ToggleButton>
-              <ToggleButton value="radical">仅部首</ToggleButton>
-              <ToggleButton value="example">仅例字</ToggleButton>
+              <ToggleButton value="all" aria-label="显示全部匹配结果">全部</ToggleButton>
+              <ToggleButton value="radical" aria-label="仅显示部首匹配结果">仅部首</ToggleButton>
+              <ToggleButton value="example" aria-label="仅显示例字匹配结果">仅例字</ToggleButton>
             </ToggleButtonGroup>
           </Box>
         )}
@@ -162,7 +165,7 @@ export default function SearchDrawer({ open, onClose }: SearchDrawerProps) {
           </Typography>
         ) : results.length === 0 ? (
           <Typography variant="body2" color="text.secondary" sx={{ p: 2 }}>
-            未找到匹配结果
+            {allResults.length === 0 ? '未找到匹配结果' : '当前筛选类型下无匹配项'}
           </Typography>
         ) : (
           <List disablePadding>
