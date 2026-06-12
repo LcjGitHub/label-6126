@@ -2,6 +2,7 @@ import { useState } from 'react';
 import { Outlet } from 'react-router-dom';
 import {
   AppBar,
+  Badge,
   Box,
   Container,
   IconButton,
@@ -10,11 +11,16 @@ import {
 } from '@mui/material';
 import MenuBookIcon from '@mui/icons-material/MenuBook';
 import SearchIcon from '@mui/icons-material/Search';
+import FavoriteIcon from '@mui/icons-material/Favorite';
 import SearchDrawer from './SearchDrawer';
+import FavoritesDrawer from './FavoritesDrawer';
+import { useFavorites } from '../hooks/useFavorites';
 
-/** 全局布局：顶栏 + 搜索 Drawer + 内容区 */
+/** 全局布局：顶栏 + 搜索 Drawer + 收藏 Drawer + 内容区 */
 export default function Layout() {
   const [searchOpen, setSearchOpen] = useState(false);
+  const [favoritesOpen, setFavoritesOpen] = useState(false);
+  const { ids } = useFavorites();
 
   return (
     <Box sx={{ minHeight: '100vh', bgcolor: 'background.default' }}>
@@ -24,6 +30,15 @@ export default function Layout() {
           <Typography variant="h6" component="h1" sx={{ flexGrow: 1, fontWeight: 600 }}>
             康熙部首检字
           </Typography>
+          <IconButton
+            color="inherit"
+            aria-label="打开收藏夹"
+            onClick={() => setFavoritesOpen(true)}
+          >
+            <Badge badgeContent={ids.length} color="error" max={99}>
+              <FavoriteIcon />
+            </Badge>
+          </IconButton>
           <IconButton
             color="inherit"
             aria-label="打开搜索"
@@ -39,6 +54,7 @@ export default function Layout() {
       </Container>
 
       <SearchDrawer open={searchOpen} onClose={() => setSearchOpen(false)} />
+      <FavoritesDrawer open={favoritesOpen} onClose={() => setFavoritesOpen(false)} />
     </Box>
   );
 }

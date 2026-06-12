@@ -4,20 +4,26 @@ import {
   Box,
   Breadcrumbs,
   Chip,
+  IconButton,
   Link,
   Paper,
   Skeleton,
+  Tooltip,
   Typography,
 } from '@mui/material';
 import NavigateNextIcon from '@mui/icons-material/NavigateNext';
+import FavoriteIcon from '@mui/icons-material/Favorite';
+import FavoriteBorderIcon from '@mui/icons-material/FavoriteBorder';
 import ExampleCharList from '../components/ExampleCharList';
 import { useRadical } from '../hooks/useRadicals';
+import { useFavorites } from '../hooks/useFavorites';
 
 /** 部首详情页 */
 export default function RadicalDetailPage() {
   const { id: idParam } = useParams<{ id: string }>();
   const id = Number(idParam);
   const { data: radical, isLoading, isError } = useRadical(id);
+  const { isFavorite, toggle } = useFavorites();
 
   if (!Number.isFinite(id) || id < 1 || id > 214) {
     return <Alert severity="warning">无效的部首编号，请输入 1–214</Alert>;
@@ -67,7 +73,7 @@ export default function RadicalDetailPage() {
         >
           {radical.char}
         </Typography>
-        <Box>
+        <Box sx={{ flex: 1, minWidth: 200 }}>
           <Typography variant="h6" gutterBottom>
             第 {radical.id} 部 · {radical.pinyin}
           </Typography>
@@ -77,6 +83,20 @@ export default function RadicalDetailPage() {
             <Chip label={`例字 ${radical.examples.length} 个`} variant="outlined" />
           </Box>
         </Box>
+        <Tooltip title={isFavorite(radical.id) ? '取消收藏' : '收藏'}>
+          <IconButton
+            aria-label={isFavorite(radical.id) ? '取消收藏' : '收藏'}
+            onClick={() => toggle(radical.id)}
+            color={isFavorite(radical.id) ? 'error' : 'default'}
+            sx={{ p: 1.5 }}
+          >
+            {isFavorite(radical.id) ? (
+              <FavoriteIcon sx={{ fontSize: 28 }} />
+            ) : (
+              <FavoriteBorderIcon sx={{ fontSize: 28 }} />
+            )}
+          </IconButton>
+        </Tooltip>
       </Paper>
 
       <Typography variant="h6" gutterBottom>
